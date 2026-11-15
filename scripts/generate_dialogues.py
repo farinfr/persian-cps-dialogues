@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Persian conversational product-search dataset with a free LLM.
 
-For each target product the corrected RPB score (Eq. 2) chooses, turn by
+For each target product the RPB score (Eq. 2) chooses, turn by
 turn, which feature the assistant asks about next (Algorithm 1, popularity
 prior, soft belief update).  The resulting question plan, the contextual
 augmentation and two alternative products are given to Gemini with the
@@ -55,7 +55,7 @@ def rank_of(b: np.ndarray, t: int) -> int:
 
 
 def plan_questions(table, sc: ClusterScorer, row: int) -> Dict[str, Any]:
-    """Dynamic question selection with the corrected RPB score for target `row`."""
+    """Dynamic question selection with the RPB score for target `row`."""
     b = table.popularity / table.popularity.sum()
     dh = delta_by_type(table)
     asked = np.zeros(sc.F, dtype=bool)
@@ -81,19 +81,6 @@ def plan_questions(table, sc: ClusterScorer, row: int) -> Dict[str, Any]:
     others = [i for i in order if i != row and i not in same]
     candidates = [row] + (same + others)[:2]
     return {"plan": plan, "target_rank": rank_of(b, row), "candidates": candidates,
-            "remaining_effective": float(1.0 / (b ** 2).sum())}
-
-
-def plan_initial(table, sc: ClusterScorer, row: int, alpha: float = 0.25) -> Dict[str, Any]:
-    """Baseline used in the first dataset version: the five features of the target
-    with the highest static initial score D(P)."""
-    scores = sc.initial(alpha)
-    has = [j for j in range(sc.F) if table.features[j].codes[row] >= 0]
-    chosen = sorted(has, key=lambda j: -scores[j])[:MAX_QUESTIONS]
-    b = table.popularity / table.popularity.sum()
-    for j in chosen:
-        b = sc.update(b, j, int(table.features[j].codes[row]), BELIEF_EPS)
-    return {"features": [table.features[j].name for j in chosen], "target_rank": rank_of(b, row),
             "remaining_effective": float(1.0 / (b ** 2).sum())}
 
 
@@ -264,16 +251,15 @@ def main() -> None:
             aug_cache[c] = augment_cluster(clusters[c], emb)
         table, sc = tables[c], scorers[c]
         plan = plan_questions(table, sc, row)
-        base = plan_initial(table, sc, row)
         target = table.products[row]
         alts = [(table.products[i], aug_cache[c][table.products[i]["id"]]) for i in plan["candidates"] if i != row][:2]
-        return table, target, plan, base, alts
+        return table, target, plan, alts
 
     if args.dry_run:
         c, row = targets[0]
-        _, target, plan, base, alts = context(c, row)
+        _, target, plan, alts = context(c, row)
         print(build_prompt(target, aug_cache[c][target["id"]], plan, alts))
-        print(json.dumps({"plan": plan, "initial": base}, ensure_ascii=False, indent=1))
+        print(json.dumps({"plan": plan}, ensure_ascii=False, indent=1))
         return
 
     out = OUT.with_name("question_plans.jsonl") if args.plans_only else OUT
@@ -295,7 +281,7 @@ def main() -> None:
             target = tables[c].products[row]
             if target["id"] in done:
                 continue
-            table, target, plan, base, alts = context(c, row)
+            table, target, plan, alts = context(c, row)
             rec = {
                 "id": f"pcps-{target['id']}",
                 "product_id": target["id"],
@@ -307,7 +293,6 @@ def main() -> None:
                 "question_plan": plan["plan"],
                 "target_rank_after_plan": plan["target_rank"],
                 "effective_candidates_after_plan": round(plan["remaining_effective"], 3),
-                "baseline_initial_rpb": base,
                 "candidate_product_ids": [table.products[i]["id"] for i in plan["candidates"]],
                 "augmentation_labels": aug_cache[c][target["id"]]["labels"],
                 "product_type": product_type(target),

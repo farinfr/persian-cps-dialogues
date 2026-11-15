@@ -25,6 +25,5 @@
   "plan_value_fidelity": 0.8923076923076924,
   "plan_feature_tagged": 0.9997333333333334,
   "requirement_driven_opening": 0.887,
-  "target_top1_corrected": 0.736,
-  "target_top1_initial_5_features": 0.737
+  "target_top1": 0.736
 }

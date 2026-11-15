@@ -6,8 +6,7 @@
 * feature tags: share of planned features tagged on an assistant turn;
 * requirement-driven opening: the first user message does not name the target
   (fewer than half of the distinctive title tokens appear in it);
-* question efficiency of the corrected RPB plan versus the five features of the
-  first dataset version (rank of the target after the answers).
+* question efficiency of the RPB plan (rank of the target after the answers).
 """
 
 from __future__ import annotations
@@ -64,8 +63,7 @@ def main() -> None:
         "plan_value_fidelity": float(np.mean(fidelity)) if fidelity else None,
         "plan_feature_tagged": float(np.mean(tagged)) if tagged else None,
         "requirement_driven_opening": float(np.mean(opening)),
-        "target_top1_corrected": float(np.mean([r["target_rank_after_plan"] == 0 for r in rows])),
-        "target_top1_initial_5_features": float(np.mean([r["baseline_initial_rpb"]["target_rank"] == 0 for r in rows])),
+        "target_top1": float(np.mean([r["target_rank_after_plan"] == 0 for r in rows])),
     }
     out = ROOT / "results" / "dataset_stats.json"
     out.write_text(json.dumps(stats, ensure_ascii=False, indent=2))

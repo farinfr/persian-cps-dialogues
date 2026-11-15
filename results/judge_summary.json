@@ -1,5 +1,5 @@
 {
-  "v1 (GPT-4o, initial RPB)": {
+  "v1 (GPT-4o)": {
     "n": 26,
     "fluency": 9.81,
     "accuracy": 6.85,
@@ -8,7 +8,7 @@
     "helpfulness": 8.12,
     "overall": 7.92
   },
-  "v2 (Gemini, corrected RPB)": {
+  "v2 (Gemini)": {
     "n": 99,
     "fluency": 9.49,
     "accuracy": 7.87,

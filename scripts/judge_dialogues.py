@@ -2,7 +2,7 @@
 """LLM-as-judge evaluation of generated dialogues (Table 7 rubric).
 
 Scores a random sample of the new dataset and, for comparison, the dialogues
-of the first dataset version (GPT-4o, initial RPB features) on fluency,
+of the first dataset version (GPT-4o) on fluency,
 accuracy, realism, coverage, helpfulness and overall quality (1-10).
 
     python scripts/judge_dialogues.py --sample 100 --legacy ../seeder-app/full_dialogues_dataset/llm_generated_dialogues_highest_metric.json
@@ -65,10 +65,10 @@ def main() -> None:
     items = []
     new = [json.loads(line) for line in open(args.dataset, encoding="utf-8")]
     random.Random(0).shuffle(new)
-    items += [("v2 (Gemini, corrected RPB)", r["product_id"], r["dialogue"]) for r in new[: args.sample]]
+    items += [("v2 (Gemini)", r["product_id"], r["dialogue"]) for r in new[: args.sample]]
     if args.legacy:
         old = json.load(open(args.legacy, encoding="utf-8"))["generated_dialogues"]
-        items += [("v1 (GPT-4o, initial RPB)", int(r["product_id"]), r["dialogue"]) for r in old]
+        items += [("v1 (GPT-4o)", int(r["product_id"]), r["dialogue"]) for r in old]
 
     out = Path(args.out)
     done = set()

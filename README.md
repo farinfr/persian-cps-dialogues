@@ -6,7 +6,7 @@ The framework builds a Persian conversational product-search (CPS) dataset from 
 
 1. **Crawl** 12,926 products in 7 categories of [Digikala](https://www.digikala.com) (`legacy/crawler`).
 2. **Cluster** them into 170 semantically coherent clusters (K-Means on multilingual MiniLM embeddings, `legacy/clustering`, `legacy/embedding`).
-3. **Plan the questions** of each dialogue with the corrected **Regularized Partition Balance (RPB)** score, recomputed on the system's belief after every answer (`cpsdata/rpb.py`, `cpsdata/scoring.py`).
+3. **Plan the questions** of each dialogue with the **Regularized Partition Balance (RPB)** score, recomputed on the system's belief after every answer (`cpsdata/rpb.py`, `cpsdata/scoring.py`).
 4. **Augment** each product with comparisons to its 10 nearest neighbours (price position, rating, popularity; `cpsdata/augment.py`).
 5. **Verbalize** the plan into a requirement-driven Persian dialogue with the free Google Gemini API (Single Prompt Strategy, `scripts/generate_dialogues.py`).
 
@@ -16,8 +16,7 @@ The framework builds a Persian conversational product-search (CPS) dataset from 
 cpsdata/                 library: catalog loading, feature tables, RPB score, augmentation, Gemini client
 scripts/
   build_catalog.py               raw crawl -> data/catalog.jsonl.gz, data/embeddings.npz
-  simulate_question_selection.py Section 4.3: RPB vs. entropy vs. initial score with a simulated user
-  check_initial_definition.py    Section 3.3: pairwise check of the initial score D(P)
+  simulate_question_selection.py RPB vs. random and entropy selection with a simulated user
   generate_dialogues.py          builds the dataset (resumable, respects the free-tier quota)
   judge_dialogues.py             LLM-as-judge scores (Table 7 criteria)
   dataset_stats.py               statistics and automatic consistency checks
@@ -37,11 +36,8 @@ tests/test_rpb.py        properties of the RPB score; vectorised vs. reference i
 ```bash
 pip install -r requirements.txt
 
-# reproduce the simulation of Section 4.3 (about 15 minutes on a laptop CPU, no API needed)
+# reproduce the simulation of question selection (about 15 minutes on a laptop CPU, no API needed)
 python scripts/simulate_question_selection.py --out results/simulation
-
-# reproduce the pairwise check of the initial score (Section 3.3)
-python scripts/check_initial_definition.py
 
 # tests
 python -m pytest tests
@@ -71,7 +67,6 @@ Each line of `dataset/dialogues.jsonl` is one dialogue:
 | `cluster`, `category`, `product_type`, `title`, `price` | target product (price in rial) |
 | `question_plan` | ordered list of `{feature, value, rpb, numeric_bin}`; `value: null` = the user does not know / does not care |
 | `target_rank_after_plan`, `effective_candidates_after_plan` | rank of the target and effective number of candidates after the planned answers |
-| `baseline_initial_rpb` | the five features the first dataset version would have used, for comparison |
 | `candidate_product_ids` | target followed by the two alternatives presented in the dialogue |
 | `augmentation_labels` | comparison labels of the target (e.g. `good_price`, `popular_choice`) |
 | `dialogue` | list of `{role: user\|assistant, text, feature}`; `feature` tags assistant turns that ask about a planned feature |

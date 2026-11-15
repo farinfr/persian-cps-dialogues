@@ -10,7 +10,7 @@ from __future__ import annotations
 import numpy as np
 
 from .features import ClusterTable
-from .rpb import NEGLIGIBLE_SHARE, initial_score, update_belief
+from .rpb import NEGLIGIBLE_SHARE, update_belief
 
 
 def _xlogx(x: np.ndarray) -> np.ndarray:
@@ -72,9 +72,6 @@ class ClusterScorer:
         if use_answerability:
             score = score * (1.0 - delta_hat)
         return score
-
-    def initial(self, alpha: float) -> np.ndarray:
-        return np.array([initial_score(self.codes[:, j], int(self.m[j]), alpha) for j in range(self.F)])
 
     def update(self, b: np.ndarray, j: int, answer: int, eps: float) -> np.ndarray:
         p_hat = float(self.catalog_freq[self.offsets[j] + answer])

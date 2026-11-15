@@ -33,7 +33,6 @@ TUNE_SHARE = 0.25
 PILOT_QUESTIONS = 10
 BELIEF_EPS = 0.1
 ALPHAS = [0.0, 0.1, 0.25, 0.5, 1.0]
-INITIAL_ALPHAS = [0.0, 0.1, 0.25, 0.5, 1.0, 2.0, 5.0]
 
 
 def true_delta(m: np.ndarray, assumption: int) -> np.ndarray:
@@ -121,31 +120,22 @@ def masked_argmax(scores: np.ndarray, asked: np.ndarray) -> int:
     return int(np.argmax(s))
 
 
-def make_strategies(alpha_rpb: float, alpha_init: float) -> Dict[str, Callable]:
-    static_cache: Dict[int, np.ndarray] = {}
-
+def make_strategies(alpha_rpb: float) -> Dict[str, Callable]:
     def random_(c, d, b, asked):
         for j in c.random_order[d]:
             if not asked[j]:
                 return int(j)
 
-    def initial(c, d, b, asked):
-        key = id(c)
-        if key not in static_cache:
-            static_cache[key] = c.sc.initial(alpha_init)
-        return masked_argmax(static_cache[key], asked)
-
     return {
         "Random": random_,
-        "Initial D(P)": initial,
         "Entropy, default group": lambda c, d, b, a: masked_argmax(c.sc.entropy_default(b), a),
         "Entropy, real values": lambda c, d, b, a: masked_argmax(c.sc.entropy_real(b), a),
-        "Corrected RPB": lambda c, d, b, a: masked_argmax(c.sc.rpb(b, c.delta_hat, alpha_rpb), a),
-        "Corrected RPB, no coverage": lambda c, d, b, a: masked_argmax(
+        "RPB": lambda c, d, b, a: masked_argmax(c.sc.rpb(b, c.delta_hat, alpha_rpb), a),
+        "RPB, no coverage": lambda c, d, b, a: masked_argmax(
             c.sc.rpb(b, c.delta_hat, alpha_rpb, use_coverage=False), a),
-        "Corrected RPB, no answerability": lambda c, d, b, a: masked_argmax(
+        "RPB, no answerability": lambda c, d, b, a: masked_argmax(
             c.sc.rpb(b, c.delta_hat, alpha_rpb, use_answerability=False), a),
-        "Corrected RPB, alpha=0": lambda c, d, b, a: masked_argmax(c.sc.rpb(b, c.delta_hat, 0.0), a),
+        "RPB, alpha=0": lambda c, d, b, a: masked_argmax(c.sc.rpb(b, c.delta_hat, 0.0), a),
     }
 
 
@@ -195,17 +185,16 @@ def main() -> None:
         def tuned(name: str, grid: List[float]) -> float:
             best = None
             for a in grid:
-                strat = make_strategies(a, a)[name]
+                strat = make_strategies(a)[name]
                 _, turns = evaluate(tune, strat, 1)
                 if best is None or turns.mean() < best[1] - 1e-12:
                     best = (a, turns.mean())
                 print(f"  A{assumption} tune {name} alpha={a}: {turns.mean():.3f}")
             return best[0]
 
-        a_rpb = tuned("Corrected RPB", ALPHAS)
-        a_init = tuned("Initial D(P)", INITIAL_ALPHAS)
-        strategies = make_strategies(a_rpb, a_init)
-        res = {"alpha_rpb": a_rpb, "alpha_initial": a_init, "k": {}}
+        a_rpb = tuned("RPB", ALPHAS)
+        strategies = make_strategies(a_rpb)
+        res = {"alpha_rpb": a_rpb, "k": {}}
         for k in (1, 3):
             per = {}
             raw = {}
@@ -215,8 +204,8 @@ def main() -> None:
                 per[name] = {"success": 100 * s.mean(), "turns": t.mean(), "n": int(s.size)}
                 print(f"A{assumption} k={k} {name:34s} success={100 * s.mean():5.1f}% turns={t.mean():.2f}")
             diffs = {}
-            s_r, t_r = raw["Corrected RPB"]
-            for other in ("Entropy, default group", "Entropy, real values", "Initial D(P)"):
+            s_r, t_r = raw["RPB"]
+            for other in ("Entropy, default group", "Entropy, real values"):
                 s_o, t_o = raw[other]
                 diffs[other] = {
                     "turns": bootstrap_diff(t_r, t_o),

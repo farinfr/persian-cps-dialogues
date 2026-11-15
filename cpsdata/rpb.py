@@ -1,4 +1,4 @@
-"""Question-selection scores: corrected RPB, its initial definition and entropy.
+"""Question-selection scores: RPB and entropy.
 
 All scores take a feature column ``codes`` (value index per product, -1 for the
 default group of products that lack the feature) and, for the dynamic scores,
@@ -29,7 +29,7 @@ def value_mass(codes: np.ndarray, b: np.ndarray, m: int) -> np.ndarray:
 def rpb(codes: np.ndarray, b: np.ndarray, m: int, delta_hat: float = 0.0,
         alpha: float = 0.1, use_coverage: bool = True,
         use_answerability: bool = True) -> float:
-    """Corrected Regularized Partition Balance score, Eq. (2) of the paper.
+    """Regularized Partition Balance score, Eq. (2) of the paper.
 
     RPB(P|b) = (1 - delta_hat) * kappa * [H(P) - alpha * max(0, log2 m_P - 0.5 log2 N_P)]_+
     """
@@ -68,22 +68,6 @@ def entropy_real_values(codes: np.ndarray, b: np.ndarray, m: int) -> float:
     total = mass.sum()
     return _entropy(mass / total) if total > 0 else 0.0
 
-
-def initial_score(codes: np.ndarray, m: int, alpha: float) -> float:
-    """Initial definition D(P) = 1 / (A + alpha * B), static, uniform belief.
-
-    A = sqrt(sum_i (x_i - n/m')^2), B = |sqrt(n) - m'|, where the default group
-    is counted as one of the m' partitions (as in the first dataset version).
-    """
-    n = codes.size
-    x = np.bincount(np.where(codes >= 0, codes, m), minlength=m + 1).astype(float)
-    if x[m] == 0:
-        x = x[:m]
-    x = x[x > 0]
-    m_prime = x.size
-    a = math.sqrt(float(((x - n / m_prime) ** 2).sum()))
-    bpen = abs(math.sqrt(n) - m_prime)
-    return 1.0 / (a + alpha * bpen + 1e-9)
 
 
 def update_belief(b: np.ndarray, codes: np.ndarray, m: int, answer: int,

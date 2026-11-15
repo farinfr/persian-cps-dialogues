@@ -7,7 +7,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from cpsdata.features import ClusterTable, Feature  # noqa: E402
-from cpsdata.rpb import entropy_default_group, entropy_real_values, initial_score, rpb  # noqa: E402
+from cpsdata.rpb import entropy_default_group, entropy_real_values, rpb  # noqa: E402
 from cpsdata.scoring import ClusterScorer  # noqa: E402
 
 
@@ -29,13 +29,6 @@ def test_coverage_scales_score():
     full = np.repeat(np.arange(2), 38)
     half = np.concatenate([np.repeat(np.arange(2), 19), -np.ones(38, int)])
     assert math.isclose(rpb(half, uniform(76), 2, alpha=0), 0.5 * rpb(full, uniform(76), 2, alpha=0))
-
-
-def test_initial_definition_flaw_a():
-    """One real value + equally large default group == balanced binary feature."""
-    one_value = np.array([0] * 38 + [-1] * 38)
-    binary = np.repeat(np.arange(2), 38)
-    assert math.isclose(initial_score(one_value, 1, 0.5), initial_score(binary, 2, 0.5))
 
 
 def test_vectorised_matches_scalar():
