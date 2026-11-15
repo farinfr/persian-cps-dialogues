@@ -1,0 +1,230 @@
+{
+  "1": {
+    "kind_label": "dual_highest_metric",
+    "count": 10,
+    "metrics": {
+      "fluency": {
+        "sum": 80.0,
+        "n": 10
+      },
+      "accuracy": {
+        "sum": 90.0,
+        "n": 10
+      },
+      "realism": {
+        "sum": 70.0,
+        "n": 10
+      },
+      "coverage": {
+        "sum": 80.0,
+        "n": 10
+      },
+      "helpfulness": {
+        "sum": 80.0,
+        "n": 10
+      },
+      "overall": {
+        "sum": 80.0,
+        "n": 10
+      }
+    },
+    "averages": {
+      "fluency": 8.0,
+      "accuracy": 9.0,
+      "realism": 7.0,
+      "coverage": 8.0,
+      "helpfulness": 8.0,
+      "overall": 8.0
+    }
+  },
+  "2": {
+    "kind_label": "dual_random",
+    "count": 10,
+    "metrics": {
+      "fluency": {
+        "sum": 69.0,
+        "n": 10
+      },
+      "accuracy": {
+        "sum": 75.0,
+        "n": 10
+      },
+      "realism": {
+        "sum": 59.0,
+        "n": 10
+      },
+      "coverage": {
+        "sum": 69.0,
+        "n": 10
+      },
+      "helpfulness": {
+        "sum": 69.0,
+        "n": 10
+      },
+      "overall": {
+        "sum": 68.0,
+        "n": 10
+      }
+    },
+    "averages": {
+      "fluency": 6.9,
+      "accuracy": 7.5,
+      "realism": 5.9,
+      "coverage": 6.9,
+      "helpfulness": 6.9,
+      "overall": 6.8
+    }
+  },
+  "3": {
+    "kind_label": "llm_generated_random",
+    "count": 9,
+    "metrics": {
+      "fluency": {
+        "sum": 75.0,
+        "n": 9
+      },
+      "accuracy": {
+        "sum": 73.0,
+        "n": 9
+      },
+      "realism": {
+        "sum": 66.0,
+        "n": 9
+      },
+      "coverage": {
+        "sum": 74.0,
+        "n": 9
+      },
+      "helpfulness": {
+        "sum": 74.0,
+        "n": 9
+      },
+      "overall": {
+        "sum": 74.0,
+        "n": 9
+      }
+    },
+    "averages": {
+      "fluency": 8.333333333333334,
+      "accuracy": 8.11111111111111,
+      "realism": 7.333333333333333,
+      "coverage": 8.222222222222221,
+      "helpfulness": 8.222222222222221,
+      "overall": 8.222222222222221
+    }
+  },
+  "4": {
+    "kind_label": "llm_generated_highest_metric",
+    "count": 10,
+    "metrics": {
+      "fluency": {
+        "sum": 87.0,
+        "n": 10
+      },
+      "accuracy": {
+        "sum": 90.0,
+        "n": 10
+      },
+      "realism": {
+        "sum": 78.0,
+        "n": 10
+      },
+      "coverage": {
+        "sum": 88.0,
+        "n": 10
+      },
+      "helpfulness": {
+        "sum": 88.0,
+        "n": 10
+      },
+      "overall": {
+        "sum": 88.0,
+        "n": 10
+      }
+    },
+    "averages": {
+      "fluency": 8.7,
+      "accuracy": 9.0,
+      "realism": 7.8,
+      "coverage": 8.8,
+      "helpfulness": 8.8,
+      "overall": 8.8
+    }
+  },
+  "5": {
+    "kind_label": "two_agent_highest_metric",
+    "count": 10,
+    "metrics": {
+      "fluency": {
+        "sum": 77.0,
+        "n": 10
+      },
+      "accuracy": {
+        "sum": 87.0,
+        "n": 10
+      },
+      "realism": {
+        "sum": 67.0,
+        "n": 10
+      },
+      "coverage": {
+        "sum": 77.0,
+        "n": 10
+      },
+      "helpfulness": {
+        "sum": 77.0,
+        "n": 10
+      },
+      "overall": {
+        "sum": 77.0,
+        "n": 10
+      }
+    },
+    "averages": {
+      "fluency": 7.7,
+      "accuracy": 8.7,
+      "realism": 6.7,
+      "coverage": 7.7,
+      "helpfulness": 7.7,
+      "overall": 7.7
+    }
+  },
+  "6": {
+    "kind_label": "two_agent_highest_metric_simulate",
+    "count": 10,
+    "metrics": {
+      "fluency": {
+        "sum": 79.0,
+        "n": 10
+      },
+      "accuracy": {
+        "sum": 84.0,
+        "n": 10
+      },
+      "realism": {
+        "sum": 69.0,
+        "n": 10
+      },
+      "coverage": {
+        "sum": 78.0,
+        "n": 10
+      },
+      "helpfulness": {
+        "sum": 78.0,
+        "n": 10
+      },
+      "overall": {
+        "sum": 78.0,
+        "n": 10
+      }
+    },
+    "averages": {
+      "fluency": 7.9,
+      "accuracy": 8.4,
+      "realism": 6.9,
+      "coverage": 7.8,
+      "helpfulness": 7.8,
+      "overall": 7.8
+    }
+  }
+}

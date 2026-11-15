@@ -1,0 +1,1729 @@
+{
+  "metadata": {
+    "total_products": 10,
+    "rewrite_date": "2025-11-17T12:42:35.028259",
+    "model": "gpt-4o"
+  },
+  "random_method_rewritten": {
+    "dialogues": [
+      {
+        "product_id": 4477,
+        "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-4TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+        "brand": "ایسوس",
+        "category": "لپ تاپ و الترابوک",
+        "price": 1979000000.0,
+        "cluster_id": "50",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "قابلیت‌های درگاه‌های ارتباطی",
+            "feature_value": "خروجی تصویر (DisplayPort) از طریق پورت USB, خروجی شارژ PD",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "حافظه اختصاصی پردازنده گرافیکی",
+            "feature_value": "8 گیگابایت",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "سازنده پردازنده",
+            "feature_value": "Intel",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "مشخصات حافظه داخلی",
+            "feature_value": "NVMe PCIe Gen 4.0",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "وزن",
+            "feature_value": "2.2 کیلوگرم",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام! آیا لپ‌تاپ یا الترابوکی دارید که به خوبی نیازهای من رو برآورده کنه؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، حتماً. چه ویژگی‌هایی براتون مهم‌تره؟"
+          },
+          {
+            "role": "user",
+            "text": "من به درگاه‌های ارتباطی مثل خروجی تصویر از طریق USB و شارژ PD نیاز دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، پس به دنبال پورت‌هایی مثل DisplayPort از طریق USB و شارژ PD هستید. در مورد پردازنده گرافیکی چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "حافظه اختصاصی پردازنده گرافیکی 8 گیگابایت برام مهمه."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، 8 گیگابایت حافظه اختصاصی. سازنده پردازنده چی؟"
+          },
+          {
+            "role": "user",
+            "text": "ترجیح می‌دم پردازنده‌ از شرکت Intel باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده، پردازنده Intel. حالا درباره حافظه داخلی چه نظری دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "حافظه داخلی NVMe PCIe Gen 4.0 برام ایده‌آله."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، و درباره وزن دستگاه چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "وزن حدود 2.2 کیلوگرم برام مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "با توجه به نیازهای شما، پیشنهاد من لپ‌تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 هست که همه مشخصات مورد نظرتون رو داره."
+          }
+        ],
+        "llm_improvements": "گفتگو به صورت طبیعی‌تر بازنویسی شد و تمرکز بیشتری بر نیازهای کاربر و تعامل روان‌تری بین دو طرف ایجاد شد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 11767,
+        "product_title": "کتاب شرکت شکست ناپذیر اثر الکساندر استروالدر انتشارات آریانا قلم",
+        "brand": "انتشارات آریانا قلم",
+        "category": "کتاب",
+        "price": 4260000.0,
+        "cluster_id": "100",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "موضوع",
+            "feature_value": "کارآفرینی و استارتاپ",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "شابک",
+            "feature_value": "9786227089264",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نوع جلد",
+            "feature_value": "شومیز",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نویسنده",
+            "feature_value": "الکساندر استروالدر",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "قطع",
+            "feature_value": "بیاضی",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام! دنبال یه کتاب در زمینه کارآفرینی و استارتاپ هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! انتخاب عالی‌ای دارید. آیا شابک خاصی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، شابک 9786227089264 رو می‌خوام."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب. در مورد جلد کتاب چطور؟ کدوم نوع جلد رو ترجیح می‌دید؟"
+          },
+          {
+            "role": "user",
+            "text": "جلد شومیز رو ترجیح می‌دم."
+          },
+          {
+            "role": "assistant",
+            "text": "فهمیدم. حالا درباره نویسنده نظری دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دنبال کتابی از الکساندر استروالدر هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی! و آخرین سوال، قطع کتاب براتون مهمه؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دوست دارم قطع بیاضی باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "با این مشخصات، کتاب 'شرکت شکست ناپذیر' نوشته الکساندر استروالدر از انتشارات آریانا قلم رو براتون پیشنهاد می‌کنم که قیمتش 4,260,000 تومنه."
+          }
+        ],
+        "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شده و با استفاده از کلمات و جملات عامیانه‌تر، حس واقعی‌تری به مکالمه داده شده. همچنین، ارتباط منطقی‌تر بین سوالات برقرار شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 10
+      },
+      {
+        "product_id": 4863,
+        "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+        "brand": "ایسوس",
+        "category": "لپ تاپ و الترابوک",
+        "price": null,
+        "cluster_id": "54",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "توضیحات وبکم",
+            "feature_value": "وبکم با کیفیت 720p HD",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "دقت صفحه نمایش",
+            "feature_value": "HD|1366x768 پیکسل",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نوع حافظه رم (RAM)",
+            "feature_value": "DDR4",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "درگاه‌ها و فناوری‌های ارتباطی",
+            "feature_value": "USB Type-C, شیار کارت حافظه, جک 3.5 میلی‌متری صدا, Wi-Fi, HDMI, Bluetooth, USB",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات شبکه بی سیم Wi-Fi",
+            "feature_value": "Wi-Fi 5(802.11ac) (Dual band)",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، آیا لپ‌تاپ یا الترابوک‌های خوبی دارید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، ما چند مدل عالی داریم. آیا ویژگی خاصی مد نظرتان است؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دوست دارم وبکم با کیفیت 720p HD باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم، وبکم با کیفیت 720p HD. صفحه نمایش چطور؟ چه دقتی مد نظرتان است؟"
+          },
+          {
+            "role": "user",
+            "text": "دقت HD با 1366x768 پیکسل برام مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، HD 1366x768. نوع رم چطور، DDR4 مناسب است؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، رم DDR4 می‌خواهم."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب. در مورد درگاه‌ها و ارتباطات چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "درگاه‌های USB Type-C، کارت حافظه، جک 3.5 میلی‌متری، Wi-Fi، HDMI، Bluetooth و USB رو ترجیح می‌دم."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم، اینها گزینه‌های خیلی خوبی هستند. آیا نوع خاصی از Wi-Fi برایتان مهم است؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، Wi-Fi 5 (802.11ac) با پشتیبانی از دو باند مناسب است."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خب. با توجه به نیازهایی که گفتید، لپ‌تاپ 15.6 اینچی ایسوس مدل E510MA رو پیشنهاد می‌کنم. امیدوارم مناسب شما باشه!"
+          }
+        ],
+        "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شد و جملات به گونه‌ای تنظیم شدند که ارتباط منطقی و جذاب‌تری داشته باشند. همچنین، نقاط ابهام برطرف و جزئیات بیشتری در هر بخش اضافه شد تا تجربه کاربر بهبود یابد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 10101,
+        "product_title": "ساعت هوشمند ویوو مدل SW01",
+        "brand": "ویوو",
+        "category": "ساعت و مچ بند هوشمند",
+        "price": 7600000.0,
+        "cluster_id": "106",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "توضیحات رنگ بند و بدنه",
+            "feature_value": "بدنه: مشکی",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "جنس بند",
+            "feature_value": "سیلیکون",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات سازگاری",
+            "feature_value": "گوشی های موبایل",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نوع کاربری",
+            "feature_value": "ورزشی, رسمی, روزمره",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "حافظه داخلی",
+            "feature_value": "32M+ 23M",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، ساعت یا مچ بند هوشمند دارید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، ما انواع مختلفی از ساعت و مچ بند هوشمند داریم. چه رنگ و بدنه‌ای مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "من دنبال یه مدلی با رنگ و بدنه مشکی هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب! رنگ و بدنه مشکی. جنس بند رو چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "ترجیح می‌دم جنس بندش سیلیکون باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، جنس بند سیلیکون. حالا، به چه دستگاه‌هایی می‌خواید که سازگار باشه؟"
+          },
+          {
+            "role": "user",
+            "text": "می‌خوام با گوشی‌های موبایل سازگار باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، سازگار با گوشی‌های موبایل. برای چه نوع استفاده‌ای مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "کاربردش هم برای ورزش، هم رسمی و هم روزمره باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوبه، یه محصول چندکاره. در مورد حافظه داخلی چه نظری دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "یه حافظه داخلی 32M+ 23M مناسب هست برام."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، با این مشخصات، ساعت هوشمند ویوو مدل SW01 با قیمت 7,600,000 تومان رو پیشنهاد می‌کنم."
+          }
+        ],
+        "llm_improvements": "گفتگو طبیعی‌تر و روان‌تر شد. جملات کوتاه و ساده‌تر شدند و تبادل اطلاعات به صورت مرحله‌ای و دوستانه‌تر انجام شد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 7643,
+        "product_title": "روفرشی ستاره زرین یزد مدل زر افشان کد 860s",
+        "brand": "متفرقه",
+        "category": "فرش و گلیم",
+        "price": 8950000.0,
+        "cluster_id": "159",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 8,
+        "num_features": 3,
+        "features": [
+          {
+            "feature_name": "نوع",
+            "feature_value": "مخمل و شانل",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "فرم طراحی",
+            "feature_value": "مستطیل",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "سایر توضیحات",
+            "feature_value": "روفرشی مخمل ابریشم با کیفیت درجه یک و طرح جدید افشان فوق العاده زیبا محصولی خاص از شرکت ستاره زرین یزد",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال فرش یا گلیمی با کیفیت هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! چه خوب! آیا نوع خاصی مد نظر شماست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ترجیح می‌دهم مخمل و شانل باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، و در مورد فرم طراحی چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "دوست دارم طراحی مستطیلی داشته باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم. آیا ویژگی یا توضیحات خاصی هم مد نظرتان است؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، روفرشی مخمل ابریشم با کیفیت بالا و طرح افشان جدید از شرکت ستاره زرین یزد."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار عالی، با این مشخصات، به شما روفرشی ستاره زرین یزد مدل زر افشان کد 860s با قیمت 8,950,000 تومان را پیشنهاد می‌کنم."
+          }
+        ],
+        "llm_improvements": "گفتگو طبیعی‌تر و روان‌تر شده و جملات به شکل مکالمه دوستانه‌تر و مستقیم‌تر تنظیم شده‌اند.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 8,
+        "rewritten_dialogue_rounds": 8
+      },
+      {
+        "product_id": 1454,
+        "product_title": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+        "brand": "شیائومی",
+        "category": "گوشی موبایل",
+        "price": null,
+        "cluster_id": "17",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "رزولوشن دوربین اصلی",
+            "feature_value": "48 مگاپیکسل",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "درگاه‌ها و فناوری‌های ارتباطی",
+            "feature_value": "USB Type-C 2.0",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات تکمیلی صدا",
+            "feature_value": "24-bit/192kHz audio",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "حافظه داخلی",
+            "feature_value": "128 گیگابایت",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "سایر قابلیت‌ها",
+            "feature_value": "مجهز به رابط کاربری MIUI 12",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام! گوشی موبایل دارید که بتونه نیازهای من رو برآورده کنه؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، خیلی خوشحال می‌شم کمک‌تون کنم. چه ویژگی‌هایی براتون مهمه؟"
+          },
+          {
+            "role": "user",
+            "text": "دوربین خوب برام مهمه، ترجیحاً 48 مگاپیکسل."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خب، دوربین 48 مگاپیکسلی. چیز دیگه‌ای هم هست که براتون مهم باشه؟ مثلاً درگاه‌ها یا فناوری‌های ارتباطی؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دوست دارم پورت USB Type-C 2.0 داشته باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه. صدای دستگاه هم براتون اهمیت داره؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، صدای 24-bit/192kHz برام مهمه."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده. حالا درباره حافظه داخلی چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "128 گیگابایت حافظه داخلی خوبه."
+          },
+          {
+            "role": "assistant",
+            "text": "خب، چیزی دیگه‌ای مثل نرم‌افزار یا رابط کاربری مدنظرتون هست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، رابط کاربری MIUI 12 رو ترجیح می‌دم."
+          },
+          {
+            "role": "assistant",
+            "text": "بر اساس مشخصاتی که گفتید، گوشی شیائومی مدل redmi 9T با ظرفیت 128 گیگابایت و رم 6 گیگابایت گزینه خوبی برای شماست."
+          }
+        ],
+        "llm_improvements": "گفتگو به شکلی طبیعی‌تر و روان‌تر تنظیم شد و سوالات به صورت متوالی و با تعامل بیشتری پرسیده شدند تا مکالمه واقعی‌تر به نظر برسد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 6669,
+        "product_title": "کتابخانه مدل رویسان دستگیره دار ",
+        "brand": "متفرقه",
+        "category": "دکوراسیون خانگی",
+        "price": 34000000.0,
+        "cluster_id": "59",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 8,
+        "num_features": 3,
+        "features": [
+          {
+            "feature_name": "ابعاد",
+            "feature_value": "80x30x120 سانتی‌متر",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "جنس",
+            "feature_value": "لترون",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "تعداد طبقه",
+            "feature_value": "سه عدد",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال یه محصول برای دکوراسیون خانه‌ام هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! خوش آمدید. می‌تونم کمکتون کنم. چه ابعادی مد نظرتونه؟"
+          },
+          {
+            "role": "user",
+            "text": "ابعاد 80 در 30 در 120 سانتی‌متر باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب! از نظر جنس، چه ماده‌ای رو ترجیح می‌دید؟"
+          },
+          {
+            "role": "user",
+            "text": "لترون باشه بهتره."
+          },
+          {
+            "role": "assistant",
+            "text": "لترون انتخاب خوبیه. چند طبقه نیاز دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "سه طبقه کافیه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی! بر اساس این مشخصات، کتابخانه مدل رویسان دستگیره‌دار از برند متفرقه با قیمت 34,000,000 تومان براتون مناسب به نظر میاد."
+          }
+        ],
+        "llm_improvements": "گفتگو به صورت طبیعی‌تر و روان‌تر اصلاح شد و با تاکید بر نیازهای کاربر به جای صرف تکرار، مکالمه به صورت محاوره‌ای و بهینه‌تر بازنویسی شد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 8,
+        "rewritten_dialogue_rounds": 8
+      },
+      {
+        "product_id": 8311,
+        "product_title": "کلاژ  چرم و پوست مدل LFM402",
+        "brand": "متفرقه",
+        "category": "فرش و گلیم",
+        "price": 128000000.0,
+        "cluster_id": "82",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "جنس نخ پود",
+            "feature_value": "نخ پنبه",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "سایز",
+            "feature_value": "2.1 متر مربع",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "سایر توضیحات",
+            "feature_value": "تهیه شده از  چرم و پوست گاوی .\r\nپس از باز کردن  از حالت رول شده یکبار در جهت مخالف  رول کنید و اجازه دهید 48 ساعت بر روی زمین پهن باشد تا کاملا باز شود",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نوع",
+            "feature_value": "دستبافت",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "فرم طراحی",
+            "feature_value": "هشت ضلعی",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، محصولات فرش و گلیم دارید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، ما مجموعه‌ای از فرش و گلیم‌های زیبا داریم. جنس نخ پود خاصی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، اگر نخ پودش از پنبه باشه خیلی خوبه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی! حالا در مورد سایز، چه اندازه‌ای مد نظرتونه؟"
+          },
+          {
+            "role": "user",
+            "text": "دوست دارم سایز 2.1 متر مربع باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب، سایز 2.1 متر مربع. توضیحات دیگه‌ای هم دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، تهیه شده از چرم و پوست گاوی باشه و بعد از باز کردن از حالت رول، تو 48 ساعت پهن بشه تا کاملاً صاف بشه."
+          },
+          {
+            "role": "assistant",
+            "text": "فهمیدم، این محصول از چرم و پوست گاوی ساخته شده و برای پهن شدن کامل باید 48 ساعت روی زمین بمونه. نوع خاصی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، نوعش دستبافت باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی هم خوب، دستبافت. و در مورد طراحی، شکلی خاص مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، طرح هشت ضلعی رو دوست دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی! بر اساس مشخصاتی که گفتید، کلاژ چرم و پوست مدل LFM402 از برند متفرقه به قیمت 128,000,000 تومان می‌تونه انتخاب مناسبی برای شما باشه."
+          }
+        ],
+        "llm_improvements": "گفتگو به شکلی روان‌تر و طبیعی‌تر بازنویسی شد و جملات به شیوه‌ای دوستانه و مستقیم‌تر ارائه شدند. سؤالات دستیار به وضوح بیشتری رسیدند تا مکالمه جذاب‌تر و ساده‌تر شود.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 3408,
+        "product_title": "کوله پشتی مدل SH1037-2",
+        "brand": "متفرقه",
+        "category": "لوازم تحریر",
+        "price": 6000000.0,
+        "cluster_id": "66",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 10,
+        "num_features": 4,
+        "features": [
+          {
+            "feature_name": "ابعاد",
+            "feature_value": "44x36x16 سانتی‌متر",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "وزن",
+            "feature_value": "620 گرم",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "تعداد جیب خارجی",
+            "feature_value": "3",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات دسته",
+            "feature_value": "دارای دو دسته: یک دسته ابری مستحکم و یک دسته ساده",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال یه کوله‌پشتی تو دسته لوازم تحریر می‌گردم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! حتماً، چه ابعادی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "ابعادش ترجیحاً 44 در 36 در 16 سانتی‌متر باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، این ابعاد رایج و مناسبیه. وزنش هم براتون مهمه؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دوست دارم وزنش حدود 620 گرم باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، وزن 620 گرم. حالا درباره تعداد جیب‌های خارجی چی فکر می‌کنید؟"
+          },
+          {
+            "role": "user",
+            "text": "سه تا جیب خارجی برام مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده، سه جیب خارجی. درباره دسته‌ها نظری دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "دوست دارم دو دسته داشته باشه: یک دسته ابری مستحکم و یک دسته ساده."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه! با این مشخصاتی که گفتید، کوله‌پشتی مدل SH1037-2 از برند متفرقه با قیمت 6,000,000 تومان می‌تونه براتون مناسب باشه."
+          }
+        ],
+        "llm_improvements": "گفتگو طبیعی‌تر و روان‌تر شده و لحن مکالمه دوستانه و محاوره‌ای شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 10,
+        "rewritten_dialogue_rounds": 10
+      },
+      {
+        "product_id": 5890,
+        "product_title": "میز و صندلی ناهارخوری 4 نفره مدل kh004",
+        "brand": "گالری والریان",
+        "category": "دکوراسیون خانگی",
+        "price": 89900000.0,
+        "cluster_id": "14",
+        "method": "random",
+        "type": 2,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "ابعاد میز",
+            "feature_value": "90×90×80",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "نوع میز و صندلی ناهارخوری",
+            "feature_value": "چهار نفره",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "ارتفاع صندلی",
+            "feature_value": "78 سانتی‌متر",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات میز",
+            "feature_value": "رنگ چوب به صورت ثابت فندقی و تنوع رنگ مربوط به پارچه می باشد.",
+            "custom_metric": 0.0
+          },
+          {
+            "feature_name": "توضیحات صندلی",
+            "feature_value": "جنس چوب روس و رنگ آن فندقی و تنوع رنگ مربوط به پارچه می باشد.",
+            "custom_metric": 0.0
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام! دنبال یه میز و صندلی برای ناهارخوری هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! خوش آمدید. ابعاد میز مورد نظرتون چقدر هست؟"
+          },
+          {
+            "role": "user",
+            "text": "می‌خوام ابعادش 90 در 90 با ارتفاع 80 سانتی‌متر باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب! دنبال چه نوع میز و صندلی‌ای هستید؟"
+          },
+          {
+            "role": "user",
+            "text": "یه میز ناهارخوری و صندلی برای چهار نفر می‌خوام."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه! ارتفاع صندلی براتون مهمه؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ترجیح می‌دم ارتفاع صندلی 78 سانتی‌متر باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، در مورد رنگ و جنس میز و صندلی توضیح بدید."
+          },
+          {
+            "role": "user",
+            "text": "میز رو با رنگ چوب فندقی و پارچه متنوع می‌خوام و صندلی‌ها با چوب روس و رنگ فندقی."
+          },
+          {
+            "role": "assistant",
+            "text": "به نظر میاد میز و صندلی ناهارخوری 4 نفره مدل kh004 گالری والریان براتون مناسب باشه، قیمتش هم 89,900,000 تومانه."
+          }
+        ],
+        "llm_improvements": "بهبود در طبیعی‌تر کردن مکالمه و اضافه کردن حس و لحن دوستانه به گفتگو اعمال شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 10
+      }
+    ]
+  },
+  "highest_metric_method_rewritten": {
+    "dialogues": [
+      {
+        "product_id": 4477,
+        "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-4TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+        "brand": "ایسوس",
+        "category": "لپ تاپ و الترابوک",
+        "price": 1979000000.0,
+        "cluster_id": "50",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "نسل پردازنده",
+            "feature_value": "نسل 13 اینتل",
+            "custom_metric": 0.11078
+          },
+          {
+            "feature_name": "ظرفیت حافظه رم (RAM)",
+            "feature_value": "64 گیگابایت",
+            "custom_metric": 0.003165
+          },
+          {
+            "feature_name": "توضیحات وبکم",
+            "feature_value": "دوربین با کیفیت 720p HD",
+            "custom_metric": 0.002748
+          },
+          {
+            "feature_name": "سایر توضیحات درگاه‌های ارتباطی",
+            "feature_value": "دو عدد ( یک عدد از نوع USB 3.2 با پشتیبانی از شارژ، G-Sync و خروجی تصویر (DisplayPort) و یک عدد از نوع Thunderbolt 4 با پشتیبانی از خروجی تصویر (DisplayPort))",
+            "custom_metric": 0.001484
+          },
+          {
+            "feature_name": "مدل پردازنده مرکزی لپ‌تاپ",
+            "feature_value": "Core i7-13620H",
+            "custom_metric": 0.001366
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، من دنبال یه لپ‌تاپ یا الترابوک خوب هستم. می‌تونید کمک کنید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! البته، خوشحال می‌شم کمک کنم. آیا مشخصات خاصی مد نظرتون هست؟ مثلا نسل پردازنده؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ترجیح می‌دم پردازنده نسل 13 اینتل باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه! پردازنده نسل 13 اینتل انتخاب خیلی خوبی هست. ظرفیت حافظه رم رو چه مقدار مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "64 گیگابایت رم برای من مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده! رم 64 گیگابایت برای کارهای سنگین و حرفه‌ای عالیه. در مورد وبکم، کیفیت خاصی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ترجیح می‌دم وبکمش کیفیت 720p HD داشته باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، وبکم با کیفیت HD گزینه مناسبیه. حالا در مورد پورت‌های ارتباطی، آیا نیاز خاصی دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، می‌خوام دو پورت داشته باشه: یکی USB 3.2 که از شارژ، G-Sync و خروجی تصویر (DisplayPort) پشتیبانی کنه و دیگری Thunderbolt 4 که باز هم خروجی تصویر (DisplayPort) داشته باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، مشخصات دقیقی گفتید. این نوع پورت‌ها برای اتصال و انتقال داده عالی هستند. مدل پردازنده رو هم مشخص کردید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، مدل پردازنده Core i7-13620H باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، بر اساس مشخصات شما، لپ‌تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070 با پردازنده Core i7-13620H، 64 گیگابایت رم DDR5 با سرعت 4800MHz، حافظه 4 ترابایت SSD و کارت گرافیک RTX4070 با 8 گیگابایت حافظه، همراه با نمایشگر FHD با نرخ تازه‌سازی 144Hz، گزینه بسیار مناسبی برای شما خواهد بود. قیمت این مدل حدود 1,979,000,000 تومان هست."
+          }
+        ],
+        "llm_improvements": "در بازنویسی، گفتگو طبیعی‌تر شده و تعامل به صورت یک مکالمه واقعی پیش رفته است. همچنین از جملات روان‌تر و همراه با توضیحات کاربردی در بررسی نیازهای کاربر استفاده شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 11767,
+        "product_title": "کتاب شرکت شکست ناپذیر اثر الکساندر استروالدر انتشارات آریانا قلم",
+        "brand": "انتشارات آریانا قلم",
+        "category": "کتاب",
+        "price": 4260000.0,
+        "cluster_id": "100",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "قطع",
+            "feature_value": "بیاضی",
+            "custom_metric": 9.7e-05
+          },
+          {
+            "feature_name": "نوع جلد",
+            "feature_value": "شومیز",
+            "custom_metric": 9.7e-05
+          },
+          {
+            "feature_name": "موضوع",
+            "feature_value": "کارآفرینی و استارتاپ",
+            "custom_metric": 5.4e-05
+          },
+          {
+            "feature_name": "ناشر",
+            "feature_value": "انتشارات آریانا قلم",
+            "custom_metric": 5.3e-05
+          },
+          {
+            "feature_name": "تعداد صفحه",
+            "feature_value": "384",
+            "custom_metric": 5.3e-05
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال یه کتاب هستم که بهم معرفی کنید."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! چه عالی. می‌تونید بگید به چه نوع قطع کتابی علاقه دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "قطع بیاضی دوست دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، قطع بیاضی رو در نظر می‌گیریم. حالا نوع جلد کتاب چطور باشه؟"
+          },
+          {
+            "role": "user",
+            "text": "جلد شومیز رو ترجیح می‌دم."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، جلد شومیز. موضوع خاصی مدنظرتون هست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، درباره کارآفرینی و استارتاپ."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب، موضوع کارآفرینی و استارتاپ. ناشر مورد نظر خاصی دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "انتشارات آریانا قلم باشه، لطفاً."
+          },
+          {
+            "role": "assistant",
+            "text": "انتشارات آریانا قلم هم مدنظر قرار دادیم. چند صفحه باشه براتون مناسب‌تره؟"
+          },
+          {
+            "role": "user",
+            "text": "حدود 384 صفحه خوبه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، یه پیشنهاد مناسب دارم: کتاب 'شرکت شکست ناپذیر' اثر الکساندر استروالدر از انتشارات آریانا قلم، 384 صفحه داره و با قیمت 4,260,000 تومان موجوده. به نظرتون چطوره؟"
+          }
+        ],
+        "llm_improvements": "جریان مکالمه طبیعی‌تر شده و تعامل دوستانه‌تری بین کاربر و دستیار برقرار شده است. سوالات و پاسخ‌ها مختصر و دقیق‌تر بیان شده‌اند.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 4863,
+        "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+        "brand": "ایسوس",
+        "category": "لپ تاپ و الترابوک",
+        "price": null,
+        "cluster_id": "54",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "ظرفیت حافظه داخلی",
+            "feature_value": "256 گیگابایت",
+            "custom_metric": 0.011245
+          },
+          {
+            "feature_name": "فرکانس حافظه رم (RAM)",
+            "feature_value": "2400 مگاهرتز",
+            "custom_metric": 0.008532
+          },
+          {
+            "feature_name": "مدل پردازنده گرافیکی",
+            "feature_value": "UHD Graphics (integrated)",
+            "custom_metric": 0.003055
+          },
+          {
+            "feature_name": "سری پردازنده",
+            "feature_value": "Celeron",
+            "custom_metric": 0.001841
+          },
+          {
+            "feature_name": "حافظه Cache",
+            "feature_value": "4 مگابایت",
+            "custom_metric": 0.00184
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال یه لپ تاپ یا الترابوک خوب می‌گردم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! چه خوب، می‌تونم بهتون کمک کنم. ظرفیت حافظه داخلی‌اش چقدر مد نظرته؟"
+          },
+          {
+            "role": "user",
+            "text": "دوست دارم ظرفیت حافظه داخلی‌اش 256 گیگابایت باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، 256 گیگابایت. حالا ببینیم فرکانس رم چقدر بخوای بهتره؟"
+          },
+          {
+            "role": "user",
+            "text": "رم با فرکانس 2400 مگاهرتز خوبه برام."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، 2400 مگاهرتز. پردازنده گرافیکی چطور، کدوم مدل مد نظرتونه؟"
+          },
+          {
+            "role": "user",
+            "text": "مدل UHD Graphics (یکپارچه) رو ترجیح می‌دم."
+          },
+          {
+            "role": "assistant",
+            "text": "خوبه، پس همون مدل. حالا در مورد سری پردازنده چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "سری Celeron برام مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "باشه، سری Celeron. و آخرین سوال، حافظه Cache چقدر باشه؟"
+          },
+          {
+            "role": "user",
+            "text": "حافظه Cache چهار مگابایت برام مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "با توجه به نیازهایی که گفتید، لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503 با مشخصات Celeron N4020، 4GB DDR4، 256GB SSD و صفحه نمایش TFT رو بهتون پیشنهاد می‌دم."
+          }
+        ],
+        "llm_improvements": "گفتگو با لحنی دوستانه‌تر و طبیعی‌تر بازنویسی شده است و سوالات و پاسخ‌ها به صورت محاوره‌ای‌تر و غیررسمی‌تر بیان شده‌اند.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 10101,
+        "product_title": "ساعت هوشمند ویوو مدل SW01",
+        "brand": "ویوو",
+        "category": "ساعت و مچ بند هوشمند",
+        "price": 7600000.0,
+        "cluster_id": "106",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "جنس بند",
+            "feature_value": "سیلیکون",
+            "custom_metric": 0.000132
+          },
+          {
+            "feature_name": "حس‌گرها",
+            "feature_value": "شمارشگر ضربان قلب, شمارنده ضربان قلب (Heart Rate)",
+            "custom_metric": 4.4e-05
+          },
+          {
+            "feature_name": "حافظه داخلی",
+            "feature_value": "32M+ 23M",
+            "custom_metric": 3.5e-05
+          },
+          {
+            "feature_name": "نوع قفل بند",
+            "feature_value": "پین‌بند",
+            "custom_metric": 3.1e-05
+          },
+          {
+            "feature_name": "ظرفیت باتری",
+            "feature_value": "270 میلی آمپر ساعت",
+            "custom_metric": 3e-05
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، من دنبال یک ساعت یا مچ‌بند هوشمند خوب هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! خوش آمدید. چه جنسی از بند را ترجیح می‌دهید؟"
+          },
+          {
+            "role": "user",
+            "text": "بند سیلیکونی مدنظرم هست."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار عالی، بند سیلیکونی انتخاب خوبی است. حس‌گر خاصی مدنظرتان است؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، به حس‌گر شمارشگر ضربان قلب نیاز دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم. حافظه داخلی چطور؟ چه ظرفیتی نیاز دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "حافظه داخلی 32M+ 23M مناسب است."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، مشخص است که دقیق می‌دانید چه می‌خواهید. نوع قفل بند چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "به قفل بند پین‌بند علاقه‌مندم."
+          },
+          {
+            "role": "assistant",
+            "text": "پین‌بند هم که راحت و کارآمد است. ظرفیت باتری چقدر برایتان مهم است؟"
+          },
+          {
+            "role": "user",
+            "text": "ظرفیت باتری 270 میلی‌آمپر ساعت مناسب من است."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب! با این ویژگی‌ها، ساعت هوشمند ویوو مدل SW01 از برند ویوو با قیمت 7,600,000 تومان می‌تواند گزینه‌ی خوبی برای شما باشد."
+          }
+        ],
+        "llm_improvements": "گفتگو اصلاح شد تا طبیعی‌تر و روان‌تر باشد و به تدریج و با دقت ویژگی‌های مورد نظر کاربر را دریافت کند. لحنی دوستانه و مکالمه‌ای به کار گرفته شد تا تجربه کاربر را بهبود بخشد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 7643,
+        "product_title": "روفرشی ستاره زرین یزد مدل زر افشان کد 860s",
+        "brand": "متفرقه",
+        "category": "فرش و گلیم",
+        "price": 8950000.0,
+        "cluster_id": "159",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 8,
+        "num_features": 3,
+        "features": [
+          {
+            "feature_name": "نوع",
+            "feature_value": "مخمل و شانل",
+            "custom_metric": 0.001068
+          },
+          {
+            "feature_name": "سایر توضیحات",
+            "feature_value": "روفرشی مخمل ابریشم با کیفیت درجه یک و طرح جدید افشان فوق العاده زیبا محصولی خاص از شرکت ستاره زرین یزد",
+            "custom_metric": 0.000238
+          },
+          {
+            "feature_name": "فرم طراحی",
+            "feature_value": "مستطیل",
+            "custom_metric": 0.000111
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "شما فرش و گلیم هم دارید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "بله، ما مجموعه‌ای متنوع از فرش و گلیم داریم. مدل خاصی مد نظرتان هست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ترجیحاً چیزی از جنس مخمل و شانل."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب، محصولات مخمل و شانل زیادی داریم. آیا ویژگی خاصی را هم در نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "دنبال چیزی هستم که روفرشی مخمل ابریشم با کیفیت عالی و طرح جدید افشان از شرکت ستاره زرین یزد باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "فهمیدم، محصولی با روفرشی مخمل ابریشم و طرح افشان از ستاره زرین یزد. طراحی خاصی مد نظرتان هست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، دوست دارم مستطیل شکل باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، می‌توانم روفرشی ستاره زرین یزد مدل زر افشان کد 860s را با قیمت 8,950,000 تومان به شما پیشنهاد کنم."
+          }
+        ],
+        "llm_improvements": "گفتگو طبیعی‌تر شده و با استفاده از جملات ساده و روان، جریان مکالمه بهتر به تصویر کشیده شده است. همچنین، از زبان روزمره و اصطلاحات متداول برای نزدیکی بیشتر به مکالمات واقعی استفاده شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 8,
+        "rewritten_dialogue_rounds": 8
+      },
+      {
+        "product_id": 1454,
+        "product_title": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+        "brand": "شیائومی",
+        "category": "گوشی موبایل",
+        "price": null,
+        "cluster_id": "17",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "استاندارد کارت حافظه",
+            "feature_value": "UFS 2.2",
+            "custom_metric": 0.002297
+          },
+          {
+            "feature_name": "شبکه‌های ارتباطی قابل پشتیبانی",
+            "feature_value": "Infrared, NFC, OTG, Wi-Fi, بلوتوث, رادیو",
+            "custom_metric": 0.000916
+          },
+          {
+            "feature_name": "حافظه داخلی",
+            "feature_value": "128 گیگابایت",
+            "custom_metric": 0.000725
+          },
+          {
+            "feature_name": "تکنولوژی‌های مکان‌یابی (GPS)",
+            "feature_value": "A-GPS, BDS(Beidou), GALILEO, GLONASS",
+            "custom_metric": 0.00061
+          },
+          {
+            "feature_name": "مقدار RAM",
+            "feature_value": "6 گیگابایت",
+            "custom_metric": 0.000439
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام! آیا گوشی موبایل مناسبی برای خرید دارید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، ما گوشی‌های متنوعی داریم. می‌تونم بر اساس نیازتون کمک کنم، مثلا استاندارد کارت حافظه‌ای که مد نظر دارید چیه؟"
+          },
+          {
+            "role": "user",
+            "text": "من به دنبال گوشی‌ای هستم که از استاندارد کارت حافظه UFS 2.2 پشتیبانی کنه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه! استاندارد کارت حافظه UFS 2.2 رو در نظر گرفتیم. در مورد شبکه‌های ارتباطی، چه ویژگی‌هایی براتون اهمیت داره؟"
+          },
+          {
+            "role": "user",
+            "text": "شبکه‌هایی مثل Infrared، NFC، OTG، Wi-Fi، بلوتوث و رادیو برام مهمه."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده، این شبکه‌ها رو هم در نظر گرفتیم. حالا در مورد حافظه داخلی گوشی، چه ظرفیتی براتون مناسب هست؟"
+          },
+          {
+            "role": "user",
+            "text": "من به گوشی با حافظه داخلی 128 گیگابایت نیاز دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب! حافظه داخلی 128 گیگابایت رو اضافه کردیم. در مورد تکنولوژی‌های مکان‌یابی مثل GPS، به چه امکاناتی نیاز دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "GPS با تکنولوژی‌های A-GPS، BDS، GALILEO و GLONASS برای من ضروریه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، این تکنولوژی‌های مکان‌یابی رو هم لحاظ کردیم. آخرین سوال، مقدار RAM گوشی مد نظرتون چقدره؟"
+          },
+          {
+            "role": "user",
+            "text": "من گوشی با RAM 6 گیگابایت می‌خوام."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده! بر اساس مشخصات مد نظرتون، گوشی شیائومی مدل Redmi 9T با ظرفیت 128 گیگابایت و RAM 6 گیگابایت می‌تونه انتخاب مناسبی برای شما باشه. اگر اطلاعات بیشتری لازم دارید، خوشحال می‌شم کمک کنم."
+          }
+        ],
+        "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شده و از جملات محاوره‌ای و دوستانه استفاده شده است. همچنین سوالات به تدریج با توضیح مختصر برای ایجاد ارتباط بهتر مطرح شده‌اند.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 6669,
+        "product_title": "کتابخانه مدل رویسان دستگیره دار ",
+        "brand": "متفرقه",
+        "category": "دکوراسیون خانگی",
+        "price": 34000000.0,
+        "cluster_id": "59",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 8,
+        "num_features": 3,
+        "features": [
+          {
+            "feature_name": "تعداد طبقه",
+            "feature_value": "سه عدد",
+            "custom_metric": 0.000372
+          },
+          {
+            "feature_name": "جنس",
+            "feature_value": "لترون",
+            "custom_metric": 0.000312
+          },
+          {
+            "feature_name": "ابعاد",
+            "feature_value": "80x30x120 سانتی‌متر",
+            "custom_metric": 0.000187
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال یک محصول در دسته‌بندی دکوراسیون خانگی هستم. می‌تونید کمکم کنید؟"
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! بله، حتماً. برای اینکه بهتر کمکتون کنم، چند طبقه مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "سه طبقه باشه خوبه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه. حالا در مورد جنس، چه ماده‌ای رو ترجیح می‌دید؟"
+          },
+          {
+            "role": "user",
+            "text": "لترون عالیه."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب، و در مورد ابعاد، چه اندازه‌ای رو در نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "ابعاد 80 در 30 در 120 سانتی‌متر مناسبه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی هم خوب. با توجه به مشخصاتی که دادید، یک کتابخانه مدل رویسان با دستگیره از برند متفرقه داریم که قیمتش 34,000,000 تومان هست و احتمالاً همون چیزی باشه که دنبالش بودید."
+          }
+        ],
+        "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شده و شامل تبادل نظر طبیعی بین کاربر و دستیار است. همچنین، به جای تکرار اطلاعات، مکالمه به صورت پرسش و پاسخ پیش می‌رود.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 8,
+        "rewritten_dialogue_rounds": 8
+      },
+      {
+        "product_id": 8311,
+        "product_title": "کلاژ  چرم و پوست مدل LFM402",
+        "brand": "متفرقه",
+        "category": "فرش و گلیم",
+        "price": 128000000.0,
+        "cluster_id": "82",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "فرم طراحی",
+            "feature_value": "هشت ضلعی",
+            "custom_metric": 0.024111
+          },
+          {
+            "feature_name": "جنس نخ پود",
+            "feature_value": "نخ پنبه",
+            "custom_metric": 0.003835
+          },
+          {
+            "feature_name": "سایز",
+            "feature_value": "2.1 متر مربع",
+            "custom_metric": 0.00276
+          },
+          {
+            "feature_name": "سایر توضیحات",
+            "feature_value": "تهیه شده از  چرم و پوست گاوی .\r\nپس از باز کردن  از حالت رول شده یکبار در جهت مخالف  رول کنید و اجازه دهید 48 ساعت بر روی زمین پهن باشد تا کاملا باز شود",
+            "custom_metric": 0.002314
+          },
+          {
+            "feature_name": "وزن تقریبی",
+            "feature_value": "3.200 کیلوگرم",
+            "custom_metric": 0.002261
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال فرش یا گلیمی هستم که به فضای خونه بیاد."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! خوشحالم که می‌تونم کمکتون کنم. در مورد فرم طراحی، ایده خاصی دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، مدل هشت ضلعی رو دوست دارم."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی عالی! به جنس نخ پود هم دقت کردید؟"
+          },
+          {
+            "role": "user",
+            "text": "ترجیح می‌دم از نخ پنبه استفاده شده باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، نخ پنبه بسیار خوبه. سایز خاصی مدنظرتون هست؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، سایز 2.1 متر مربع رو می‌خوام."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم. توضیح خاصی در مورد ساختار یا نحوه نگهداریش هست که باید بدونم؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، از چرم و پوست گاوی تهیه شده باشه و برای باز شدنش بعد از رول، بهتره یکبار در جهت مخالف رول بشه و 48 ساعت روی زمین پهن بمونه."
+          },
+          {
+            "role": "assistant",
+            "text": "بسیار خوب، این نکته رو هم در نظر می‌گیرم. وزن تقریبی مورد نظرتون چقدره؟"
+          },
+          {
+            "role": "user",
+            "text": "حدود 3.200 کیلوگرم."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی، بر اساس این مشخصات، کلاژ چرم و پوست مدل LFM402 رو با قیمت 128,000,000 تومان پیشنهاد می‌کنم."
+          }
+        ],
+        "llm_improvements": "زبان مکالمه طبیعی‌تر و دوستانه‌تر شده و اطلاعات به صورت روان‌تر و مشخص‌تر مطرح شده است.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      },
+      {
+        "product_id": 3408,
+        "product_title": "کوله پشتی مدل SH1037-2",
+        "brand": "متفرقه",
+        "category": "لوازم تحریر",
+        "price": 6000000.0,
+        "cluster_id": "66",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 10,
+        "num_features": 4,
+        "features": [
+          {
+            "feature_name": "تعداد جیب خارجی",
+            "feature_value": "3",
+            "custom_metric": 0.000174
+          },
+          {
+            "feature_name": "توضیحات دسته",
+            "feature_value": "دارای دو دسته: یک دسته ابری مستحکم و یک دسته ساده",
+            "custom_metric": 9.3e-05
+          },
+          {
+            "feature_name": "وزن",
+            "feature_value": "620 گرم",
+            "custom_metric": 7.9e-05
+          },
+          {
+            "feature_name": "ابعاد",
+            "feature_value": "44x36x16 سانتی‌متر",
+            "custom_metric": 6.7e-05
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، دنبال لوازم تحریری هستم که چند ویژگی خاص داشته باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! حتماً، چه ویژگی‌هایی برای شما مهمه؟"
+          },
+          {
+            "role": "user",
+            "text": "دوست دارم 3 تا جیب خارجی داشته باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، 3 جیب خارجی. دسته‌ها چطور باید باشن؟"
+          },
+          {
+            "role": "user",
+            "text": "دسته‌ها یکی باید ابری و مستحکم باشه و یکی ساده."
+          },
+          {
+            "role": "assistant",
+            "text": "فوق‌العاده! درباره وزنش چی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "وزنش بهتره 620 گرم باشه."
+          },
+          {
+            "role": "assistant",
+            "text": "عالیه، و ابعاد چطور؟"
+          },
+          {
+            "role": "user",
+            "text": "ابعاد 44 در 36 در 16 سانتی‌متر مناسب هست."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی هم عالی! با این مشخصات می‌تونم کوله پشتی مدل SH1037-2 رو با قیمت 6,000,000 تومان بهتون پیشنهاد بدم."
+          }
+        ],
+        "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شد و فواصل بین سوالات دستیار و پاسخ‌های کاربر با دقت بیشتر و گفتگوی دوستانه‌تری تنظیم شد.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 10,
+        "rewritten_dialogue_rounds": 10
+      },
+      {
+        "product_id": 5890,
+        "product_title": "میز و صندلی ناهارخوری 4 نفره مدل kh004",
+        "brand": "گالری والریان",
+        "category": "دکوراسیون خانگی",
+        "price": 89900000.0,
+        "cluster_id": "14",
+        "method": "highest_metric",
+        "type": 1,
+        "dialogue_rounds": 12,
+        "num_features": 5,
+        "features": [
+          {
+            "feature_name": "نوع میز و صندلی ناهارخوری",
+            "feature_value": "چهار نفره",
+            "custom_metric": 0.000339
+          },
+          {
+            "feature_name": "وزن صندلی",
+            "feature_value": "5000",
+            "custom_metric": 0.000269
+          },
+          {
+            "feature_name": "وزن میز",
+            "feature_value": "15000",
+            "custom_metric": 0.000269
+          },
+          {
+            "feature_name": "ارتفاع صندلی",
+            "feature_value": "78 سانتی‌متر",
+            "custom_metric": 0.000254
+          },
+          {
+            "feature_name": "ابعاد میز",
+            "feature_value": "90×90×80",
+            "custom_metric": 0.000214
+          }
+        ],
+        "dialogue": [
+          {
+            "role": "user",
+            "text": "سلام، به دنبال میز و صندلی ناهارخوری برای خانه‌ام هستم."
+          },
+          {
+            "role": "assistant",
+            "text": "سلام! خوش آمدید. چه نوع میز و صندلی‌ای مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "ترجیح می‌دهم یک ست چهار نفره باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "عالی است. ست‌های چهار نفره گزینه‌های محبوبی هستند. آیا وزن خاصی برای صندلی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، بهتر است وزن هر صندلی حدود 5 کیلوگرم باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم، صندلی‌هایی با وزن 5 کیلوگرم. برای میز چه وزنی را ترجیح می‌دهید؟"
+          },
+          {
+            "role": "user",
+            "text": "وزن میز هم حدود 15 کیلوگرم باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی خوب، وزنی نسبتا سبک و مناسب. ارتفاع صندلی چطور؟ گزینه خاصی مد نظر دارید؟"
+          },
+          {
+            "role": "user",
+            "text": "بله، ارتفاع صندلی حدود 78 سانتی‌متر باشد."
+          },
+          {
+            "role": "assistant",
+            "text": "متوجه شدم. و در مورد ابعاد میز، چه اندازه‌ای برای فضای خانه شما مناسب است؟"
+          },
+          {
+            "role": "user",
+            "text": "میزی با ابعاد 90 در 90 سانتی‌متر و ارتفاع 80 سانتی‌متر خوب است."
+          },
+          {
+            "role": "assistant",
+            "text": "خیلی هم عالی! بر اساس توضیحات شما، یک ست ناهارخوری چهار نفره مدل kh004 از گالری والریان با قیمت 89,900,000 تومان پیشنهاد می‌کنم. این مدل کاملا مطابق با نیاز شماست."
+          }
+        ],
+        "llm_improvements": "گفتگو طبیعی‌تر و روان‌تر شده است. از جملات و سوالات ساده‌تر و دوستانه استفاده شده و اطلاعات به صورت تدریجی و منطقی جمع‌آوری شده است. همچنین لحن مکالمه به گونه‌ای تنظیم شده که حس تعامل واقعی بین کاربر و دستیار ایجاد شود.",
+        "llm_rewritten": true,
+        "original_dialogue_rounds": 12,
+        "rewritten_dialogue_rounds": 12
+      }
+    ]
+  }
+}

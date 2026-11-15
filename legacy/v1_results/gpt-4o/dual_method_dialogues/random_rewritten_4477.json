@@ -1,0 +1,93 @@
+{
+  "product_id": 4477,
+  "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-4TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": 1979000000.0,
+  "cluster_id": "50",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "قابلیت‌های درگاه‌های ارتباطی",
+      "feature_value": "خروجی تصویر (DisplayPort) از طریق پورت USB, خروجی شارژ PD",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "حافظه اختصاصی پردازنده گرافیکی",
+      "feature_value": "8 گیگابایت",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "سازنده پردازنده",
+      "feature_value": "Intel",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "مشخصات حافظه داخلی",
+      "feature_value": "NVMe PCIe Gen 4.0",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "وزن",
+      "feature_value": "2.2 کیلوگرم",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام! آیا لپ‌تاپ یا الترابوکی دارید که به خوبی نیازهای من رو برآورده کنه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! بله، حتماً. چه ویژگی‌هایی براتون مهم‌تره؟"
+    },
+    {
+      "role": "user",
+      "text": "من به درگاه‌های ارتباطی مثل خروجی تصویر از طریق USB و شارژ PD نیاز دارم."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه، پس به دنبال پورت‌هایی مثل DisplayPort از طریق USB و شارژ PD هستید. در مورد پردازنده گرافیکی چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "حافظه اختصاصی پردازنده گرافیکی 8 گیگابایت برام مهمه."
+    },
+    {
+      "role": "assistant",
+      "text": "باشه، 8 گیگابایت حافظه اختصاصی. سازنده پردازنده چی؟"
+    },
+    {
+      "role": "user",
+      "text": "ترجیح می‌دم پردازنده‌ از شرکت Intel باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "فوق‌العاده، پردازنده Intel. حالا درباره حافظه داخلی چه نظری دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "حافظه داخلی NVMe PCIe Gen 4.0 برام ایده‌آله."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه، و درباره وزن دستگاه چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "وزن حدود 2.2 کیلوگرم برام مناسبه."
+    },
+    {
+      "role": "assistant",
+      "text": "با توجه به نیازهای شما، پیشنهاد من لپ‌تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 هست که همه مشخصات مورد نظرتون رو داره."
+    }
+  ],
+  "llm_improvements": "گفتگو به صورت طبیعی‌تر بازنویسی شد و تمرکز بیشتری بر نیازهای کاربر و تعامل روان‌تری بین دو طرف ایجاد شد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

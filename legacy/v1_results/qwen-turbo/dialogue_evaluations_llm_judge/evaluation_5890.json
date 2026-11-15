@@ -1,0 +1,103 @@
+{
+  "product_id": 5890,
+  "product_title": "میز و صندلی ناهارخوری 4 نفره مدل kh004",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 6,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما محدود در پوشش ویژگی‌های محصول و کمک به انتخاب.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 6,\n        \"realism\": 6,\n        \"coverage\": 5,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگو طبیعی است اما نیاز به توضیحات بیشتر درباره مشخصات محصول دارد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 9,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان، دقیق و جامع است و به کاربر کمک خوبی می‌کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 10,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو با جزئیات فنی بالا، واقع‌گرایانه و بسیار کمک‌کننده است.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو جامع، واقع‌گرا و با اطلاعات دقیق است که به کاربر کمک می‌کند.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_alt\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو مناسب است اما در مقایسه با گفتگوهای دیگر کمی کم‌عمق‌تر است.\"\n    }\n  ],\n  \"ranking\": [4, 5, 3, 6, 1, 2]\n}",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 7,
+          "realism": 7,
+          "coverage": 6,
+          "helpfulness": 7,
+          "overall": 7
+        },
+        "comment": "گفتگو روان است اما محدود در پوشش ویژگی‌های محصول و کمک به انتخاب."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 7,
+          "accuracy": 6,
+          "realism": 6,
+          "coverage": 5,
+          "helpfulness": 6,
+          "overall": 6
+        },
+        "comment": "گفتگو طبیعی است اما نیاز به توضیحات بیشتر درباره مشخصات محصول دارد."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 9,
+          "overall": 8
+        },
+        "comment": "گفتگو روان، دقیق و جامع است و به کاربر کمک خوبی می‌کند."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 10,
+          "overall": 9
+        },
+        "comment": "گفتگو با جزئیات فنی بالا، واقع‌گرایانه و بسیار کمک‌کننده است."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "گفتگو جامع، واقع‌گرا و با اطلاعات دقیق است که به کاربر کمک می‌کند."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_alt",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو مناسب است اما در مقایسه با گفتگوهای دیگر کمی کم‌عمق‌تر است."
+      }
+    ],
+    "ranking": [
+      4,
+      5,
+      3,
+      6,
+      1,
+      2
+    ]
+  }
+}

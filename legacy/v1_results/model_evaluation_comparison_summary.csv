@@ -1,0 +1,7 @@
+Metric,qwen-turbo,llama3,gpt-4o
+Fluency,8.28,7.92,8.32
+Accuracy,8.22,8.45,8.52
+Realism,7.85,6.94,8.00
+Coverage,7.85,7.90,8.15
+Helpfulness,8.20,7.90,8.02
+Overall,8.07,7.89,8.08

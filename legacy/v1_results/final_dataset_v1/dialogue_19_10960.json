@@ -1,0 +1,262 @@
+{
+  "product_id": 10960,
+  "product_title": "ساعت هوشمند ایمیکی مدل APY TG1 ERGONOMIC ENABLES ",
+  "brand": "ایمیکی",
+  "category": "ساعت و مچ بند هوشمند",
+  "price": 31990000.0,
+  "cluster_id": "42",
+  "type": 4,
+  "dialogue_rounds": 14,
+  "selected_features": [
+    {
+      "feature_name": "مشخصات_نحوه شارژ ساعت هوشمند",
+      "feature_value": "کابل مغناطیسی",
+      "custom_metric": 0.00115
+    },
+    {
+      "feature_name": "مشخصات_سازگار با سیستم عامل",
+      "feature_value": "اندروید, iOS",
+      "custom_metric": 0.000546
+    },
+    {
+      "feature_name": "مشخصات_قابلیت‌های ساعت هوشمند",
+      "feature_value": "کنترل موسیقی (Music Player), قابلیت مکالمه از طریق بلوتوث",
+      "custom_metric": 0.00041
+    },
+    {
+      "feature_name": "مشخصات_جنس بدنه",
+      "feature_value": "فلز",
+      "custom_metric": 0.000332
+    },
+    {
+      "feature_name": "مشخصات_حس‌گرها",
+      "feature_value": "شمارنده ضربان قلب (Heart Rate), سنجش اکسیژن خون (SPO2)",
+      "custom_metric": 0.00033
+    }
+  ],
+  "features_discussed": [
+    "نحوه شارژ ساعت هوشمند",
+    "سازگار با سیستم عامل",
+    "قابلیت‌های ساعت هوشمند",
+    "جنس بدنه",
+    "حس‌گرها"
+  ],
+  "dialogue_summary": "مشتری به دنبال ساعت هوشمند سازگار با اندروید بود. دستیار مدل ایمیکی APY TG1 را با ویژگی‌هایی چون کنترل موسیقی، مکالمه با بلوتوث، جنس بدنه فلزی، حس‌گرهای ضربان قلب و اکسیژن خون و نحوه شارژ مغناطیسی معرفی کرد. قیمت نیز اقتصادی و نسبت به رقبا پایین‌تر بود.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال یک ساعت هوشمند خوب هستم که با گوشی اندرویدم سازگار باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! خوش آمدید. به شما ساعت هوشمند ایمیکی مدل APY TG1 رو پیشنهاد می‌کنم که با سیستم عامل‌های اندروید و iOS سازگاره. آیا امکانات دیگه‌ای مد نظرتون هست؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، دوست دارم ساعت بتونه موسیقی رو کنترل کنه و از طریق بلوتوث تماس بگیرم."
+    },
+    {
+      "role": "assistant",
+      "text": "این ساعت دقیقاً همون قابلیت‌ها رو داره، هم می‌تونید موسیقی پخش شده روی گوشی رو کنترل کنید و هم از طریق بلوتوث مکالمه داشته باشید. جنس بدنه هم از فلزه که دوام خوبی داره. نظر شما چیه؟"
+    },
+    {
+      "role": "user",
+      "text": "عالیه، جنس فلزی رو ترجیح میدم. آیا حس‌گرهایی هم داره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این ساعت حس‌گر شمارنده ضربان قلب و سنجش اکسیژن خون داره که برای سلامت و ورزش عالیه. نحوه شارژش هم با کابل مغناطیسی خیلی ساده‌س."
+    },
+    {
+      "role": "user",
+      "text": "نحوه شارژ مغناطیسی به نظر راحت میاد. چقدر هزینه داره و نسبت به بقیه چجوریه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمت این ساعت 31,990,000 ریاله که نسبت به محصولات مشابه اقتصادی محسوب میشه و تقریباً 7 درصد از میانگین بازار پایین‌تره. به خاطر همین قیمت اقتصادی، ارزش خرید بالایی داره."
+    },
+    {
+      "role": "user",
+      "text": "در مورد محبوبیت یا نظرات کاربران چیزی می‌دونین؟"
+    },
+    {
+      "role": "assistant",
+      "text": "در حال حاضر نظرات زیادی در موردش ثبت نشده، اما از نظر کارایی و قیمت با محصولات مشابه هم‌سطحه و برای مصرف‌کنندگان اقتصادی خیلی پیشنهاد میشه."
+    },
+    {
+      "role": "user",
+      "text": "آیا گزینه‌های جایگزین هم هست که مقایسه کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، مثلاً ساعت هوشمند هاینو تکو مدل NS SWITCHING GP MAGNETIC 17 با قیمت مشابهی هست ولی این مدل ایمیکی از نظر جنس بدنه و قابلیت‌های مکالمه و کنترل موسیقی بسیار ارزشمنده."
+    },
+    {
+      "role": "user",
+      "text": "به نظر میاد گزینه خوبی باشه. ممنون از راهنمایی‌تون."
+    },
+    {
+      "role": "assistant",
+      "text": "خواهش می‌کنم! اگر سوال دیگه‌ای هست، خوشحال می‌شم کمکتون کنم."
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام، دنبال یک ساعت هوشمند خوب هستم که با گوشی اندرویدم سازگار باشه.\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! خوش آمدید. به شما ساعت هوشمند ایمیکی مدل APY TG1 رو پیشنهاد می‌کنم که با سیستم عامل‌های اندروید و iOS سازگاره. آیا امکانات دیگه‌ای مد نظرتون هست؟\"},\n    {\"role\": \"user\", \"text\": \"بله، دوست دارم ساعت بتونه موسیقی رو کنترل کنه و از طریق بلوتوث تماس بگیرم.\"},\n    {\"role\": \"assistant\", \"text\": \"این ساعت دقیقاً همون قابلیت‌ها رو داره، هم می‌تونید موسیقی پخش شده روی گوشی رو کنترل کنید و هم از طریق بلوتوث مکالمه داشته باشید. جنس بدنه هم از فلزه که دوام خوبی داره. نظر شما چیه؟\"},\n    {\"role\": \"user\", \"text\": \"عالیه، جنس فلزی رو ترجیح میدم. آیا حس‌گرهایی هم داره؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این ساعت حس‌گر شمارنده ضربان قلب و سنجش اکسیژن خون داره که برای سلامت و ورزش عالیه. نحوه شارژش هم با کابل مغناطیسی خیلی ساده‌س.\"},\n    {\"role\": \"user\", \"text\": \"نحوه شارژ مغناطیسی به نظر راحت میاد. چقدر هزینه داره و نسبت به بقیه چجوریه؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمت این ساعت 31,990,000 ریاله که نسبت به محصولات مشابه اقتصادی محسوب میشه و تقریباً 7 درصد از میانگین بازار پایین‌تره. به خاطر همین قیمت اقتصادی، ارزش خرید بالایی داره.\"},\n    {\"role\": \"user\", \"text\": \"در مورد محبوبیت یا نظرات کاربران چیزی می‌دونین؟\"},\n    {\"role\": \"assistant\", \"text\": \"در حال حاضر نظرات زیادی در موردش ثبت نشده، اما از نظر کارایی و قیمت با محصولات مشابه هم‌سطحه و برای مصرف‌کنندگان اقتصادی خیلی پیشنهاد میشه.\"},\n    {\"role\": \"user\", \"text\": \"آیا گزینه‌های جایگزین هم هست که مقایسه کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، مثلاً ساعت هوشمند هاینو تکو مدل NS SWITCHING GP MAGNETIC 17 با قیمت مشابهی هست ولی این مدل ایمیکی از نظر جنس بدنه و قابلیت‌های مکالمه و کنترل موسیقی بسیار ارزشمنده.\"},\n    {\"role\": \"user\", \"text\": \"به نظر میاد گزینه خوبی باشه. ممنون از راهنمایی‌تون.\"},\n    {\"role\": \"assistant\", \"text\": \"خواهش می‌کنم! اگر سوال دیگه‌ای هست، خوشحال می‌شم کمکتون کنم.\"}\n  ],\n  \"features_discussed\": [\"نحوه شارژ ساعت هوشمند\", \"سازگار با سیستم عامل\", \"قابلیت‌های ساعت هوشمند\", \"جنس بدنه\", \"حس‌گرها\"],\n  \"dialogue_summary\": \"مشتری به دنبال ساعت هوشمند سازگار با اندروید بود. دستیار مدل ایمیکی APY TG1 را با ویژگی‌هایی چون کنترل موسیقی، مکالمه با بلوتوث، جنس بدنه فلزی، حس‌گرهای ضربان قلب و اکسیژن خون و نحوه شارژ مغناطیسی معرفی کرد. قیمت نیز اقتصادی و نسبت به رقبا پایین‌تر بود.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 10203,
+      "title": "ساعت هوشمند هاینو تکو مدل NS SWITCHING GP MAGNETIC 17",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 31990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9689,
+      "price_diff_percent": 0.0,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 2,
+      "product_id": 10665,
+      "title": "ساعت هوشمند ایمیکی مدل MSU LIMITED SE1 ALGORITHM ",
+      "brand": "ایمیکی",
+      "category_id": 6,
+      "price": 43680000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9616,
+      "price_diff_percent": 36.54,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 3,
+      "product_id": 10463,
+      "title": "ساعت هوشمند هاینو تکو مدل BG SAFE T92 LIMITED MAX ULTRA",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 32650000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9511,
+      "price_diff_percent": 2.06,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 4,
+      "product_id": 10658,
+      "title": "ساعت هوشمند هاینو تکو مدل MON CUSTOM C7 BALANCED ",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 32650000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9511,
+      "price_diff_percent": 2.06,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 5,
+      "product_id": 10943,
+      "title": "ساعت هوشمند ایمی لب مدل MMD NATRUL W02",
+      "brand": "آی می لب",
+      "category_id": 6,
+      "price": 32654000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9511,
+      "price_diff_percent": 2.08,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 6,
+      "product_id": 10454,
+      "title": "ساعت هوشمند هاینو تکو مدل TOP SURFACE 12",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 32900000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9486,
+      "price_diff_percent": 2.84,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 7,
+      "product_id": 10702,
+      "title": "ساعت هوشمند هاینو تکو مدل MMD T92 OPTIMIZER ULTRA ",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 29863000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9475,
+      "price_diff_percent": -6.65,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 8,
+      "product_id": 10688,
+      "title": "ساعت هوشمند هاینو تکو مدل NSR TEXTURE SQ IMPROVE 9",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 34560000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9443,
+      "price_diff_percent": 8.03,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 9,
+      "product_id": 10727,
+      "title": "ساعت هوشمند هاینو تکو مدل HL RESISTANCE C ACOUSTIC 7",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 34625000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.944,
+      "price_diff_percent": 8.24,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 10,
+      "product_id": 10779,
+      "title": "ساعت هوشمند هاینو تکو مدل MON SMART BEST ULTRA H49 MAX ",
+      "brand": "هاینو تکو",
+      "category_id": 6,
+      "price": 38520000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.943,
+      "price_diff_percent": 20.41,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    }
+  ],
+  "product_details": {
+    "title": "ساعت هوشمند ایمیکی مدل APY TG1 ERGONOMIC ENABLES ",
+    "brand": "ایمیکی",
+    "category": "ساعت و مچ بند هوشمند",
+    "price": 31990000.0
+  }
+}

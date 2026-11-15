@@ -1,0 +1,103 @@
+{
+  "product_id": 8311,
+  "product_title": "کلاژ  چرم و پوست مدل LFM402",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به خوبی نیازهای کاربر را پوشش داده و به انتخاب محصول کمک می‌کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو نیز بسیار روان و دقیق است و اطلاعات کاملی درباره محصول ارائه می‌دهد که به تصمیم‌گیری کاربر کمک می‌کند.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"این گفتگو روان و دقیق است اما جزئیات کمتری نسبت به گفتگوهای برتر ارائه می‌دهد و کمی کمتر واقع‌گرایانه به نظر می‌رسد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"این گفتگو روان است اما اطلاعات ارائه شده کمتر دقیق و جامع بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 6,\n        \"accuracy\": 6,\n        \"realism\": 6,\n        \"coverage\": 6,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"این گفتگو نسبتاً روان است اما اطلاعات ارائه شده محدودتر بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 5,\n        \"accuracy\": 5,\n        \"realism\": 5,\n        \"coverage\": 5,\n        \"helpfulness\": 5,\n        \"overall\": 5\n      },\n      \"comment\": \"این گفتگو کمتر روان و دقیق است و اطلاعات ارائه شده ناقص بوده و نیازهای کاربر را به خوبی پوشش نمی‌دهد.\"\n    }\n  ],\n  \"ranking\": [1, 4, 3, 2, 6, 5]\n}\n```",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به خوبی نیازهای کاربر را پوشش داده و به انتخاب محصول کمک می‌کند."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "این گفتگو نیز بسیار روان و دقیق است و اطلاعات کاملی درباره محصول ارائه می‌دهد که به تصمیم‌گیری کاربر کمک می‌کند."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "این گفتگو روان و دقیق است اما جزئیات کمتری نسبت به گفتگوهای برتر ارائه می‌دهد و کمی کمتر واقع‌گرایانه به نظر می‌رسد."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 7,
+          "accuracy": 7,
+          "realism": 7,
+          "coverage": 7,
+          "helpfulness": 7,
+          "overall": 7
+        },
+        "comment": "این گفتگو روان است اما اطلاعات ارائه شده کمتر دقیق و جامع بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_simulate",
+        "scores": {
+          "fluency": 6,
+          "accuracy": 6,
+          "realism": 6,
+          "coverage": 6,
+          "helpfulness": 6,
+          "overall": 6
+        },
+        "comment": "این گفتگو نسبتاً روان است اما اطلاعات ارائه شده محدودتر بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 5,
+          "accuracy": 5,
+          "realism": 5,
+          "coverage": 5,
+          "helpfulness": 5,
+          "overall": 5
+        },
+        "comment": "این گفتگو کمتر روان و دقیق است و اطلاعات ارائه شده ناقص بوده و نیازهای کاربر را به خوبی پوشش نمی‌دهد."
+      }
+    ],
+    "ranking": [
+      1,
+      4,
+      3,
+      2,
+      6,
+      5
+    ]
+  }
+}

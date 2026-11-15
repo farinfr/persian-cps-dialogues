@@ -1,0 +1,67 @@
+{
+  "product_id": 6669,
+  "product_title": "کتابخانه مدل رویسان دستگیره دار ",
+  "brand": "متفرقه",
+  "category": "دکوراسیون خانگی",
+  "price": 34000000.0,
+  "cluster_id": "59",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 8,
+  "num_features": 3,
+  "features": [
+    {
+      "feature_name": "ابعاد",
+      "feature_value": "80x30x120 سانتی‌متر",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "جنس",
+      "feature_value": "لترون",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "تعداد طبقه",
+      "feature_value": "سه عدد",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال یه محصول برای دکوراسیون خانه‌ام هستم."
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! خوش آمدید. می‌تونم کمکتون کنم. چه ابعادی مد نظرتونه؟"
+    },
+    {
+      "role": "user",
+      "text": "ابعاد 80 در 30 در 120 سانتی‌متر باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب! از نظر جنس، چه ماده‌ای رو ترجیح می‌دید؟"
+    },
+    {
+      "role": "user",
+      "text": "لترون باشه بهتره."
+    },
+    {
+      "role": "assistant",
+      "text": "لترون انتخاب خوبیه. چند طبقه نیاز دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "سه طبقه کافیه."
+    },
+    {
+      "role": "assistant",
+      "text": "عالی! بر اساس این مشخصات، کتابخانه مدل رویسان دستگیره‌دار از برند متفرقه با قیمت 34,000,000 تومان براتون مناسب به نظر میاد."
+    }
+  ],
+  "llm_improvements": "گفتگو به صورت طبیعی‌تر و روان‌تر اصلاح شد و با تاکید بر نیازهای کاربر به جای صرف تکرار، مکالمه به صورت محاوره‌ای و بهینه‌تر بازنویسی شد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 8,
+  "rewritten_dialogue_rounds": 8
+}

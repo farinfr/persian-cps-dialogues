@@ -1,0 +1,356 @@
+{
+  "clusters_tune": 42,
+  "clusters_eval": 128,
+  "targets_per_cluster": 15,
+  "assumptions": {
+    "1": {
+      "alpha_rpb": 0.1,
+      "alpha_initial": 0.25,
+      "k": {
+        "1": {
+          "strategies": {
+            "Random": {
+              "success": 72.65625,
+              "turns": 5.140104166666666,
+              "n": 1920
+            },
+            "Initial D(P)": {
+              "success": 86.51041666666667,
+              "turns": 3.394791666666667,
+              "n": 1920
+            },
+            "Entropy, default group": {
+              "success": 90.10416666666666,
+              "turns": 2.93125,
+              "n": 1920
+            },
+            "Entropy, real values": {
+              "success": 83.90625,
+              "turns": 3.863541666666667,
+              "n": 1920
+            },
+            "Corrected RPB": {
+              "success": 89.58333333333334,
+              "turns": 2.825,
+              "n": 1920
+            },
+            "Corrected RPB, no coverage": {
+              "success": 82.70833333333333,
+              "turns": 3.908333333333333,
+              "n": 1920
+            },
+            "Corrected RPB, no answerability": {
+              "success": 89.53125,
+              "turns": 2.894791666666667,
+              "n": 1920
+            },
+            "Corrected RPB, alpha=0": {
+              "success": 90.05208333333333,
+              "turns": 2.8098958333333335,
+              "n": 1920
+            }
+          },
+          "paired_differences": {
+            "Entropy, default group": {
+              "turns": [
+                -0.10625,
+                -0.1911848958333333,
+                -0.015091145833333404
+              ],
+              "success_pp": [
+                -0.5208333333333333,
+                -1.3020833333333335,
+                0.15625
+              ]
+            },
+            "Entropy, real values": {
+              "turns": [
+                -1.0385416666666667,
+                -1.1619921874999999,
+                -0.9046744791666668
+              ],
+              "success_pp": [
+                5.677083333333333,
+                4.427083333333334,
+                6.822916666666666
+              ]
+            },
+            "Initial D(P)": {
+              "turns": [
+                -0.5697916666666667,
+                -0.6708593749999999,
+                -0.4635286458333334
+              ],
+              "success_pp": [
+                3.0729166666666665,
+                1.9791666666666665,
+                4.115885416666659
+              ]
+            }
+          }
+        },
+        "3": {
+          "strategies": {
+            "Random": {
+              "success": 87.34375,
+              "turns": 3.0442708333333335,
+              "n": 1920
+            },
+            "Initial D(P)": {
+              "success": 95.625,
+              "turns": 1.6140625,
+              "n": 1920
+            },
+            "Entropy, default group": {
+              "success": 96.19791666666667,
+              "turns": 1.7578125,
+              "n": 1920
+            },
+            "Entropy, real values": {
+              "success": 93.85416666666667,
+              "turns": 2.1958333333333333,
+              "n": 1920
+            },
+            "Corrected RPB": {
+              "success": 96.25,
+              "turns": 1.5161458333333333,
+              "n": 1920
+            },
+            "Corrected RPB, no coverage": {
+              "success": 94.01041666666666,
+              "turns": 2.0942708333333333,
+              "n": 1920
+            },
+            "Corrected RPB, no answerability": {
+              "success": 96.25,
+              "turns": 1.6484375,
+              "n": 1920
+            },
+            "Corrected RPB, alpha=0": {
+              "success": 96.35416666666666,
+              "turns": 1.5223958333333334,
+              "n": 1920
+            }
+          },
+          "paired_differences": {
+            "Entropy, default group": {
+              "turns": [
+                -0.24166666666666667,
+                -0.3046875,
+                -0.17447916666666666
+              ],
+              "success_pp": [
+                0.052083333333333336,
+                -0.4166666666666667,
+                0.5208333333333333
+              ]
+            },
+            "Entropy, real values": {
+              "turns": [
+                -0.6796875,
+                -0.7729296875,
+                -0.58125
+              ],
+              "success_pp": [
+                2.3958333333333335,
+                1.5625,
+                3.229166666666667
+              ]
+            },
+            "Initial D(P)": {
+              "turns": [
+                -0.09791666666666667,
+                -0.16145833333333334,
+                -0.03540364583333341
+              ],
+              "success_pp": [
+                0.625,
+                0.10416666666666667,
+                1.1458333333333333
+              ]
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "alpha_rpb": 0.0,
+      "alpha_initial": 0.0,
+      "k": {
+        "1": {
+          "strategies": {
+            "Random": {
+              "success": 75.9375,
+              "turns": 4.831770833333334,
+              "n": 1920
+            },
+            "Initial D(P)": {
+              "success": 88.4375,
+              "turns": 3.1765625,
+              "n": 1920
+            },
+            "Entropy, default group": {
+              "success": 91.875,
+              "turns": 2.3958333333333335,
+              "n": 1920
+            },
+            "Entropy, real values": {
+              "success": 86.875,
+              "turns": 3.2494791666666667,
+              "n": 1920
+            },
+            "Corrected RPB": {
+              "success": 91.5625,
+              "turns": 2.4697916666666666,
+              "n": 1920
+            },
+            "Corrected RPB, no coverage": {
+              "success": 86.82291666666667,
+              "turns": 3.25625,
+              "n": 1920
+            },
+            "Corrected RPB, no answerability": {
+              "success": 91.66666666666666,
+              "turns": 2.4385416666666666,
+              "n": 1920
+            },
+            "Corrected RPB, alpha=0": {
+              "success": 91.5625,
+              "turns": 2.4697916666666666,
+              "n": 1920
+            }
+          },
+          "paired_differences": {
+            "Entropy, default group": {
+              "turns": [
+                0.07395833333333333,
+                0.016640625000000003,
+                0.12970052083333328
+              ],
+              "success_pp": [
+                -0.3125,
+                -0.78125,
+                0.15625
+              ]
+            },
+            "Entropy, real values": {
+              "turns": [
+                -0.7796875,
+                -0.8880338541666667,
+                -0.6760286458333334
+              ],
+              "success_pp": [
+                4.6875,
+                3.5937499999999996,
+                5.729166666666666
+              ]
+            },
+            "Initial D(P)": {
+              "turns": [
+                -0.7067708333333333,
+                -0.8125,
+                -0.6031119791666668
+              ],
+              "success_pp": [
+                3.125,
+                2.083333333333333,
+                4.166666666666666
+              ]
+            }
+          }
+        },
+        "3": {
+          "strategies": {
+            "Random": {
+              "success": 88.64583333333333,
+              "turns": 2.872916666666667,
+              "n": 1920
+            },
+            "Initial D(P)": {
+              "success": 96.5625,
+              "turns": 1.553125,
+              "n": 1920
+            },
+            "Entropy, default group": {
+              "success": 96.97916666666667,
+              "turns": 1.3791666666666667,
+              "n": 1920
+            },
+            "Entropy, real values": {
+              "success": 95.05208333333334,
+              "turns": 1.7572916666666667,
+              "n": 1920
+            },
+            "Corrected RPB": {
+              "success": 96.92708333333333,
+              "turns": 1.3609375,
+              "n": 1920
+            },
+            "Corrected RPB, no coverage": {
+              "success": 95.05208333333334,
+              "turns": 1.7526041666666667,
+              "n": 1920
+            },
+            "Corrected RPB, no answerability": {
+              "success": 97.08333333333333,
+              "turns": 1.365625,
+              "n": 1920
+            },
+            "Corrected RPB, alpha=0": {
+              "success": 96.92708333333333,
+              "turns": 1.3609375,
+              "n": 1920
+            }
+          },
+          "paired_differences": {
+            "Entropy, default group": {
+              "turns": [
+                -0.018229166666666668,
+                -0.06145833333333333,
+                0.021354166666666667
+              ],
+              "success_pp": [
+                -0.052083333333333336,
+                -0.3645833333333333,
+                0.26041666666666663
+              ]
+            },
+            "Entropy, real values": {
+              "turns": [
+                -0.3963541666666667,
+                -0.46875,
+                -0.32447916666666665
+              ],
+              "success_pp": [
+                1.875,
+                1.1979166666666667,
+                2.5520833333333335
+              ]
+            },
+            "Initial D(P)": {
+              "turns": [
+                -0.1921875,
+                -0.2588671875,
+                -0.12760416666666666
+              ],
+              "success_pp": [
+                0.3645833333333333,
+                -0.052083333333333336,
+                0.8333333333333334
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "catalog": {
+    "features": 5029,
+    "single_valued": 2788,
+    "excluded_multi_valued": 843,
+    "features_per_cluster": 29.58235294117647,
+    "median_coverage": 0.3902439024390244,
+    "share_coverage_below_half": 0.555378802942931
+  },
+  "runtime_seconds": 23.759285926818848
+}

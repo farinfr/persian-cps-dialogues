@@ -1,0 +1,270 @@
+{
+  "product_id": 8489,
+  "product_title": "گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N97",
+  "brand": "متفرقه",
+  "category": "فرش و گلیم",
+  "price": 76500000.0,
+  "cluster_id": "57",
+  "type": 4,
+  "dialogue_rounds": 16,
+  "selected_features": [
+    {
+      "feature_name": "مشخصات_وزن تقریبی",
+      "feature_value": "7 کیلوگرم",
+      "custom_metric": 0.012361
+    },
+    {
+      "feature_name": "مشخصات_سایز",
+      "feature_value": "1.5 متر مربع",
+      "custom_metric": 0.012361
+    },
+    {
+      "feature_name": "مشخصات_نوع",
+      "feature_value": "دستبافت",
+      "custom_metric": 0.002747
+    },
+    {
+      "feature_name": "مشخصات_فرم طراحی",
+      "feature_value": "مستطیل",
+      "custom_metric": 0.001945
+    },
+    {
+      "feature_name": "مشخصات_جنس پرز",
+      "feature_value": "پشم",
+      "custom_metric": 0.001935
+    }
+  ],
+  "features_discussed": [
+    "وزن تقریبی",
+    "سایز",
+    "نوع",
+    "فرم طراحی",
+    "جنس پرز"
+  ],
+  "dialogue_summary": "کاربر به دنبال گبه دستباف با ویژگی‌های خاص بود و دستیار توضیحات کاملی درباره وزن، سایز، طراحی و جنس ارائه داد. همچنین قیمت بالای محصول به دلیل کیفیت و جایگاه قیمتی آن توضیح داده شد.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، من دنبال یک گبه دستباف هستم. می‌تونید کمکم کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! حتماً. ما گبه‌هایی داریم که بسیار محبوب و با ارزش هستند. به دنبال چه ویژگی‌هایی هستید؟"
+    },
+    {
+      "role": "user",
+      "text": "من یک گبه می‌خوام که حدوداً 1.5 متر مربع باشه و از مواد طبیعی ساخته شده باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "گبه‌هایی که دستباف و از پشم طبیعی ساخته شده‌اند خیلی مناسب اند. ما یک مدل داریم با عنوان گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N97. آیا این اندازه و جنس برای شما مناسب هست؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، به نظر خوب میاد. وزن این گبه چقدره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "وزن تقریبی این گبه 7 کیلوگرم است که حمل و نقل و جابجایی آن را آسان‌تر می‌کند."
+    },
+    {
+      "role": "user",
+      "text": "خوبه. نوع طراحی این گبه چطوره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "طراحی این گبه به شکل مستطیل است که بسیار مناسب برای فضاهای مختلف خانه است. به این طرح علاقه دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، عالیه. می‌تونید کمی درباره قیمتش بگید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمت این گبه 76,500,000 ریال است. این قیمت در دسته‌بندی محصولات پریمیوم قرار می‌گیرد چون کیفیت دستبافت و استفاده از پشم طبیعی باعث می‌شود ارزش بالایی داشته باشد."
+    },
+    {
+      "role": "user",
+      "text": "آیا این قیمت نسبت به بقیه محصولات مشابه بالاست؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این قیمت حدود 36.3% بالاتر از میانگین مشابه‌ها است، اما به دلیل کیفیت بالای بافت و مواد استفاده شده، ارزش خرید بالایی دارد."
+    },
+    {
+      "role": "user",
+      "text": "آیا گزینه‌های ارزان‌تری وجود دارند که مشابه این باشند؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، مثلا مدل NKP.Z.N109 حدود 11.8% ارزان‌تر است، اما باید به تفاوت در کیفیت و مواد توجه کنید. محصولات مشابه دیگری مثل NKP.Z.N83 و NKP.Z.N111 هم موجود هستند که قیمت مشابه دارند."
+    },
+    {
+      "role": "user",
+      "text": "ممنون از توضیحاتتون، بزارید کمی فکر کنم."
+    },
+    {
+      "role": "assistant",
+      "text": "خواهش می‌کنم، هر زمان که آماده بودید بفرمایید. خوشحال می‌شوم که کمکتان کنم!"
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام، من دنبال یک گبه دستباف هستم. می‌تونید کمکم کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! حتماً. ما گبه‌هایی داریم که بسیار محبوب و با ارزش هستند. به دنبال چه ویژگی‌هایی هستید؟\"},\n    {\"role\": \"user\", \"text\": \"من یک گبه می‌خوام که حدوداً 1.5 متر مربع باشه و از مواد طبیعی ساخته شده باشه.\"},\n    {\"role\": \"assistant\", \"text\": \"گبه‌هایی که دستباف و از پشم طبیعی ساخته شده‌اند خیلی مناسب اند. ما یک مدل داریم با عنوان گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N97. آیا این اندازه و جنس برای شما مناسب هست؟\"},\n    {\"role\": \"user\", \"text\": \"بله، به نظر خوب میاد. وزن این گبه چقدره؟\"},\n    {\"role\": \"assistant\", \"text\": \"وزن تقریبی این گبه 7 کیلوگرم است که حمل و نقل و جابجایی آن را آسان‌تر می‌کند.\"},\n    {\"role\": \"user\", \"text\": \"خوبه. نوع طراحی این گبه چطوره؟\"},\n    {\"role\": \"assistant\", \"text\": \"طراحی این گبه به شکل مستطیل است که بسیار مناسب برای فضاهای مختلف خانه است. به این طرح علاقه دارید؟\"},\n    {\"role\": \"user\", \"text\": \"بله، عالیه. می‌تونید کمی درباره قیمتش بگید؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمت این گبه 76,500,000 ریال است. این قیمت در دسته‌بندی محصولات پریمیوم قرار می‌گیرد چون کیفیت دستبافت و استفاده از پشم طبیعی باعث می‌شود ارزش بالایی داشته باشد.\"},\n    {\"role\": \"user\", \"text\": \"آیا این قیمت نسبت به بقیه محصولات مشابه بالاست؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این قیمت حدود 36.3% بالاتر از میانگین مشابه‌ها است، اما به دلیل کیفیت بالای بافت و مواد استفاده شده، ارزش خرید بالایی دارد.\"},\n    {\"role\": \"user\", \"text\": \"آیا گزینه‌های ارزان‌تری وجود دارند که مشابه این باشند؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، مثلا مدل NKP.Z.N109 حدود 11.8% ارزان‌تر است، اما باید به تفاوت در کیفیت و مواد توجه کنید. محصولات مشابه دیگری مثل NKP.Z.N83 و NKP.Z.N111 هم موجود هستند که قیمت مشابه دارند.\"},\n    {\"role\": \"user\", \"text\": \"ممنون از توضیحاتتون، بزارید کمی فکر کنم.\"},\n    {\"role\": \"assistant\", \"text\": \"خواهش می‌کنم، هر زمان که آماده بودید بفرمایید. خوشحال می‌شوم که کمکتان کنم!\"}\n  ],\n  \"features_discussed\": [\"وزن تقریبی\", \"سایز\", \"نوع\", \"فرم طراحی\", \"جنس پرز\"],\n  \"dialogue_summary\": \"کاربر به دنبال گبه دستباف با ویژگی‌های خاص بود و دستیار توضیحات کاملی درباره وزن، سایز، طراحی و جنس ارائه داد. همچنین قیمت بالای محصول به دلیل کیفیت و جایگاه قیمتی آن توضیح داده شد.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 8492,
+      "title": "گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N83",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 78500000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 2.61,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 2,
+      "product_id": 8493,
+      "title": "گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N109",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 67500000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -11.76,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 3,
+      "product_id": 8494,
+      "title": "گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N111",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 75600000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -1.18,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 4,
+      "product_id": 8333,
+      "title": "گبه دستباف نیم متری مدل بافت قشقای شیراز کد NKP-sgp52",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 46500000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9322,
+      "price_diff_percent": -39.22,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 5,
+      "product_id": 8335,
+      "title": "گبه دستباف نیم متری مدل بافت قشقای شیراز کد NKP-sgp58",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 45400000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9276,
+      "price_diff_percent": -40.65,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 6,
+      "product_id": 8334,
+      "title": "گبه دستباف نیم متری مدل بافت قشقای شیراز کد NKP-sgp53",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 45300000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9272,
+      "price_diff_percent": -40.78,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 7,
+      "product_id": 8336,
+      "title": "گبه دستباف نیم متری مدل بافت قشقای شیراز کد NKP-sgp59",
+      "brand": "متفرقه",
+      "category_id": 5,
+      "price": 44700000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.9247,
+      "price_diff_percent": -41.57,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 8,
+      "product_id": 5614,
+      "title": "چهارپایه ایکیا مدل BEKVAM",
+      "brand": "ایکیا",
+      "category_id": 4,
+      "price": 109800000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.7681,
+      "price_diff_percent": 43.53,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 9,
+      "product_id": 10746,
+      "title": "ساعت هوشمند گرین لاین مدل APY EXTERNAL G MASTER COMPACT ",
+      "brand": "گرین لاین",
+      "category_id": 6,
+      "price": 42880000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.7663,
+      "price_diff_percent": -43.95,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 10,
+      "product_id": 7050,
+      "title": "ارگانایزر مدل Circle",
+      "brand": "متفرقه",
+      "category_id": 4,
+      "price": 5200000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 0.6572,
+      "price_diff_percent": -93.2,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    }
+  ],
+  "product_details": {
+    "title": "گبه دستباف یک ونیم متری مدل بافت قشقای شیراز کد NKP.Z.N97",
+    "brand": "متفرقه",
+    "category": "فرش و گلیم",
+    "price": 76500000.0
+  }
+}

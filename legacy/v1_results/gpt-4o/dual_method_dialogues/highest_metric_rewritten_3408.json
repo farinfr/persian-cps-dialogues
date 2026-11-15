@@ -1,0 +1,80 @@
+{
+  "product_id": 3408,
+  "product_title": "کوله پشتی مدل SH1037-2",
+  "brand": "متفرقه",
+  "category": "لوازم تحریر",
+  "price": 6000000.0,
+  "cluster_id": "66",
+  "method": "highest_metric",
+  "type": 1,
+  "dialogue_rounds": 10,
+  "num_features": 4,
+  "features": [
+    {
+      "feature_name": "تعداد جیب خارجی",
+      "feature_value": "3",
+      "custom_metric": 0.000174
+    },
+    {
+      "feature_name": "توضیحات دسته",
+      "feature_value": "دارای دو دسته: یک دسته ابری مستحکم و یک دسته ساده",
+      "custom_metric": 9.3e-05
+    },
+    {
+      "feature_name": "وزن",
+      "feature_value": "620 گرم",
+      "custom_metric": 7.9e-05
+    },
+    {
+      "feature_name": "ابعاد",
+      "feature_value": "44x36x16 سانتی‌متر",
+      "custom_metric": 6.7e-05
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال لوازم تحریری هستم که چند ویژگی خاص داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! حتماً، چه ویژگی‌هایی برای شما مهمه؟"
+    },
+    {
+      "role": "user",
+      "text": "دوست دارم 3 تا جیب خارجی داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب، 3 جیب خارجی. دسته‌ها چطور باید باشن؟"
+    },
+    {
+      "role": "user",
+      "text": "دسته‌ها یکی باید ابری و مستحکم باشه و یکی ساده."
+    },
+    {
+      "role": "assistant",
+      "text": "فوق‌العاده! درباره وزنش چی مد نظر دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "وزنش بهتره 620 گرم باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه، و ابعاد چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "ابعاد 44 در 36 در 16 سانتی‌متر مناسب هست."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی هم عالی! با این مشخصات می‌تونم کوله پشتی مدل SH1037-2 رو با قیمت 6,000,000 تومان بهتون پیشنهاد بدم."
+    }
+  ],
+  "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شد و فواصل بین سوالات دستیار و پاسخ‌های کاربر با دقت بیشتر و گفتگوی دوستانه‌تری تنظیم شد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 10,
+  "rewritten_dialogue_rounds": 10
+}

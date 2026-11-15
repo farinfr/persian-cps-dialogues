@@ -1,0 +1,103 @@
+{
+  "product_id": 5890,
+  "product_title": "میز و صندلی ناهارخوری 4 نفره مدل kh004",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است، اما جزئیات بیشتری درباره ویژگی‌های محصول ارائه نمی‌دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو بسیار روان و دقیق است و اطلاعات کاملی درباره محصول و ویژگی‌های آن ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"گفتگو کامل و دقیق با پوشش جامع ویژگی‌ها و مقایسه با محصولات مشابه، به کاربر کمک زیادی می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 6,\n        \"coverage\": 7,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و اطلاعات مناسبی درباره محصول ارائه می‌دهد، اما می‌توانست جزئیات بیشتری داشته باشد.\"\n    }\n  ],\n  \"ranking\": [4, 3, 1, 6, 2, 5]\n}\n```",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو روان و دقیق است، اما جزئیات بیشتری درباره ویژگی‌های محصول ارائه نمی‌دهد."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 7,
+          "coverage": 7,
+          "helpfulness": 7,
+          "overall": 7
+        },
+        "comment": "گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "گفتگو بسیار روان و دقیق است و اطلاعات کاملی درباره محصول و ویژگی‌های آن ارائه می‌دهد."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 10,
+          "accuracy": 10,
+          "realism": 10,
+          "coverage": 10,
+          "helpfulness": 10,
+          "overall": 10
+        },
+        "comment": "گفتگو کامل و دقیق با پوشش جامع ویژگی‌ها و مقایسه با محصولات مشابه، به کاربر کمک زیادی می‌کند."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 7,
+          "accuracy": 7,
+          "realism": 6,
+          "coverage": 7,
+          "helpfulness": 6,
+          "overall": 6
+        },
+        "comment": "گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_simulate",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو روان و دقیق است و اطلاعات مناسبی درباره محصول ارائه می‌دهد، اما می‌توانست جزئیات بیشتری داشته باشد."
+      }
+    ],
+    "ranking": [
+      4,
+      3,
+      1,
+      6,
+      2,
+      5
+    ]
+  }
+}

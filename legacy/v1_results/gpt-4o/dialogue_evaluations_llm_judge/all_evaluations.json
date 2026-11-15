@@ -1,0 +1,1032 @@
+{
+  "4477": {
+    "product_id": 4477,
+    "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-4TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 10,\n        \"realism\": 9,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"این گفتگو به طور کامل و دقیق به نیازهای کاربر پاسخ می‌دهد و اطلاعات محصول را به خوبی پوشش می‌دهد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 10,\n        \"realism\": 9,\n        \"coverage\": 10,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو با دقت بالا و پوشش کامل ویژگی‌های محصول، به کاربر کمک می‌کند تا تصمیم‌گیری مناسبی داشته باشد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو به خوبی ویژگی‌های محصول را پوشش می‌دهد اما برخی جزئیات می‌توانست بهتر توضیح داده شود.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 9,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو اطلاعات مفیدی ارائه می‌دهد اما می‌توانست با جزئیات بیشتری به سوالات کاربر پاسخ دهد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو به طور کلی مفید است اما برخی اطلاعات محصول به درستی پوشش داده نشده‌اند.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگو به طور کلی مفید است اما برخی جزئیات مهم محصول نادیده گرفته شده‌اند.\"\n    }\n  ],\n  \"ranking\": [1, 4, 6, 5, 3, 2]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 10,
+            "realism": 9,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "این گفتگو به طور کامل و دقیق به نیازهای کاربر پاسخ می‌دهد و اطلاعات محصول را به خوبی پوشش می‌دهد."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 10,
+            "realism": 9,
+            "coverage": 10,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو با دقت بالا و پوشش کامل ویژگی‌های محصول، به کاربر کمک می‌کند تا تصمیم‌گیری مناسبی داشته باشد."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 8
+          },
+          "comment": "گفتگو به خوبی ویژگی‌های محصول را پوشش می‌دهد اما برخی جزئیات می‌توانست بهتر توضیح داده شود."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 9,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو اطلاعات مفیدی ارائه می‌دهد اما می‌توانست با جزئیات بیشتری به سوالات کاربر پاسخ دهد."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 8,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو به طور کلی مفید است اما برخی اطلاعات محصول به درستی پوشش داده نشده‌اند."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 7,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 6,
+            "overall": 6
+          },
+          "comment": "گفتگو به طور کلی مفید است اما برخی جزئیات مهم محصول نادیده گرفته شده‌اند."
+        }
+      ],
+      "ranking": [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ]
+    }
+  },
+  "11767": {
+    "product_id": 11767,
+    "product_title": "کتاب شرکت شکست ناپذیر اثر الکساندر استروالدر انتشارات آریانا قلم",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است، اما به جزئیات بیشتری درباره مقایسه با دیگر محصولات پرداخته نشده است.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما به جزئیات کمتری پرداخته و کمتر به نیازهای کاربر توجه شده است.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو بسیار روان و دقیق است و به خوبی به نیازهای کاربر پاسخ داده شده است.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"گفتگو بسیار جامع و دقیق است و به تمامی نیازهای کاربر به خوبی پاسخ داده شده است.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 6,\n        \"coverage\": 7,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگو کمتر روان و دقیق است و به نیازهای کاربر به طور کامل پاسخ داده نشده است.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به نیازهای کاربر به خوبی پاسخ داده شده است.\"\n    }\n  ],\n  \"ranking\": [4, 3, 1, 6, 2, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است، اما به جزئیات بیشتری درباره مقایسه با دیگر محصولات پرداخته نشده است."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما به جزئیات کمتری پرداخته و کمتر به نیازهای کاربر توجه شده است."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو بسیار روان و دقیق است و به خوبی به نیازهای کاربر پاسخ داده شده است."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 10,
+            "accuracy": 10,
+            "realism": 10,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "گفتگو بسیار جامع و دقیق است و به تمامی نیازهای کاربر به خوبی پاسخ داده شده است."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 7,
+            "realism": 6,
+            "coverage": 7,
+            "helpfulness": 6,
+            "overall": 6
+          },
+          "comment": "گفتگو کمتر روان و دقیق است و به نیازهای کاربر به طور کامل پاسخ داده نشده است."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به نیازهای کاربر به خوبی پاسخ داده شده است."
+        }
+      ],
+      "ranking": [
+        4,
+        3,
+        1,
+        6,
+        2,
+        5
+      ]
+    }
+  },
+  "4863": {
+    "product_id": 4863,
+    "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست جزئیات بیشتری درباره محصول ارائه دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات ارائه شده کمتر با مشخصات محصول تطابق دارد و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره قیمت ارائه کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات جامعی ارائه می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره مقایسه با محصولات مشابه ارائه کند.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره گزینه‌های جایگزین ارائه کند.\"\n    }\n  ],\n  \"ranking\": [4, 1, 3, 5, 6, 2]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست جزئیات بیشتری درباره محصول ارائه دهد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 7,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما اطلاعات ارائه شده کمتر با مشخصات محصول تطابق دارد و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره قیمت ارائه کند."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات جامعی ارائه می‌کند."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره مقایسه با محصولات مشابه ارائه کند."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره گزینه‌های جایگزین ارائه کند."
+        }
+      ],
+      "ranking": [
+        4,
+        1,
+        3,
+        5,
+        6,
+        2
+      ]
+    }
+  },
+  "10101": {
+    "product_id": 10101,
+    "product_title": "ساعت هوشمند ویوو مدل SW01",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.4\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما برخی جزئیات مهم مانند مقاومت در برابر آب یا مقایسه با محصولات دیگر پوشش داده نشده است.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7.4\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات ارائه‌شده محدود بوده و به برخی از نیازهای کاربر به‌طور کامل پاسخ داده نمی‌شود.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.6\n      },\n      \"comment\": \"گفتگو روان و واقع‌گرایانه است و اطلاعات مفیدی ارائه می‌دهد، اما مقایسه با محصولات دیگر و برخی جزئیات بیشتر می‌توانست به بهبود کمک کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9.6\n      },\n      \"comment\": \"این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به‌خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات مقایسه‌ای مفیدی ارائه می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 8,\n        \"overall\": 8.8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و اطلاعات مقایسه‌ای خوبی ارائه می‌دهد، اما برخی جزئیات مانند محبوبیت محصول کمتر مورد تأکید قرار گرفته است.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.4\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما اطلاعات مقایسه‌ای و جزئیات بیشتری می‌توانست ارائه شود.\"\n    }\n  ],\n  \"ranking\": [4, 5, 3, 1, 6, 2]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8.4
+          },
+          "comment": "گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما برخی جزئیات مهم مانند مقاومت در برابر آب یا مقایسه با محصولات دیگر پوشش داده نشده است."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7.4
+          },
+          "comment": "گفتگو روان است اما اطلاعات ارائه‌شده محدود بوده و به برخی از نیازهای کاربر به‌طور کامل پاسخ داده نمی‌شود."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8.6
+          },
+          "comment": "گفتگو روان و واقع‌گرایانه است و اطلاعات مفیدی ارائه می‌دهد، اما مقایسه با محصولات دیگر و برخی جزئیات بیشتر می‌توانست به بهبود کمک کند."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 10,
+            "accuracy": 10,
+            "realism": 10,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9.6
+          },
+          "comment": "این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به‌خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات مقایسه‌ای مفیدی ارائه می‌کند."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 8,
+            "overall": 8.8
+          },
+          "comment": "گفتگو روان و دقیق است و اطلاعات مقایسه‌ای خوبی ارائه می‌دهد، اما برخی جزئیات مانند محبوبیت محصول کمتر مورد تأکید قرار گرفته است."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8.4
+          },
+          "comment": "گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما اطلاعات مقایسه‌ای و جزئیات بیشتری می‌توانست ارائه شود."
+        }
+      ],
+      "ranking": [
+        4,
+        5,
+        3,
+        1,
+        6,
+        2
+      ]
+    }
+  },
+  "7643": {
+    "product_id": 7643,
+    "product_title": "روفرشی ستاره زرین یزد مدل زر افشان کد 860s",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصول ارائه دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است و اطلاعات محصول را به خوبی ارائه می‌دهد، اما جزئیات کمتری نسبت به برخی دیگر از گفتگوها دارد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات کاملی درباره محصول ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"گفتگو بسیار کامل و دقیق است و تمامی جنبه‌های مهم محصول و نیازهای کاربر را به خوبی پوشش می‌دهد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما نسبت به برخی دیگر از گفتگوها جزئیات کمتری دارد و می‌توانست اطلاعات بیشتری ارائه دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 9,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصول ارائه دهد.\"\n    }\n  ],\n  \"ranking\": [4, 3, 1, 6, 2, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصول ارائه دهد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است و اطلاعات محصول را به خوبی ارائه می‌دهد، اما جزئیات کمتری نسبت به برخی دیگر از گفتگوها دارد."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات کاملی درباره محصول ارائه می‌دهد."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 10,
+            "accuracy": 10,
+            "realism": 10,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "گفتگو بسیار کامل و دقیق است و تمامی جنبه‌های مهم محصول و نیازهای کاربر را به خوبی پوشش می‌دهد."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 8,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما نسبت به برخی دیگر از گفتگوها جزئیات کمتری دارد و می‌توانست اطلاعات بیشتری ارائه دهد."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 9,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصول ارائه دهد."
+        }
+      ],
+      "ranking": [
+        4,
+        3,
+        1,
+        6,
+        2,
+        5
+      ]
+    }
+  },
+  "1454": {
+    "product_id": 1454,
+    "product_title": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 10,\n        \"realism\": 9,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"این گفتگو با دقت بالا و پوشش کامل نیازهای کاربر، اطلاعات دقیق و مفیدی ارائه می‌دهد و به خوبی کاربر را به سمت انتخاب محصول مناسب هدایت می‌کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 10,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9.2\n      },\n      \"comment\": \"این گفتگو اطلاعات دقیق و جامعی ارائه می‌دهد و به نیازهای کاربر پاسخ می‌دهد، اما در برخی جزئیات مانند مقایسه قیمت‌ها می‌توانست بهتر عمل کند.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.2\n      },\n      \"comment\": \"این گفتگو اطلاعات مفیدی ارائه می‌دهد اما برخی جزئیات مهم مانند تکنولوژی‌های مکان‌یابی و مقایسه با سایر مدل‌ها را پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7.4\n      },\n      \"comment\": \"این گفتگو به صورت کلی روان است اما اطلاعات ارائه شده محدود بوده و نیازهای کاربر به طور کامل پوشش داده نشده است.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7.2\n      },\n      \"comment\": \"این گفتگو اطلاعات مناسبی ارائه می‌دهد اما ساختار آن کمی پیچیده و غیرطبیعی به نظر می‌رسد و برخی جزئیات مهم را از دست داده است.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 6,\n        \"coverage\": 6,\n        \"helpfulness\": 6,\n        \"overall\": 6.4\n      },\n      \"comment\": \"این گفتگو اطلاعاتی ارائه می‌دهد اما ساختار آن غیرطبیعی است و نیازهای کاربر به طور کامل پوشش داده نشده است.\"\n    }\n  ],\n  \"ranking\": [1, 4, 3, 2, 6, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 10,
+            "realism": 9,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "این گفتگو با دقت بالا و پوشش کامل نیازهای کاربر، اطلاعات دقیق و مفیدی ارائه می‌دهد و به خوبی کاربر را به سمت انتخاب محصول مناسب هدایت می‌کند."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 10,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9.2
+          },
+          "comment": "این گفتگو اطلاعات دقیق و جامعی ارائه می‌دهد و به نیازهای کاربر پاسخ می‌دهد، اما در برخی جزئیات مانند مقایسه قیمت‌ها می‌توانست بهتر عمل کند."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8.2
+          },
+          "comment": "این گفتگو اطلاعات مفیدی ارائه می‌دهد اما برخی جزئیات مهم مانند تکنولوژی‌های مکان‌یابی و مقایسه با سایر مدل‌ها را پوشش نمی‌دهد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7.4
+          },
+          "comment": "این گفتگو به صورت کلی روان است اما اطلاعات ارائه شده محدود بوده و نیازهای کاربر به طور کامل پوشش داده نشده است."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7.2
+          },
+          "comment": "این گفتگو اطلاعات مناسبی ارائه می‌دهد اما ساختار آن کمی پیچیده و غیرطبیعی به نظر می‌رسد و برخی جزئیات مهم را از دست داده است."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 7,
+            "realism": 6,
+            "coverage": 6,
+            "helpfulness": 6,
+            "overall": 6.4
+          },
+          "comment": "این گفتگو اطلاعاتی ارائه می‌دهد اما ساختار آن غیرطبیعی است و نیازهای کاربر به طور کامل پوشش داده نشده است."
+        }
+      ],
+      "ranking": [
+        1,
+        4,
+        3,
+        2,
+        6,
+        5
+      ]
+    }
+  },
+  "6669": {
+    "product_id": 6669,
+    "product_title": "کتابخانه مدل رویسان دستگیره دار ",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما جزئیات بیشتری می‌توانست ارائه شود.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما جزئیات کمتری نسبت به سایر گفتگوها ارائه می‌دهد و می‌توانست کمک بیشتری به کاربر کند.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات کاملی ارائه می‌کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو اطلاعات جامع و دقیقی ارائه می‌دهد و به خوبی نیازهای کاربر را پوشش می‌دهد، همچنین واقع‌گرایی بالایی دارد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به مقایسه با محصولات مشابه می‌پردازد، اما می‌توانست جزئیات بیشتری ارائه دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصولات مشابه ارائه دهد.\"\n    }\n  ],\n  \"ranking\": [3, 4, 1, 5, 6, 2]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما جزئیات بیشتری می‌توانست ارائه شود."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما جزئیات کمتری نسبت به سایر گفتگوها ارائه می‌دهد و می‌توانست کمک بیشتری به کاربر کند."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات کاملی ارائه می‌کند."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "این گفتگو اطلاعات جامع و دقیقی ارائه می‌دهد و به خوبی نیازهای کاربر را پوشش می‌دهد، همچنین واقع‌گرایی بالایی دارد."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به مقایسه با محصولات مشابه می‌پردازد، اما می‌توانست جزئیات بیشتری ارائه دهد."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره محصولات مشابه ارائه دهد."
+        }
+      ],
+      "ranking": [
+        3,
+        4,
+        1,
+        5,
+        6,
+        2
+      ]
+    }
+  },
+  "8311": {
+    "product_id": 8311,
+    "product_title": "کلاژ  چرم و پوست مدل LFM402",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به خوبی نیازهای کاربر را پوشش داده و به انتخاب محصول کمک می‌کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو نیز بسیار روان و دقیق است و اطلاعات کاملی درباره محصول ارائه می‌دهد که به تصمیم‌گیری کاربر کمک می‌کند.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"این گفتگو روان و دقیق است اما جزئیات کمتری نسبت به گفتگوهای برتر ارائه می‌دهد و کمی کمتر واقع‌گرایانه به نظر می‌رسد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"این گفتگو روان است اما اطلاعات ارائه شده کمتر دقیق و جامع بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 6,\n        \"accuracy\": 6,\n        \"realism\": 6,\n        \"coverage\": 6,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"این گفتگو نسبتاً روان است اما اطلاعات ارائه شده محدودتر بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 5,\n        \"accuracy\": 5,\n        \"realism\": 5,\n        \"coverage\": 5,\n        \"helpfulness\": 5,\n        \"overall\": 5\n      },\n      \"comment\": \"این گفتگو کمتر روان و دقیق است و اطلاعات ارائه شده ناقص بوده و نیازهای کاربر را به خوبی پوشش نمی‌دهد.\"\n    }\n  ],\n  \"ranking\": [1, 4, 3, 2, 6, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به خوبی نیازهای کاربر را پوشش داده و به انتخاب محصول کمک می‌کند."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "این گفتگو نیز بسیار روان و دقیق است و اطلاعات کاملی درباره محصول ارائه می‌دهد که به تصمیم‌گیری کاربر کمک می‌کند."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "این گفتگو روان و دقیق است اما جزئیات کمتری نسبت به گفتگوهای برتر ارائه می‌دهد و کمی کمتر واقع‌گرایانه به نظر می‌رسد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 7,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "این گفتگو روان است اما اطلاعات ارائه شده کمتر دقیق و جامع بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 6,
+            "accuracy": 6,
+            "realism": 6,
+            "coverage": 6,
+            "helpfulness": 6,
+            "overall": 6
+          },
+          "comment": "این گفتگو نسبتاً روان است اما اطلاعات ارائه شده محدودتر بوده و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 5,
+            "accuracy": 5,
+            "realism": 5,
+            "coverage": 5,
+            "helpfulness": 5,
+            "overall": 5
+          },
+          "comment": "این گفتگو کمتر روان و دقیق است و اطلاعات ارائه شده ناقص بوده و نیازهای کاربر را به خوبی پوشش نمی‌دهد."
+        }
+      ],
+      "ranking": [
+        1,
+        4,
+        3,
+        2,
+        6,
+        5
+      ]
+    }
+  },
+  "3408": {
+    "product_id": 3408,
+    "product_title": "کوله پشتی مدل SH1037-2",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان است و اطلاعات دقیقی ارائه می‌دهد، اما نسبت به دیگر گفتگوها کمتر جامع است.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"گفتگو بسیار جامع و دقیق است و به طور کامل نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما به نظر می‌رسد که برخی از جزئیات را کمتر پوشش می‌دهد و کمتر به کاربر کمک می‌کند.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و اطلاعات خوبی ارائه می‌دهد، اما نسبت به بهترین گفتگوها کمی کمتر جامع است.\"\n    }\n  ],\n  \"ranking\": [4, 3, 1, 6, 2, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان است و اطلاعات دقیقی ارائه می‌دهد، اما نسبت به دیگر گفتگوها کمتر جامع است."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 10,
+            "accuracy": 10,
+            "realism": 10,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "گفتگو بسیار جامع و دقیق است و به طور کامل نیازهای کاربر را پوشش می‌دهد و به او کمک می‌کند تا تصمیم بگیرد."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 8,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما به نظر می‌رسد که برخی از جزئیات را کمتر پوشش می‌دهد و کمتر به کاربر کمک می‌کند."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و اطلاعات خوبی ارائه می‌دهد، اما نسبت به بهترین گفتگوها کمی کمتر جامع است."
+        }
+      ],
+      "ranking": [
+        4,
+        3,
+        1,
+        6,
+        2,
+        5
+      ]
+    }
+  },
+  "5890": {
+    "product_id": 5890,
+    "product_title": "میز و صندلی ناهارخوری 4 نفره مدل kh004",
+    "evaluated_kinds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است، اما جزئیات بیشتری درباره ویژگی‌های محصول ارائه نمی‌دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگو بسیار روان و دقیق است و اطلاعات کاملی درباره محصول و ویژگی‌های آن ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 10,\n        \"helpfulness\": 10,\n        \"overall\": 10\n      },\n      \"comment\": \"گفتگو کامل و دقیق با پوشش جامع ویژگی‌ها و مقایسه با محصولات مشابه، به کاربر کمک زیادی می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 7,\n        \"realism\": 6,\n        \"coverage\": 7,\n        \"helpfulness\": 6,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و اطلاعات مناسبی درباره محصول ارائه می‌دهد، اما می‌توانست جزئیات بیشتری داشته باشد.\"\n    }\n  ],\n  \"ranking\": [4, 3, 1, 6, 2, 5]\n}\n```",
+    "judge_output_parsed": {
+      "per_dialogue": [
+        {
+          "kind": 1,
+          "kind_label": "dual_highest_metric",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است، اما جزئیات بیشتری درباره ویژگی‌های محصول ارائه نمی‌دهد."
+        },
+        {
+          "kind": 2,
+          "kind_label": "dual_random",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 7,
+            "coverage": 7,
+            "helpfulness": 7,
+            "overall": 7
+          },
+          "comment": "گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد."
+        },
+        {
+          "kind": 3,
+          "kind_label": "llm_generated_random",
+          "scores": {
+            "fluency": 9,
+            "accuracy": 9,
+            "realism": 9,
+            "coverage": 9,
+            "helpfulness": 9,
+            "overall": 9
+          },
+          "comment": "گفتگو بسیار روان و دقیق است و اطلاعات کاملی درباره محصول و ویژگی‌های آن ارائه می‌دهد."
+        },
+        {
+          "kind": 4,
+          "kind_label": "llm_generated_highest_metric",
+          "scores": {
+            "fluency": 10,
+            "accuracy": 10,
+            "realism": 10,
+            "coverage": 10,
+            "helpfulness": 10,
+            "overall": 10
+          },
+          "comment": "گفتگو کامل و دقیق با پوشش جامع ویژگی‌ها و مقایسه با محصولات مشابه، به کاربر کمک زیادی می‌کند."
+        },
+        {
+          "kind": 5,
+          "kind_label": "two_agent_highest_metric",
+          "scores": {
+            "fluency": 7,
+            "accuracy": 7,
+            "realism": 6,
+            "coverage": 7,
+            "helpfulness": 6,
+            "overall": 6
+          },
+          "comment": "گفتگو روان است اما اطلاعات کمتری درباره محصول و مقایسه با دیگر گزینه‌ها ارائه می‌دهد."
+        },
+        {
+          "kind": 6,
+          "kind_label": "two_agent_highest_metric_simulate",
+          "scores": {
+            "fluency": 8,
+            "accuracy": 8,
+            "realism": 8,
+            "coverage": 8,
+            "helpfulness": 8,
+            "overall": 8
+          },
+          "comment": "گفتگو روان و دقیق است و اطلاعات مناسبی درباره محصول ارائه می‌دهد، اما می‌توانست جزئیات بیشتری داشته باشد."
+        }
+      ],
+      "ranking": [
+        4,
+        3,
+        1,
+        6,
+        2,
+        5
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "product_id": 4863,
+  "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": null,
+  "cluster_id": "54",
+  "method": "highest_metric",
+  "type": 1,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "ظرفیت حافظه داخلی",
+      "feature_value": "256 گیگابایت",
+      "custom_metric": 0.011245
+    },
+    {
+      "feature_name": "فرکانس حافظه رم (RAM)",
+      "feature_value": "2400 مگاهرتز",
+      "custom_metric": 0.008532
+    },
+    {
+      "feature_name": "مدل پردازنده گرافیکی",
+      "feature_value": "UHD Graphics (integrated)",
+      "custom_metric": 0.003055
+    },
+    {
+      "feature_name": "سری پردازنده",
+      "feature_value": "Celeron",
+      "custom_metric": 0.001841
+    },
+    {
+      "feature_name": "حافظه Cache",
+      "feature_value": "4 مگابایت",
+      "custom_metric": 0.00184
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال یه لپ تاپ یا الترابوک خوب می‌گردم."
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! چه خوب، می‌تونم بهتون کمک کنم. ظرفیت حافظه داخلی‌اش چقدر مد نظرته؟"
+    },
+    {
+      "role": "user",
+      "text": "دوست دارم ظرفیت حافظه داخلی‌اش 256 گیگابایت باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب، 256 گیگابایت. حالا ببینیم فرکانس رم چقدر بخوای بهتره؟"
+    },
+    {
+      "role": "user",
+      "text": "رم با فرکانس 2400 مگاهرتز خوبه برام."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه، 2400 مگاهرتز. پردازنده گرافیکی چطور، کدوم مدل مد نظرتونه؟"
+    },
+    {
+      "role": "user",
+      "text": "مدل UHD Graphics (یکپارچه) رو ترجیح می‌دم."
+    },
+    {
+      "role": "assistant",
+      "text": "خوبه، پس همون مدل. حالا در مورد سری پردازنده چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "سری Celeron برام مناسبه."
+    },
+    {
+      "role": "assistant",
+      "text": "باشه، سری Celeron. و آخرین سوال، حافظه Cache چقدر باشه؟"
+    },
+    {
+      "role": "user",
+      "text": "حافظه Cache چهار مگابایت برام مناسبه."
+    },
+    {
+      "role": "assistant",
+      "text": "با توجه به نیازهایی که گفتید، لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503 با مشخصات Celeron N4020، 4GB DDR4، 256GB SSD و صفحه نمایش TFT رو بهتون پیشنهاد می‌دم."
+    }
+  ],
+  "llm_improvements": "گفتگو با لحنی دوستانه‌تر و طبیعی‌تر بازنویسی شده است و سوالات و پاسخ‌ها به صورت محاوره‌ای‌تر و غیررسمی‌تر بیان شده‌اند.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

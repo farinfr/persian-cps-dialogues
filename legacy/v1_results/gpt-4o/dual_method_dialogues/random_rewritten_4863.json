@@ -1,0 +1,93 @@
+{
+  "product_id": 4863,
+  "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": null,
+  "cluster_id": "54",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "توضیحات وبکم",
+      "feature_value": "وبکم با کیفیت 720p HD",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "دقت صفحه نمایش",
+      "feature_value": "HD|1366x768 پیکسل",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "نوع حافظه رم (RAM)",
+      "feature_value": "DDR4",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "درگاه‌ها و فناوری‌های ارتباطی",
+      "feature_value": "USB Type-C, شیار کارت حافظه, جک 3.5 میلی‌متری صدا, Wi-Fi, HDMI, Bluetooth, USB",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "توضیحات شبکه بی سیم Wi-Fi",
+      "feature_value": "Wi-Fi 5(802.11ac) (Dual band)",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، آیا لپ‌تاپ یا الترابوک‌های خوبی دارید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! بله، ما چند مدل عالی داریم. آیا ویژگی خاصی مد نظرتان است؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، دوست دارم وبکم با کیفیت 720p HD باشد."
+    },
+    {
+      "role": "assistant",
+      "text": "متوجه شدم، وبکم با کیفیت 720p HD. صفحه نمایش چطور؟ چه دقتی مد نظرتان است؟"
+    },
+    {
+      "role": "user",
+      "text": "دقت HD با 1366x768 پیکسل برام مناسبه."
+    },
+    {
+      "role": "assistant",
+      "text": "عالی، HD 1366x768. نوع رم چطور، DDR4 مناسب است؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، رم DDR4 می‌خواهم."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب. در مورد درگاه‌ها و ارتباطات چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "درگاه‌های USB Type-C، کارت حافظه، جک 3.5 میلی‌متری، Wi-Fi، HDMI، Bluetooth و USB رو ترجیح می‌دم."
+    },
+    {
+      "role": "assistant",
+      "text": "متوجه شدم، اینها گزینه‌های خیلی خوبی هستند. آیا نوع خاصی از Wi-Fi برایتان مهم است؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، Wi-Fi 5 (802.11ac) با پشتیبانی از دو باند مناسب است."
+    },
+    {
+      "role": "assistant",
+      "text": "بسیار خب. با توجه به نیازهایی که گفتید، لپ‌تاپ 15.6 اینچی ایسوس مدل E510MA رو پیشنهاد می‌کنم. امیدوارم مناسب شما باشه!"
+    }
+  ],
+  "llm_improvements": "گفتگو روان‌تر و طبیعی‌تر شد و جملات به گونه‌ای تنظیم شدند که ارتباط منطقی و جذاب‌تری داشته باشند. همچنین، نقاط ابهام برطرف و جزئیات بیشتری در هر بخش اضافه شد تا تجربه کاربر بهبود یابد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

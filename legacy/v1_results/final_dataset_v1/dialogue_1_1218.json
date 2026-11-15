@@ -1,0 +1,286 @@
+{
+  "product_id": 1218,
+  "product_title": "گوشی موبایل سامسونگ مدل Galaxy Grand Prime Plus SM-G532F/DS دو سیم‌ کارت",
+  "brand": "سامسونگ",
+  "category": "گوشی موبایل",
+  "price": null,
+  "cluster_id": "139",
+  "type": 4,
+  "dialogue_rounds": 20,
+  "selected_features": [
+    {
+      "feature_name": "ارتباطات_درگاه‌ها و فناوری‌های ارتباطی",
+      "feature_value": "microUSB v2.0",
+      "custom_metric": 0.005523
+    },
+    {
+      "feature_name": "ارتباطات_شبکه‌های ارتباطی قابل پشتیبانی",
+      "feature_value": "GPRS, EDGE, Wi-Fi, بلوتوث, رادیو, OTG",
+      "custom_metric": 0.0017
+    },
+    {
+      "feature_name": "ارتباطات_تکنولوژی‌های مکان‌یابی (GPS)",
+      "feature_value": "A-GPS, GLONASS",
+      "custom_metric": 0.001434
+    },
+    {
+      "feature_name": "صفحه نمایش_فناوری صفحه‌ نمایش",
+      "feature_value": "TFT",
+      "custom_metric": 0.000381
+    },
+    {
+      "feature_name": "ارتباطات_رادیو",
+      "feature_value": "رادیو FM به همراه RDS با قابلیت ضبط رادیو",
+      "custom_metric": 0.000249
+    }
+  ],
+  "features_discussed": [
+    "درگاه‌ها و فناوری‌های ارتباطی",
+    "شبکه‌های ارتباطی قابل پشتیبانی",
+    "تکنولوژی‌های مکان‌یابی (GPS)",
+    "فناوری صفحه‌ نمایش",
+    "رادیو"
+  ],
+  "dialogue_summary": "مشتری به دنبال اطلاعات در مورد گوشی سامسونگ Galaxy Grand Prime Plus بود و دستیار ویژگی‌های مهم مثل فناوری‌های ارتباطی، شبکه‌ها، GPS، صفحه‌نمایش و رادیو را توضیح داد و در نهایت محصول را با توجه به محبوبیت و ارزش خرید بالا توصیه کرد.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال یک گوشی موبایل سامسونگ می‌گردم. می‌تونید کمکم کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! حتماً. آیا به مدل خاصی از سامسونگ علاقه دارید یا ویژگی خاصی در نظر دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "می‌خواستم بدونم در مورد Galaxy Grand Prime Plus اطلاعاتی دارید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، Galaxy Grand Prime Plus یکی از مدل‌های محبوب و پرطرفدار سامسونگه. به طور خاص، این مدل با قیمت مناسبی عرضه می‌شه و ویژگی‌های جالبی داره."
+    },
+    {
+      "role": "user",
+      "text": "میشه بگید چه ویژگی‌هایی داره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "البته، این گوشی دارای درگاه microUSB v2.0 برای ارتباطات سریع و راحت هست و همچنین از فناوری‌های ارتباطی مانند GPRS, EDGE, Wi-Fi, بلوتوث و OTG پشتیبانی می‌کنه."
+    },
+    {
+      "role": "user",
+      "text": "چه شبکه‌های ارتباطی رو پشتیبانی می‌کنه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این گوشی از شبکه‌های ارتباطی گسترده‌ای مثل GPRS و EDGE پشتیبانی می‌کنه و همچنین قابلیت اتصال به Wi-Fi و بلوتوث رو داره."
+    },
+    {
+      "role": "user",
+      "text": "برای مکان‌یابی چطور؟ GPS داره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، از تکنولوژی‌های مکان‌یابی A-GPS و GLONASS استفاده می‌کنه که مکان‌یابی دقیق و سریع رو فراهم می‌کنه."
+    },
+    {
+      "role": "user",
+      "text": "فناوری صفحه‌نمایش این گوشی چیه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این گوشی از فناوری صفحه‌نمایش TFT بهره می‌بره که کیفیت بصری مناسبی رو ارائه می‌ده."
+    },
+    {
+      "role": "user",
+      "text": "رادیو هم داره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این گوشی رادیو FM با قابلیت RDS و ضبط رادیو رو داره، که برای علاقه‌مندان به رادیو خیلی جذابه."
+    },
+    {
+      "role": "user",
+      "text": "در مقایسه با بقیه مدل‌های سامسونگ، قیمتش چطوره؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمت این گوشی به نسبت ویژگی‌ها و محبوبیت بالا، بسیار مقرون به صرفه است. امتیاز کاربرها 82.1 هست که بالاتر از میانگین 78.7 مشابه‌هاست و نشان می‌ده که بسیار پرطرفدار و ارزشمند هست."
+    },
+    {
+      "role": "user",
+      "text": "آیا گزینه‌های مشابهی هم دارین که بخوام بررسی کنم؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، می‌تونید به مدل‌هایی مثل Galaxy J7 Pro یا Galaxy J1 Ace هم نگاه کنید، که قیمت‌های مشابهی دارند و هریک ویژگی‌های خاص خودشون رو دارن."
+    },
+    {
+      "role": "user",
+      "text": "پس به نظر می‌رسه این مدل ارزش خرید داره. چطور می‌تونم سفارش بدم؟"
+    },
+    {
+      "role": "assistant",
+      "text": "شما می‌تونید از طریق وبسایت دیجی‌کالا این گوشی رو با گارانتی شرکت هماهنگ پردازش و با قیمت مصوب خریداری کنید. اگر سوالی داشتید، خوشحال می‌شم کمک کنم."
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام، دنبال یک گوشی موبایل سامسونگ می‌گردم. می‌تونید کمکم کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! حتماً. آیا به مدل خاصی از سامسونگ علاقه دارید یا ویژگی خاصی در نظر دارید؟\"},\n    {\"role\": \"user\", \"text\": \"می‌خواستم بدونم در مورد Galaxy Grand Prime Plus اطلاعاتی دارید؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، Galaxy Grand Prime Plus یکی از مدل‌های محبوب و پرطرفدار سامسونگه. به طور خاص، این مدل با قیمت مناسبی عرضه می‌شه و ویژگی‌های جالبی داره.\"},\n    {\"role\": \"user\", \"text\": \"میشه بگید چه ویژگی‌هایی داره؟\"},\n    {\"role\": \"assistant\", \"text\": \"البته، این گوشی دارای درگاه microUSB v2.0 برای ارتباطات سریع و راحت هست و همچنین از فناوری‌های ارتباطی مانند GPRS, EDGE, Wi-Fi, بلوتوث و OTG پشتیبانی می‌کنه.\"},\n    {\"role\": \"user\", \"text\": \"چه شبکه‌های ارتباطی رو پشتیبانی می‌کنه؟\"},\n    {\"role\": \"assistant\", \"text\": \"این گوشی از شبکه‌های ارتباطی گسترده‌ای مثل GPRS و EDGE پشتیبانی می‌کنه و همچنین قابلیت اتصال به Wi-Fi و بلوتوث رو داره.\"},\n    {\"role\": \"user\", \"text\": \"برای مکان‌یابی چطور؟ GPS داره؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، از تکنولوژی‌های مکان‌یابی A-GPS و GLONASS استفاده می‌کنه که مکان‌یابی دقیق و سریع رو فراهم می‌کنه.\"},\n    {\"role\": \"user\", \"text\": \"فناوری صفحه‌نمایش این گوشی چیه؟\"},\n    {\"role\": \"assistant\", \"text\": \"این گوشی از فناوری صفحه‌نمایش TFT بهره می‌بره که کیفیت بصری مناسبی رو ارائه می‌ده.\"},\n    {\"role\": \"user\", \"text\": \"رادیو هم داره؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این گوشی رادیو FM با قابلیت RDS و ضبط رادیو رو داره، که برای علاقه‌مندان به رادیو خیلی جذابه.\"},\n    {\"role\": \"user\", \"text\": \"در مقایسه با بقیه مدل‌های سامسونگ، قیمتش چطوره؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمت این گوشی به نسبت ویژگی‌ها و محبوبیت بالا، بسیار مقرون به صرفه است. امتیاز کاربرها 82.1 هست که بالاتر از میانگین 78.7 مشابه‌هاست و نشان می‌ده که بسیار پرطرفدار و ارزشمند هست.\"},\n    {\"role\": \"user\", \"text\": \"آیا گزینه‌های مشابهی هم دارین که بخوام بررسی کنم؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، می‌تونید به مدل‌هایی مثل Galaxy J7 Pro یا Galaxy J1 Ace هم نگاه کنید، که قیمت‌های مشابهی دارند و هریک ویژگی‌های خاص خودشون رو دارن.\"},\n    {\"role\": \"user\", \"text\": \"پس به نظر می‌رسه این مدل ارزش خرید داره. چطور می‌تونم سفارش بدم؟\"},\n    {\"role\": \"assistant\", \"text\": \"شما می‌تونید از طریق وبسایت دیجی‌کالا این گوشی رو با گارانتی شرکت هماهنگ پردازش و با قیمت مصوب خریداری کنید. اگر سوالی داشتید، خوشحال می‌شم کمک کنم.\"}\n  ],\n  \"features_discussed\": [\n    \"درگاه‌ها و فناوری‌های ارتباطی\",\n    \"شبکه‌های ارتباطی قابل پشتیبانی\",\n    \"تکنولوژی‌های مکان‌یابی (GPS)\",\n    \"فناوری صفحه‌ نمایش\",\n    \"رادیو\"\n  ],\n  \"dialogue_summary\": \"مشتری به دنبال اطلاعات در مورد گوشی سامسونگ Galaxy Grand Prime Plus بود و دستیار ویژگی‌های مهم مثل فناوری‌های ارتباطی، شبکه‌ها، GPS، صفحه‌نمایش و رادیو را توضیح داد و در نهایت محصول را با توجه به محبوبیت و ارزش خرید بالا توصیه کرد.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 1233,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy J7 Pro SM-J730F دو سیم‌ کارت ظرفیت 64 گیگابایت - با برچسب قیمت مصرف‌کننده",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 83.359375,
+      "rating_count": 256.0,
+      "similarity_score": 0.9688,
+      "price_diff_percent": null,
+      "rating_average_diff": 1.26,
+      "rating_count_diff": -946.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 2,
+      "product_id": 856,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy J1 Ace SM-J111F-DS دو سیم کارت",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 81.85792349726776,
+      "rating_count": 183.0,
+      "similarity_score": 0.9672,
+      "price_diff_percent": null,
+      "rating_average_diff": -0.24,
+      "rating_count_diff": -1019.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 3,
+      "product_id": 577,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy Grand Prime Pro SM-J250F دو سیم‌ کارت ظرفیت 16 گیگابایت - با برچسب قیمت مصرف‌کننده",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 82.04878048780488,
+      "rating_count": 205.0,
+      "similarity_score": 0.966,
+      "price_diff_percent": null,
+      "rating_average_diff": -0.05,
+      "rating_count_diff": -997.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 4,
+      "product_id": 1081,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy Grand Prime Plus SM-G532F/DS دو سیم‌ کارت - با برچسب قیمت مصرف‌کننده",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 80.0,
+      "rating_count": 15.0,
+      "similarity_score": 0.9509,
+      "price_diff_percent": null,
+      "rating_average_diff": -2.1,
+      "rating_count_diff": -1187.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 5,
+      "product_id": 999,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy S9 دو سیم کارت ظرفیت 64 گیگابایت - با برچسب قیمت مصرف‌کننده",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 82.5,
+      "rating_count": 32.0,
+      "similarity_score": 0.9374,
+      "price_diff_percent": null,
+      "rating_average_diff": 0.4,
+      "rating_count_diff": -1170.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 6,
+      "product_id": 1032,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy S9 SM-G960FD دو سیم کارت ظرفیت 128 گیگابایت",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 82.3529411764706,
+      "rating_count": 17.0,
+      "similarity_score": 0.9368,
+      "price_diff_percent": null,
+      "rating_average_diff": 0.26,
+      "rating_count_diff": -1185.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 7,
+      "product_id": 936,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy J1 (2016) SM-J120F/DS دو سیم‌کارت",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 74.48275862068965,
+      "rating_count": 145.0,
+      "similarity_score": 0.9311,
+      "price_diff_percent": null,
+      "rating_average_diff": -7.61,
+      "rating_count_diff": -1057.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 8,
+      "product_id": 555,
+      "title": "گوشی موبایل ایسوس مدل Zenfone 3s Max ZC521TL دو سیم کارت ظرفیت 32 گیگابایت - با برچسب قیمت مصرف کننده",
+      "brand": "ایسوس",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 75.31587057010786,
+      "rating_count": 649.0,
+      "similarity_score": 0.9159,
+      "price_diff_percent": null,
+      "rating_average_diff": -6.78,
+      "rating_count_diff": -553.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 9,
+      "product_id": 554,
+      "title": "گوشی موبایل ایسوس مدل Zenfone Go ZB500KG دو سیم کارت ظرفیت 8 گیگابایت - با برچسب قیمت مصرف کننده",
+      "brand": "ایسوس",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 72.6032315978456,
+      "rating_count": 557.0,
+      "similarity_score": 0.9052,
+      "price_diff_percent": null,
+      "rating_average_diff": -9.49,
+      "rating_count_diff": -645.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 10,
+      "product_id": 1234,
+      "title": "گوشی موبایل سامسونگ مدل Galaxy J1 mini prime SM-J106F/DS دو سیم‌کارت - با برچسب قیمت مصرف‌کننده",
+      "brand": "سامسونگ",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 72.72727272727273,
+      "rating_count": 11.0,
+      "similarity_score": 0.9017,
+      "price_diff_percent": null,
+      "rating_average_diff": -9.37,
+      "rating_count_diff": -1191.0,
+      "price_relation": "similar"
+    }
+  ],
+  "product_details": {
+    "title": "گوشی موبایل سامسونگ مدل Galaxy Grand Prime Plus SM-G532F/DS دو سیم‌ کارت",
+    "brand": "سامسونگ",
+    "category": "گوشی موبایل",
+    "price": null
+  }
+}

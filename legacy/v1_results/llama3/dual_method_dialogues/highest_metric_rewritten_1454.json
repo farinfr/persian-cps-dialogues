@@ -1,0 +1,93 @@
+{
+  "product_id": 1454,
+  "product_title": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+  "brand": "شیائومی",
+  "category": "گوشی موبایل",
+  "price": null,
+  "cluster_id": "17",
+  "method": "highest_metric",
+  "type": 1,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "استاندارد کارت حافظه",
+      "feature_value": "UFS 2.2",
+      "custom_metric": 0.002297
+    },
+    {
+      "feature_name": "شبکه‌های ارتباطی قابل پشتیبانی",
+      "feature_value": "Infrared, NFC, OTG, Wi-Fi, بلوتوث, رادیو",
+      "custom_metric": 0.000916
+    },
+    {
+      "feature_name": "حافظه داخلی",
+      "feature_value": "128 گیگابایت",
+      "custom_metric": 0.000725
+    },
+    {
+      "feature_name": "تکنولوژی‌های مکان‌یابی (GPS)",
+      "feature_value": "A-GPS, BDS(Beidou), GALILEO, GLONASS",
+      "custom_metric": 0.00061
+    },
+    {
+      "feature_name": "مقدار RAM",
+      "feature_value": "6 گیگابایت",
+      "custom_metric": 0.000439
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، میخوام یه گوشی موبایل بخرم. شما چی پیشنهاد میکنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! ما گوشی‌های مختلفی داریم. میتونی بهم بگی چه ویژگی‌هایی میخوای؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام یه گوشی با استاندارد کارت حافظه UFS 2.2 باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "گوشی‌های زیادی با استاندارد کارت حافظه UFS 2.2 داریم. میتونی بهم بگی چه شبکه‌های ارتباطی رو میخوای؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام شبکه‌های ارتباطی Infrared, NFC, OTG, Wi-Fi, بلوتوث, رادیو رو داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب! و حافظه داخلی چی؟"
+    },
+    {
+      "role": "user",
+      "text": "ترجیح میدم حافظه داخلی 128 گیگابایت باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "گوشی‌های خوبی با این مشخصات داریم. میتونی بهم بگی چه تکنولوژی‌های مکان‌یابی رو میخوای؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام تکنولوژی‌های مکان‌یابی A-GPS, BDS(Beidou), GALILEO, GLONASS رو داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب! و مقدار RAM چی؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام 6 گیگابایت RAM داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت از برند شیائومی میتونه مناسب تو باشه. میخوای قیمتش رو ببینم؟"
+    }
+  ],
+  "llm_improvements": "سعی کردم گفتگو رو طبیعی‌تر کنم با اضافه کردن کلمات و جملات 친انه و همچنین سعی کردم تا جایی که ممکنه از جملات کوتاه استفاده کنم تا گفتگو روان‌تر بشه.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

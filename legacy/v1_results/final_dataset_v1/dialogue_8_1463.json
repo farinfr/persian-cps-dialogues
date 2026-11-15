@@ -1,0 +1,286 @@
+{
+  "product_id": 1463,
+  "product_title": "گوشی موبایل شیائومی مدل Mi 10T PRO 5G M 2007J3SG دو سیم‌ کارت ظرفیت 256 گیگابایت",
+  "brand": "شیائومی",
+  "category": "گوشی موبایل",
+  "price": null,
+  "cluster_id": "164",
+  "type": 4,
+  "dialogue_rounds": 20,
+  "selected_features": [
+    {
+      "feature_name": "صفحه نمایش_فناوری صفحه‌ نمایش",
+      "feature_value": "IPS",
+      "custom_metric": 0.014455
+    },
+    {
+      "feature_name": "صفحه نمایش_نوع محافظ صفحه نمایش گوشی",
+      "feature_value": "Corning Gorilla Glass 5",
+      "custom_metric": 0.004784
+    },
+    {
+      "feature_name": "ارتباطات_شبکه‌های مخابراتی",
+      "feature_value": "2G, 3G, 4G, 5G",
+      "custom_metric": 0.004073
+    },
+    {
+      "feature_name": "ارتباطات_درگاه‌ها و فناوری‌های ارتباطی",
+      "feature_value": "USB Type-C 2.0",
+      "custom_metric": 0.003619
+    },
+    {
+      "feature_name": "دوربین_فلش",
+      "feature_value": "LED",
+      "custom_metric": 0.003393
+    }
+  ],
+  "features_discussed": [
+    "فناوری صفحه‌ نمایش",
+    "نوع محافظ صفحه نمایش گوشی",
+    "شبکه‌های مخابراتی",
+    "درگاه‌ها و فناوری‌های ارتباطی",
+    "فلش"
+  ],
+  "dialogue_summary": "کاربر به دنبال گوشی موبایلی با ویژگی‌های پیشرفته است و دستیار فروشگاه آنلاین گوشی شیائومی مدل Mi 10T PRO 5G را به او پیشنهاد می‌کند. در طول مکالمه، ویژگی‌های مهمی از جمله فناوری صفحه نمایش IPS، محافظ Corning Gorilla Glass 5، پشتیبانی از شبکه‌های 5G، درگاه USB Type-C و فلش LED بررسی می‌شوند. دستیار همچنین بر محبوبیت و ارزش خرید بالای این گوشی تاکید می‌کند.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، من دنبال یک گوشی موبایل با تکنولوژی پیشرفته و ظرفیت ذخیره‌سازی بالا می‌گردم. چیزی پیشنهاد می‌کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! بله، گوشی موبایل شیائومی مدل Mi 10T PRO 5G با ظرفیت 256 گیگابایت می‌تواند گزینه خوبی برای شما باشد. آیا به ویژگی خاصی علاقه دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، کیفیت صفحه نمایش برای من خیلی مهم است. این گوشی چه نوع فناوری صفحه نمایشی دارد؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این گوشی از فناوری صفحه نمایش IPS بهره می‌برد که با کیفیت بالا و رنگ‌های زنده شناخته می‌شود."
+    },
+    {
+      "role": "user",
+      "text": "عالیه! درباره محافظ صفحه نمایش چطور؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این مدل با محافظ Corning Gorilla Glass 5 عرضه می‌شود که مقاومت خوبی در برابر خط و خش دارد."
+    },
+    {
+      "role": "user",
+      "text": "خیلی خوبه. ارتباطات هم برام مهمه. این گوشی چه شبکه‌هایی رو پشتیبانی می‌کنه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این گوشی از شبکه‌های 2G, 3G, 4G و 5G پشتیبانی می‌کند، که به شما امکان می‌دهد از جدیدترین تکنولوژی‌های ارتباطی استفاده کنید."
+    },
+    {
+      "role": "user",
+      "text": "این خیلی خوبه! درگاه‌های ارتباطی چطور؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این گوشی دارای درگاه USB Type-C 2.0 است که سرعت بالای ارتباط و شارژ را فراهم می‌کند."
+    },
+    {
+      "role": "user",
+      "text": "چه نوع فلشی در این گوشی استفاده شده؟"
+    },
+    {
+      "role": "assistant",
+      "text": "فلش LED در این گوشی به کار رفته که به کیفیت عکاسی در نور کم کمک می‌کند."
+    },
+    {
+      "role": "user",
+      "text": "به نظر می‌رسه این گوشی خیلی پرطرفداره. درسته؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این گوشی با امتیاز کاربری 87.5 و تعداد بالای نظرات نشان می‌دهد که خیلی محبوب و پرطرفدار است."
+    },
+    {
+      "role": "user",
+      "text": "چقدر باید برای این مدل هزینه کنم؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمت دقیق مشخص نیست، اما با توجه به ویژگی‌ها و امتیاز بالای کاربران، ارزش خرید بالایی داره و در مقایسه با مدل‌های مشابه به صرفه است."
+    },
+    {
+      "role": "user",
+      "text": "آیا محصولات مشابهی وجود دارند که بتوانند انتخاب خوبی باشند؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، مدل‌هایی مثل Mi Max 2 و Mi A3 هم هستند که ظرفیت ذخیره‌سازی و ویژگی‌های جذابی دارند، اما این مدل به خصوص با توجه به تکنولوژی 5G و ظرفیت بالا بسیار برجسته‌تر است."
+    },
+    {
+      "role": "user",
+      "text": "متشکرم از راهنماییتون! به نظر می‌رسه Mi 10T PRO 5G انتخاب خوبی باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خواهش می‌کنم! مطمئنم از خریدتون راضی خواهید بود. اگر سوالی دیگر دارید، خوشحال می‌شوم کمک کنم."
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام، من دنبال یک گوشی موبایل با تکنولوژی پیشرفته و ظرفیت ذخیره‌سازی بالا می‌گردم. چیزی پیشنهاد می‌کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! بله، گوشی موبایل شیائومی مدل Mi 10T PRO 5G با ظرفیت 256 گیگابایت می‌تواند گزینه خوبی برای شما باشد. آیا به ویژگی خاصی علاقه دارید؟\"},\n    {\"role\": \"user\", \"text\": \"بله، کیفیت صفحه نمایش برای من خیلی مهم است. این گوشی چه نوع فناوری صفحه نمایشی دارد؟\"},\n    {\"role\": \"assistant\", \"text\": \"این گوشی از فناوری صفحه نمایش IPS بهره می‌برد که با کیفیت بالا و رنگ‌های زنده شناخته می‌شود.\"},\n    {\"role\": \"user\", \"text\": \"عالیه! درباره محافظ صفحه نمایش چطور؟\"},\n    {\"role\": \"assistant\", \"text\": \"این مدل با محافظ Corning Gorilla Glass 5 عرضه می‌شود که مقاومت خوبی در برابر خط و خش دارد.\"},\n    {\"role\": \"user\", \"text\": \"خیلی خوبه. ارتباطات هم برام مهمه. این گوشی چه شبکه‌هایی رو پشتیبانی می‌کنه؟\"},\n    {\"role\": \"assistant\", \"text\": \"این گوشی از شبکه‌های 2G, 3G, 4G و 5G پشتیبانی می‌کند، که به شما امکان می‌دهد از جدیدترین تکنولوژی‌های ارتباطی استفاده کنید.\"},\n    {\"role\": \"user\", \"text\": \"این خیلی خوبه! درگاه‌های ارتباطی چطور؟\"},\n    {\"role\": \"assistant\", \"text\": \"این گوشی دارای درگاه USB Type-C 2.0 است که سرعت بالای ارتباط و شارژ را فراهم می‌کند.\"},\n    {\"role\": \"user\", \"text\": \"چه نوع فلشی در این گوشی استفاده شده؟\"},\n    {\"role\": \"assistant\", \"text\": \"فلش LED در این گوشی به کار رفته که به کیفیت عکاسی در نور کم کمک می‌کند.\"},\n    {\"role\": \"user\", \"text\": \"به نظر می‌رسه این گوشی خیلی پرطرفداره. درسته؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این گوشی با امتیاز کاربری 87.5 و تعداد بالای نظرات نشان می‌دهد که خیلی محبوب و پرطرفدار است.\"},\n    {\"role\": \"user\", \"text\": \"چقدر باید برای این مدل هزینه کنم؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمت دقیق مشخص نیست، اما با توجه به ویژگی‌ها و امتیاز بالای کاربران، ارزش خرید بالایی داره و در مقایسه با مدل‌های مشابه به صرفه است.\"},\n    {\"role\": \"user\", \"text\": \"آیا محصولات مشابهی وجود دارند که بتوانند انتخاب خوبی باشند؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، مدل‌هایی مثل Mi Max 2 و Mi A3 هم هستند که ظرفیت ذخیره‌سازی و ویژگی‌های جذابی دارند، اما این مدل به خصوص با توجه به تکنولوژی 5G و ظرفیت بالا بسیار برجسته‌تر است.\"},\n    {\"role\": \"user\", \"text\": \"متشکرم از راهنماییتون! به نظر می‌رسه Mi 10T PRO 5G انتخاب خوبی باشه.\"},\n    {\"role\": \"assistant\", \"text\": \"خواهش می‌کنم! مطمئنم از خریدتون راضی خواهید بود. اگر سوالی دیگر دارید، خوشحال می‌شوم کمک کنم.\"}\n  ],\n  \"features_discussed\": [\"فناوری صفحه‌ نمایش\", \"نوع محافظ صفحه نمایش گوشی\", \"شبکه‌های مخابراتی\", \"درگاه‌ها و فناوری‌های ارتباطی\", \"فلش\"],\n  \"dialogue_summary\": \"کاربر به دنبال گوشی موبایلی با ویژگی‌های پیشرفته است و دستیار فروشگاه آنلاین گوشی شیائومی مدل Mi 10T PRO 5G را به او پیشنهاد می‌کند. در طول مکالمه، ویژگی‌های مهمی از جمله فناوری صفحه نمایش IPS، محافظ Corning Gorilla Glass 5، پشتیبانی از شبکه‌های 5G، درگاه USB Type-C و فلش LED بررسی می‌شوند. دستیار همچنین بر محبوبیت و ارزش خرید بالای این گوشی تاکید می‌کند.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 425,
+      "title": "گوشی موبایل شیائومی مدل Mi Max 2 MDE40 دو سیم‌ کارت ظرفیت 64 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 87.25,
+      "rating_count": 160.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": -0.29,
+      "rating_count_diff": -307.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 2,
+      "product_id": 442,
+      "title": "گوشی موبایل شیائومی مدل Mi 11 Lite 5G M2101K9G دو سیم‌ کارت ظرفیت 128 گیگابایت و 6 گیگابایت رم",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 82.72727272727273,
+      "rating_count": 110.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": -4.81,
+      "rating_count_diff": -357.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 3,
+      "product_id": 571,
+      "title": "گوشی موبایل شیائومی مدل Mi A3 M1906F9SH دو سیم‌ کارت ظرفیت 128 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 85.5400254129606,
+      "rating_count": 787.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": -2.0,
+      "rating_count_diff": 320.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 4,
+      "product_id": 949,
+      "title": "گوشی موبایل شیائومی مدل Mi Note 10 M1910F4G دو سیم‌ کارت ظرفیت 128 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 87.6824034334764,
+      "rating_count": 466.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": 0.14,
+      "rating_count_diff": -1.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 5,
+      "product_id": 966,
+      "title": "گوشی موبایل شیائومی مدل Mi 11 Lite M2101K9AG دو سیم‌ کارت ظرفیت 128 گیگابایت و 8 گیگابایت رم",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 87.96703296703296,
+      "rating_count": 364.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": 0.43,
+      "rating_count_diff": -103.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 6,
+      "product_id": 444,
+      "title": "گوشی موبایل شیائومی مدل Mi 11i 5G M2012K11G دو سیم‌ کارت ظرفیت 256 گیگابایت و 8 گیگابایت رم",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 82.94117647058823,
+      "rating_count": 170.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": -4.6,
+      "rating_count_diff": -297.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 7,
+      "product_id": 493,
+      "title": "گوشی موبایل شیائومی مدل Mi 10T Pro 5G M2007J3SG دو سیم‌ کارت ظرفیت 128 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 87.3529411764706,
+      "rating_count": 136.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": -0.18,
+      "rating_count_diff": -331.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 8,
+      "product_id": 585,
+      "title": "گوشی موبایل شیائومی مدل Mi 9T Pro M1903F11G دو سیم‌ کارت ظرفیت 128 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 91.875,
+      "rating_count": 160.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": 4.34,
+      "rating_count_diff": -307.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 9,
+      "product_id": 895,
+      "title": "گوشی موبایل شیائومی مدل Mi Note 10 Pro M1910F4S دو سیم‌ کارت ظرفیت 256 گیگابایت",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 87.953216374269,
+      "rating_count": 171.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": null,
+      "rating_average_diff": 0.42,
+      "rating_count_diff": -296.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 10,
+      "product_id": 597,
+      "title": "گوشی موبایل شیائومی مدل Mi 11 Lite 5G M2101K9G دو سیم‌ کارت ظرفیت 128 گیگابایت و 8 گیگابایت رم",
+      "brand": "شیائومی",
+      "category_id": 1,
+      "price": null,
+      "rating_average": 81.6842105263158,
+      "rating_count": 95.0,
+      "similarity_score": 0.9969,
+      "price_diff_percent": null,
+      "rating_average_diff": -5.85,
+      "rating_count_diff": -372.0,
+      "price_relation": "similar"
+    }
+  ],
+  "product_details": {
+    "title": "گوشی موبایل شیائومی مدل Mi 10T PRO 5G M 2007J3SG دو سیم‌ کارت ظرفیت 256 گیگابایت",
+    "brand": "شیائومی",
+    "category": "گوشی موبایل",
+    "price": null
+  }
+}

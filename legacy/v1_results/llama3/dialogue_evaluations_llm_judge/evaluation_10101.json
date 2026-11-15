@@ -1,0 +1,103 @@
+{
+  "product_id": 10101,
+  "product_title": "ساعت هوشمند ویوو مدل SW01",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگوی نوع 1 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما در برخی موارد ممکن است کمی غیرطبیعی به نظر برسد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 7,\n        \"accuracy\": 6,\n        \"realism\": 6,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 6\n      },\n      \"comment\": \"گفتگوی نوع 2 در برخی موارد دقت کمتری دارد و ممکن است برای کاربر گیج‌کننده باشد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"گفتگوی نوع 3 بسیار طبیعی و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگوی نوع 4 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگوی نوع 5 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 9,\n        \"realism\": 7,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگوی نوع 6 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد.\"\n    }\n  ],\n  \"ranking\": [3, 1, 4, 5, 6, 2]\n}",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 9,
+          "realism": 7,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگوی نوع 1 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما در برخی موارد ممکن است کمی غیرطبیعی به نظر برسد."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 7,
+          "accuracy": 6,
+          "realism": 6,
+          "coverage": 7,
+          "helpfulness": 7,
+          "overall": 6
+        },
+        "comment": "گفتگوی نوع 2 در برخی موارد دقت کمتری دارد و ممکن است برای کاربر گیج‌کننده باشد."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 8,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "گفتگوی نوع 3 بسیار طبیعی و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 9,
+          "realism": 7,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگوی نوع 4 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 9,
+          "realism": 7,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگوی نوع 5 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_simulate",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 9,
+          "realism": 7,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگوی نوع 6 از نظر دقت و پوشش ویژگی‌های محصول خوب عمل کرده است، اما ممکن است کمی غیرطبیعی به نظر برسد."
+      }
+    ],
+    "ranking": [
+      3,
+      1,
+      4,
+      5,
+      6,
+      2
+    ]
+  }
+}

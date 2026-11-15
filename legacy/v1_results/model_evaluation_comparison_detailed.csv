@@ -1,0 +1,37 @@
+Kind,Metric,qwen-turbo,llama3,gpt-4o
+Dual Highest Metric,Fluency,7.90,8.00,9.00
+Dual Highest Metric,Accuracy,8.10,9.00,9.20
+Dual Highest Metric,Realism,6.90,7.00,8.30
+Dual Highest Metric,Coverage,6.90,8.00,8.50
+Dual Highest Metric,Helpfulness,7.80,8.00,8.60
+Dual Highest Metric,Overall,7.40,8.00,8.64
+Dual Random,Fluency,7.10,6.90,7.80
+Dual Random,Accuracy,7.00,7.50,7.70
+Dual Random,Realism,6.20,5.90,7.00
+Dual Random,Coverage,6.10,6.90,7.00
+Dual Random,Helpfulness,6.70,6.90,7.00
+Dual Random,Overall,6.60,6.80,7.08
+LLM Random,Fluency,8.90,8.33,8.50
+LLM Random,Accuracy,7.50,8.11,8.70
+LLM Random,Realism,8.00,7.33,8.50
+LLM Random,Coverage,8.00,8.22,8.50
+LLM Random,Helpfulness,8.40,8.22,8.40
+LLM Random,Overall,8.10,8.22,8.48
+LLM Highest Metric,Fluency,8.90,8.70,9.50
+LLM Highest Metric,Accuracy,9.10,9.00,9.70
+LLM Highest Metric,Realism,8.80,7.80,9.50
+LLM Highest Metric,Coverage,9.10,8.80,9.50
+LLM Highest Metric,Helpfulness,9.30,8.80,9.40
+LLM Highest Metric,Overall,9.20,8.80,9.48
+Two-Agent,Fluency,8.60,7.70,7.30
+Two-Agent,Accuracy,9.00,8.70,7.60
+Two-Agent,Realism,9.00,6.70,7.00
+Two-Agent,Coverage,8.90,7.70,7.50
+Two-Agent,Helpfulness,8.80,7.70,6.90
+Two-Agent,Overall,8.90,7.70,7.02
+Two-Agent Simulate,Fluency,8.30,7.90,7.80
+Two-Agent Simulate,Accuracy,8.60,8.40,8.20
+Two-Agent Simulate,Realism,8.20,6.90,7.70
+Two-Agent Simulate,Coverage,8.10,7.80,7.90
+Two-Agent Simulate,Helpfulness,8.20,7.80,7.80
+Two-Agent Simulate,Overall,8.20,7.80,7.76

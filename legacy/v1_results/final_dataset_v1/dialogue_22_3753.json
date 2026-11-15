@@ -1,0 +1,278 @@
+{
+  "product_id": 3753,
+  "product_title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-64GB DDR5 5600MHz-2TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": 1999000000.0,
+  "cluster_id": "50",
+  "type": 4,
+  "dialogue_rounds": 18,
+  "selected_features": [
+    {
+      "feature_name": "پردازنده مرکزی (CPU)_نسل پردازنده",
+      "feature_value": "نسل 9 ای ام دی",
+      "custom_metric": 0.11078
+    },
+    {
+      "feature_name": "رم و حافظه ذخیره‌سازی_ظرفیت حافظه رم (RAM)",
+      "feature_value": "64 گیگابایت",
+      "custom_metric": 0.003165
+    },
+    {
+      "feature_name": "امکانات_توضیحات وبکم",
+      "feature_value": "دوربین با وضوح 720P HD",
+      "custom_metric": 0.002748
+    },
+    {
+      "feature_name": "درگاه‌ها و فناوری‌های ارتباطی_سایر توضیحات درگاه‌های ارتباطی",
+      "feature_value": "دو عدد USB-C (یک عدد از نوع 3.2 Gen2 با پشتیبانی از خروجی تصویر (DisplayPort)، شارژ و G-Sync، یک عدد از نوع USB 4 با پشتیبانی از خروجی تصویر (DisplayPort))",
+      "custom_metric": 0.001484
+    },
+    {
+      "feature_name": "پردازنده مرکزی (CPU)_مدل پردازنده مرکزی لپ‌تاپ",
+      "feature_value": "Ryzen 9-8945HS",
+      "custom_metric": 0.001366
+    }
+  ],
+  "features_discussed": [
+    "نسل پردازنده",
+    "ظرفیت حافظه رم (RAM)",
+    "توضیحات وبکم",
+    "سایر توضیحات درگاه‌های ارتباطی",
+    "مدل پردازنده مرکزی لپ‌تاپ"
+  ],
+  "dialogue_summary": "مشتری به دنبال لپ‌تاپی با پردازنده قوی و حافظه رم بالا بود. دستیار مدل TUF Gaming A15 ایسوس با پردازنده Ryzen 9-8945HS و 64 گیگابایت رم را پیشنهاد داد. مشخصات وب‌کم و درگاه‌های ارتباطی توضیح داده شد و درباره قیمت و مقایسه با محصولات مشابه بحث شد.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام! من دنبال یک لپ‌تاپ برای بازی هستم. می‌تونید کمکم کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! خوش آمدید. قطعا می‌تونم کمک کنم. آیا به دنبال برند خاصی هستید یا ویژگی‌های خاصی مدنظرتون هست؟"
+    },
+    {
+      "role": "user",
+      "text": "برند خاصی مدنظر ندارم ولی می‌خوام پردازنده قوی و حافظه رم بالا داشته باشه. همچنین کیفیت وب‌کم برایم مهمه."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه. یک محصول مناسب که می‌تونم به شما پیشنهاد کنم، لپ تاپ ایسوس مدل TUF Gaming A15 (2024) هست که از نسل 9 پردازنده AMD استفاده می‌کنه و حافظه رم 64 گیگابایت داره."
+    },
+    {
+      "role": "user",
+      "text": "نسل 9 AMD؟ خیلی خوب. درباره مدل پردازنده این لپ‌تاپ بیشتر توضیح می‌دید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "البته، این مدل از پردازنده Ryzen 9-8945HS استفاده می‌کنه که برای بازی‌های سنگین و عملکردهای چندوظیفه‌ای عالیه."
+    },
+    {
+      "role": "user",
+      "text": "این خیلی خوبه. حافظه رم 64 گیگابایت چطور؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، 64 گیگابایت رم DDR5 با سرعت 5600MHz برای اینکه بازی‌ها و برنامه‌های سنگین رو بدون مشکل اجرا کنید بسیار ایده‌آله."
+    },
+    {
+      "role": "user",
+      "text": "وب‌کم چطور؟ چون ازش برای ویدیو کنفرانس‌های کاری هم استفاده می‌کنم."
+    },
+    {
+      "role": "assistant",
+      "text": "این لپ‌تاپ دارای وب‌کم با کیفیت 720P HD هست که برای تماس‌های ویدیویی با کیفیت مناسب می‌باشد."
+    },
+    {
+      "role": "user",
+      "text": "فوق‌العاده است. درباره پورت‌های ارتباطی هم توضیح می‌دید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این مدل دو پورت USB-C داره که یکی از نوع 3.2 Gen2 با پشتیبانی از DisplayPort و G-Sync هست و دیگری از نوع USB 4 با خروجی تصویر."
+    },
+    {
+      "role": "user",
+      "text": "این ویژگی‌ها عالی هستن، ولی قیمتش چطوره نسبت به بقیه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمتش 1,999,000,000 ریاله که در مقایسه با مشابه‌ها در رده پریمیوم قرار می‌گیره. البته به دلیل ویژگی‌های خاص و عملکرد بالا، ارزش خرید بالایی داره."
+    },
+    {
+      "role": "user",
+      "text": "قیمتش بالاست، گزینه‌های ارزون‌تری هم هست؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، می‌تونید مدل‌هایی مثل TUF Gaming F15 با پردازنده Core i7 و حافظه 512GB SSD رو در نظر بگیرید که حدود 5% ارزون‌تره. اما تفاوت عملکرد محسوسه."
+    },
+    {
+      "role": "user",
+      "text": "بسیار خب، فکر کنم با توجه به نیازم همین مدل TUF Gaming A15 مناسب باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "تصمیم خوبی گرفتید! با این انتخاب می‌تونید تجربه بازی و کارکردی عالی داشته باشید. اگر سوال دیگه‌ای دارید بفرمایید."
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام! من دنبال یک لپ‌تاپ برای بازی هستم. می‌تونید کمکم کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! خوش آمدید. قطعا می‌تونم کمک کنم. آیا به دنبال برند خاصی هستید یا ویژگی‌های خاصی مدنظرتون هست؟\"},\n    {\"role\": \"user\", \"text\": \"برند خاصی مدنظر ندارم ولی می‌خوام پردازنده قوی و حافظه رم بالا داشته باشه. همچنین کیفیت وب‌کم برایم مهمه.\"},\n    {\"role\": \"assistant\", \"text\": \"عالیه. یک محصول مناسب که می‌تونم به شما پیشنهاد کنم، لپ تاپ ایسوس مدل TUF Gaming A15 (2024) هست که از نسل 9 پردازنده AMD استفاده می‌کنه و حافظه رم 64 گیگابایت داره.\"},\n    {\"role\": \"user\", \"text\": \"نسل 9 AMD؟ خیلی خوب. درباره مدل پردازنده این لپ‌تاپ بیشتر توضیح می‌دید؟\"},\n    {\"role\": \"assistant\", \"text\": \"البته، این مدل از پردازنده Ryzen 9-8945HS استفاده می‌کنه که برای بازی‌های سنگین و عملکردهای چندوظیفه‌ای عالیه.\"},\n    {\"role\": \"user\", \"text\": \"این خیلی خوبه. حافظه رم 64 گیگابایت چطور؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، 64 گیگابایت رم DDR5 با سرعت 5600MHz برای اینکه بازی‌ها و برنامه‌های سنگین رو بدون مشکل اجرا کنید بسیار ایده‌آله.\"},\n    {\"role\": \"user\", \"text\": \"وب‌کم چطور؟ چون ازش برای ویدیو کنفرانس‌های کاری هم استفاده می‌کنم.\"},\n    {\"role\": \"assistant\", \"text\": \"این لپ‌تاپ دارای وب‌کم با کیفیت 720P HD هست که برای تماس‌های ویدیویی با کیفیت مناسب می‌باشد.\"},\n    {\"role\": \"user\", \"text\": \"فوق‌العاده است. درباره پورت‌های ارتباطی هم توضیح می‌دید؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این مدل دو پورت USB-C داره که یکی از نوع 3.2 Gen2 با پشتیبانی از DisplayPort و G-Sync هست و دیگری از نوع USB 4 با خروجی تصویر.\"},\n    {\"role\": \"user\", \"text\": \"این ویژگی‌ها عالی هستن، ولی قیمتش چطوره نسبت به بقیه؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمتش 1,999,000,000 ریاله که در مقایسه با مشابه‌ها در رده پریمیوم قرار می‌گیره. البته به دلیل ویژگی‌های خاص و عملکرد بالا، ارزش خرید بالایی داره.\"},\n    {\"role\": \"user\", \"text\": \"قیمتش بالاست، گزینه‌های ارزون‌تری هم هست؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، می‌تونید مدل‌هایی مثل TUF Gaming F15 با پردازنده Core i7 و حافظه 512GB SSD رو در نظر بگیرید که حدود 5% ارزون‌تره. اما تفاوت عملکرد محسوسه.\"},\n    {\"role\": \"user\", \"text\": \"بسیار خب، فکر کنم با توجه به نیازم همین مدل TUF Gaming A15 مناسب باشه.\"},\n    {\"role\": \"assistant\", \"text\": \"تصمیم خوبی گرفتید! با این انتخاب می‌تونید تجربه بازی و کارکردی عالی داشته باشید. اگر سوال دیگه‌ای دارید بفرمایید.\"}\n  ],\n  \"features_discussed\": [\"نسل پردازنده\", \"ظرفیت حافظه رم (RAM)\", \"توضیحات وبکم\", \"سایر توضیحات درگاه‌های ارتباطی\", \"مدل پردازنده مرکزی لپ‌تاپ\"],\n  \"dialogue_summary\": \"مشتری به دنبال لپ‌تاپی با پردازنده قوی و حافظه رم بالا بود. دستیار مدل TUF Gaming A15 ایسوس با پردازنده Ryzen 9-8945HS و 64 گیگابایت رم را پیشنهاد داد. مشخصات وب‌کم و درگاه‌های ارتباطی توضیح داده شد و درباره قیمت و مقایسه با محصولات مشابه بحث شد.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 4687,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-512GB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1899000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -5.0,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 2,
+      "product_id": 4735,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-24GB DDR5 4800MHz-512GB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1779990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -10.96,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 3,
+      "product_id": 4736,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-32GB DDR5 4800MHz-1TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1759990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -11.96,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 4,
+      "product_id": 4737,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-40GB DDR5 4800MHz-1TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1819990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -8.95,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 5,
+      "product_id": 3796,
+      "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-32GB DDR5 5600MHz-2TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1879000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -6.0,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 6,
+      "product_id": 3804,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-1TB SSD-RTX4070 8GB-FHD 144Hz-W - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1933000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -3.3,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 7,
+      "product_id": 3822,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-48GB DDR5 4800MHz-1TB SSD-RTX4070 8GB-FHD 144Hz-W - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1851500000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -7.38,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 8,
+      "product_id": 3851,
+      "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-64GB DDR5 5600MHz-512GB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1929000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -3.5,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 9,
+      "product_id": 3866,
+      "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-32GB DDR5 5600MHz-512GB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1799000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -10.01,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    },
+    {
+      "rank": 10,
+      "product_id": 4718,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-24GB DDR5 4800MHz-2TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1799990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -9.96,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "lower"
+    }
+  ],
+  "product_details": {
+    "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-64GB DDR5 5600MHz-2TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+    "brand": "ایسوس",
+    "category": "لپ تاپ و الترابوک",
+    "price": 1999000000.0
+  }
+}

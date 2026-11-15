@@ -1,0 +1,93 @@
+{
+  "product_id": 1454,
+  "product_title": "گوشی موبایل شیائومی مدل redmi 9T M2010J19ST ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+  "brand": "شیائومی",
+  "category": "گوشی موبایل",
+  "price": null,
+  "cluster_id": "17",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "رزولوشن دوربین اصلی",
+      "feature_value": "48 مگاپیکسل",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "درگاه‌ها و فناوری‌های ارتباطی",
+      "feature_value": "USB Type-C 2.0",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "توضیحات تکمیلی صدا",
+      "feature_value": "24-bit/192kHz audio",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "حافظه داخلی",
+      "feature_value": "128 گیگابایت",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "سایر قابلیت‌ها",
+      "feature_value": "مجهز به رابط کاربری MIUI 12",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام! گوشی موبایل دارید که بتونه نیازهای من رو برآورده کنه؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! بله، خیلی خوشحال می‌شم کمک‌تون کنم. چه ویژگی‌هایی براتون مهمه؟"
+    },
+    {
+      "role": "user",
+      "text": "دوربین خوب برام مهمه، ترجیحاً 48 مگاپیکسل."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خب، دوربین 48 مگاپیکسلی. چیز دیگه‌ای هم هست که براتون مهم باشه؟ مثلاً درگاه‌ها یا فناوری‌های ارتباطی؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، دوست دارم پورت USB Type-C 2.0 داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه. صدای دستگاه هم براتون اهمیت داره؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، صدای 24-bit/192kHz برام مهمه."
+    },
+    {
+      "role": "assistant",
+      "text": "فوق‌العاده. حالا درباره حافظه داخلی چطور؟"
+    },
+    {
+      "role": "user",
+      "text": "128 گیگابایت حافظه داخلی خوبه."
+    },
+    {
+      "role": "assistant",
+      "text": "خب، چیزی دیگه‌ای مثل نرم‌افزار یا رابط کاربری مدنظرتون هست؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، رابط کاربری MIUI 12 رو ترجیح می‌دم."
+    },
+    {
+      "role": "assistant",
+      "text": "بر اساس مشخصاتی که گفتید، گوشی شیائومی مدل redmi 9T با ظرفیت 128 گیگابایت و رم 6 گیگابایت گزینه خوبی برای شماست."
+    }
+  ],
+  "llm_improvements": "گفتگو به شکلی طبیعی‌تر و روان‌تر تنظیم شد و سوالات به صورت متوالی و با تعامل بیشتری پرسیده شدند تا مکالمه واقعی‌تر به نظر برسد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

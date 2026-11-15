@@ -1,0 +1,93 @@
+{
+  "product_id": 4863,
+  "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": null,
+  "cluster_id": "54",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "توضیحات شبکه بی سیم Wi-Fi",
+      "feature_value": "Wi-Fi 5(802.11ac) (Dual band)",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "سازنده پردازنده",
+      "feature_value": "Intel",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "توضیحات وبکم",
+      "feature_value": "وبکم با کیفیت 720p HD",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "تعداد پورت USB Type-C",
+      "feature_value": "یک عدد",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "نوع صفحه نمایش (پنل)",
+      "feature_value": "TFT LCD",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، من به دنبال یک لپ تاپ مناسب برای کارهای روزمره‌ام هستم. می‌توانید کمک کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، حتماً. برای فهمیدن نیازهای شما، می‌توانید بگویید که به چه ویژگی‌هایی در یک لپ تاپ اهمیت می‌دهید؟"
+    },
+    {
+      "role": "user",
+      "text": "من به دنبال محصولی با قابلیت اتصال به شبکه بی سیم Wi-Fi 5(802.11ac) (Dual band) هستم."
+    },
+    {
+      "role": "assistant",
+      "text": "عالی! اتصال Wi-Fi 5(802.11ac) (Dual band) سرعت خوبی برای کارهای روزمره提供 می‌کند. در مورد پردازنده، سازنده خاصی مد نظر دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، من به دنبال لپ تاپی با پردازنده Intel هستم."
+    },
+    {
+      "role": "assistant",
+      "text": "پردازنده‌های Intel معمولاً عملکرد خوبی دارند. در مورد وبکم، کیفیت خاصی مد نظر دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "من به دنبال محصولی با وبکم با کیفیت 720p HD هستم."
+    },
+    {
+      "role": "assistant",
+      "text": "وبکم با کیفیت 720p HD برای مکالمات ویدیویی مناسب است. چند پورت USB Type-C نیاز دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "یک پورت USB Type-C برای من کافی است."
+    },
+    {
+      "role": "assistant",
+      "text": "در مورد صفحه نمایش، نوع پنل خاصی را ترجیح می‌دهید؟"
+    },
+    {
+      "role": "user",
+      "text": "من به دنبال لپ تاپی با صفحه نمایش TFT LCD هستم."
+    },
+    {
+      "role": "assistant",
+      "text": "خوب، بر اساس نیازهای شما، لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT ایسوس می‌تواند گزینه مناسبی باشد. البته قیمت آن را باید چک کنم."
+    }
+  ],
+  "llm_improvements": "گفتگو به صورت طبیعی‌تر و روان‌تر بازنویسی شده است. سؤالات و پاسخ‌ها به گونه‌ای تنظیم شده‌اند که گفتگو شبیه به مکالمه واقعی به نظر برسد.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

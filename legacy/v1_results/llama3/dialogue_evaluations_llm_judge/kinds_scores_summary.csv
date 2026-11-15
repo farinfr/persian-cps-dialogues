@@ -1,0 +1,7 @@
+kind,kind_label,count,avg_fluency,avg_accuracy,avg_realism,avg_coverage,avg_helpfulness,avg_overall
+1,"dual_highest_metric",10,8.000,9.000,7.000,8.000,8.000,8.000
+2,"dual_random",10,6.900,7.500,5.900,6.900,6.900,6.800
+3,"llm_generated_random",9,8.333,8.111,7.333,8.222,8.222,8.222
+4,"llm_generated_highest_metric",10,8.700,9.000,7.800,8.800,8.800,8.800
+5,"two_agent_highest_metric",10,7.700,8.700,6.700,7.700,7.700,7.700
+6,"two_agent_highest_metric_simulate",10,7.900,8.400,6.900,7.800,7.800,7.800

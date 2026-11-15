@@ -1,0 +1,80 @@
+{
+  "product_id": 3408,
+  "product_title": "کوله پشتی مدل SH1037-2",
+  "brand": "متفرقه",
+  "category": "لوازم تحریر",
+  "price": 6000000.0,
+  "cluster_id": "66",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 10,
+  "num_features": 4,
+  "features": [
+    {
+      "feature_name": "ابعاد",
+      "feature_value": "44x36x16 سانتی‌متر",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "وزن",
+      "feature_value": "620 گرم",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "تعداد جیب خارجی",
+      "feature_value": "3",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "توضیحات دسته",
+      "feature_value": "دارای دو دسته: یک دسته ابری مستحکم و یک دسته ساده",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، دنبال یه کوله‌پشتی تو دسته لوازم تحریر می‌گردم."
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! حتماً، چه ابعادی مد نظر دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "ابعادش ترجیحاً 44 در 36 در 16 سانتی‌متر باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خیلی خوب، این ابعاد رایج و مناسبیه. وزنش هم براتون مهمه؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، دوست دارم وزنش حدود 620 گرم باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "باشه، وزن 620 گرم. حالا درباره تعداد جیب‌های خارجی چی فکر می‌کنید؟"
+    },
+    {
+      "role": "user",
+      "text": "سه تا جیب خارجی برام مناسبه."
+    },
+    {
+      "role": "assistant",
+      "text": "فوق‌العاده، سه جیب خارجی. درباره دسته‌ها نظری دارید؟"
+    },
+    {
+      "role": "user",
+      "text": "دوست دارم دو دسته داشته باشه: یک دسته ابری مستحکم و یک دسته ساده."
+    },
+    {
+      "role": "assistant",
+      "text": "عالیه! با این مشخصاتی که گفتید، کوله‌پشتی مدل SH1037-2 از برند متفرقه با قیمت 6,000,000 تومان می‌تونه براتون مناسب باشه."
+    }
+  ],
+  "llm_improvements": "گفتگو طبیعی‌تر و روان‌تر شده و لحن مکالمه دوستانه و محاوره‌ای شده است.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 10,
+  "rewritten_dialogue_rounds": 10
+}

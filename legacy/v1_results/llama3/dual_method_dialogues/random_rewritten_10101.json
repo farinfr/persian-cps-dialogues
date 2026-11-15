@@ -1,0 +1,93 @@
+{
+  "product_id": 10101,
+  "product_title": "ساعت هوشمند ویوو مدل SW01",
+  "brand": "ویوو",
+  "category": "ساعت و مچ بند هوشمند",
+  "price": 7600000.0,
+  "cluster_id": "106",
+  "method": "random",
+  "type": 2,
+  "dialogue_rounds": 12,
+  "num_features": 5,
+  "features": [
+    {
+      "feature_name": "توضیحات سازگاری",
+      "feature_value": "گوشی های موبایل",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "توضیحات رنگ بند و بدنه",
+      "feature_value": "بدنه: مشکی",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "فرم صفحه",
+      "feature_value": "مستطیل",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "سایر مشخصات صفحه نمایش",
+      "feature_value": "IPS",
+      "custom_metric": 0.0
+    },
+    {
+      "feature_name": "نوع قفل بند",
+      "feature_value": "پین‌بند",
+      "custom_metric": 0.0
+    }
+  ],
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، من به دنبال یک ساعت هوشمند خوب هستم. میشه کمکم کنی؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! بله، من میتونم کمک کنم. اول از همه، میخوای این ساعت هوشمند با چه نوع گوشی سازگار باشه؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام با گوشی های موبایل سازگار باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خوبه. حالا در مورد رنگ بند و بدنه. چه رنگی مد نظرته؟"
+    },
+    {
+      "role": "user",
+      "text": "رنگ مشکی میخوام."
+    },
+    {
+      "role": "assistant",
+      "text": "حالا در مورد فرم صفحه. میخوای صفحه مستطیل باشه یا گرد؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام صفحه مستطیل باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "خوبه. حالا میخوای صفحه نمایشش چه مشخصاتی داشته باشه؟"
+    },
+    {
+      "role": "user",
+      "text": "میخوام صفحه نمایش IPS داشته باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "الان در مورد نوع قفل بند. میخوای قفل پین‌بند باشه یا نه؟"
+    },
+    {
+      "role": "user",
+      "text": "بله، میخوام قفل پین‌بند باشه."
+    },
+    {
+      "role": "assistant",
+      "text": "بسیار خوب! بر اساس نیازهایی که گفتی، ساعت هوشمند ویوو مدل SW01 ویوو با قیمت 7,600,000 تومان رو پیشنهاد میکنم."
+    }
+  ],
+  "llm_improvements": "سوال‌های ربات 改善 شده و giống به مکالمات واقعی هستند. همچنین جواب‌های کاربر 改شه شده تا طبیعی‌تر به نظر برسند.",
+  "llm_rewritten": true,
+  "original_dialogue_rounds": 12,
+  "rewritten_dialogue_rounds": 12
+}

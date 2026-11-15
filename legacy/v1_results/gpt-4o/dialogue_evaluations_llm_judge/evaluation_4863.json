@@ -1,0 +1,103 @@
+{
+  "product_id": 4863,
+  "product_title": "لپ تاپ 15.6 اینچی ایسوس مدل E510MA-U1503-Celeron N4020-4GB DDR4-256GB SSD-TFT",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست جزئیات بیشتری درباره محصول ارائه دهد.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 7,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات ارائه شده کمتر با مشخصات محصول تطابق دارد و نیازهای کاربر را به طور کامل پوشش نمی‌دهد.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره قیمت ارائه کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9\n      },\n      \"comment\": \"این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات جامعی ارائه می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره مقایسه با محصولات مشابه ارائه کند.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره گزینه‌های جایگزین ارائه کند.\"\n    }\n  ],\n  \"ranking\": [4, 1, 3, 5, 6, 2]\n}\n```",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست جزئیات بیشتری درباره محصول ارائه دهد."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 7,
+          "realism": 7,
+          "coverage": 7,
+          "helpfulness": 7,
+          "overall": 7
+        },
+        "comment": "گفتگو روان است اما اطلاعات ارائه شده کمتر با مشخصات محصول تطابق دارد و نیازهای کاربر را به طور کامل پوشش نمی‌دهد."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو دقیق و روان است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره قیمت ارائه کند."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9
+        },
+        "comment": "این گفتگو بسیار روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات جامعی ارائه می‌کند."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره مقایسه با محصولات مشابه ارائه کند."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_simulate",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8
+        },
+        "comment": "گفتگو روان و دقیق است و به خوبی نیازهای کاربر را پوشش می‌دهد، اما می‌توانست اطلاعات بیشتری درباره گزینه‌های جایگزین ارائه کند."
+      }
+    ],
+    "ranking": [
+      4,
+      1,
+      3,
+      5,
+      6,
+      2
+    ]
+  }
+}

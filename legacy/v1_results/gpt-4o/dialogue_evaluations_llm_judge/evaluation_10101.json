@@ -1,0 +1,103 @@
+{
+  "product_id": 10101,
+  "product_title": "ساعت هوشمند ویوو مدل SW01",
+  "evaluated_kinds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "judge_output_raw": "```json\n{\n  \"per_dialogue\": [\n    {\n      \"kind\": 1,\n      \"kind_label\": \"dual_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.4\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما برخی جزئیات مهم مانند مقاومت در برابر آب یا مقایسه با محصولات دیگر پوشش داده نشده است.\"\n    },\n    {\n      \"kind\": 2,\n      \"kind_label\": \"dual_random\",\n      \"scores\": {\n        \"fluency\": 8,\n        \"accuracy\": 8,\n        \"realism\": 7,\n        \"coverage\": 7,\n        \"helpfulness\": 7,\n        \"overall\": 7.4\n      },\n      \"comment\": \"گفتگو روان است اما اطلاعات ارائه‌شده محدود بوده و به برخی از نیازهای کاربر به‌طور کامل پاسخ داده نمی‌شود.\"\n    },\n    {\n      \"kind\": 3,\n      \"kind_label\": \"llm_generated_random\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.6\n      },\n      \"comment\": \"گفتگو روان و واقع‌گرایانه است و اطلاعات مفیدی ارائه می‌دهد، اما مقایسه با محصولات دیگر و برخی جزئیات بیشتر می‌توانست به بهبود کمک کند.\"\n    },\n    {\n      \"kind\": 4,\n      \"kind_label\": \"llm_generated_highest_metric\",\n      \"scores\": {\n        \"fluency\": 10,\n        \"accuracy\": 10,\n        \"realism\": 10,\n        \"coverage\": 9,\n        \"helpfulness\": 9,\n        \"overall\": 9.6\n      },\n      \"comment\": \"این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به‌خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات مقایسه‌ای مفیدی ارائه می‌کند.\"\n    },\n    {\n      \"kind\": 5,\n      \"kind_label\": \"two_agent_highest_metric\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 9,\n        \"coverage\": 9,\n        \"helpfulness\": 8,\n        \"overall\": 8.8\n      },\n      \"comment\": \"گفتگو روان و دقیق است و اطلاعات مقایسه‌ای خوبی ارائه می‌دهد، اما برخی جزئیات مانند محبوبیت محصول کمتر مورد تأکید قرار گرفته است.\"\n    },\n    {\n      \"kind\": 6,\n      \"kind_label\": \"two_agent_highest_metric_simulate\",\n      \"scores\": {\n        \"fluency\": 9,\n        \"accuracy\": 9,\n        \"realism\": 8,\n        \"coverage\": 8,\n        \"helpfulness\": 8,\n        \"overall\": 8.4\n      },\n      \"comment\": \"گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما اطلاعات مقایسه‌ای و جزئیات بیشتری می‌توانست ارائه شود.\"\n    }\n  ],\n  \"ranking\": [4, 5, 3, 1, 6, 2]\n}\n```",
+  "judge_output_parsed": {
+    "per_dialogue": [
+      {
+        "kind": 1,
+        "kind_label": "dual_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8.4
+        },
+        "comment": "گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما برخی جزئیات مهم مانند مقاومت در برابر آب یا مقایسه با محصولات دیگر پوشش داده نشده است."
+      },
+      {
+        "kind": 2,
+        "kind_label": "dual_random",
+        "scores": {
+          "fluency": 8,
+          "accuracy": 8,
+          "realism": 7,
+          "coverage": 7,
+          "helpfulness": 7,
+          "overall": 7.4
+        },
+        "comment": "گفتگو روان است اما اطلاعات ارائه‌شده محدود بوده و به برخی از نیازهای کاربر به‌طور کامل پاسخ داده نمی‌شود."
+      },
+      {
+        "kind": 3,
+        "kind_label": "llm_generated_random",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8.6
+        },
+        "comment": "گفتگو روان و واقع‌گرایانه است و اطلاعات مفیدی ارائه می‌دهد، اما مقایسه با محصولات دیگر و برخی جزئیات بیشتر می‌توانست به بهبود کمک کند."
+      },
+      {
+        "kind": 4,
+        "kind_label": "llm_generated_highest_metric",
+        "scores": {
+          "fluency": 10,
+          "accuracy": 10,
+          "realism": 10,
+          "coverage": 9,
+          "helpfulness": 9,
+          "overall": 9.6
+        },
+        "comment": "این گفتگو بسیار روان، دقیق و واقع‌گرایانه است و به‌خوبی نیازهای کاربر را پوشش می‌دهد و اطلاعات مقایسه‌ای مفیدی ارائه می‌کند."
+      },
+      {
+        "kind": 5,
+        "kind_label": "two_agent_highest_metric",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 9,
+          "coverage": 9,
+          "helpfulness": 8,
+          "overall": 8.8
+        },
+        "comment": "گفتگو روان و دقیق است و اطلاعات مقایسه‌ای خوبی ارائه می‌دهد، اما برخی جزئیات مانند محبوبیت محصول کمتر مورد تأکید قرار گرفته است."
+      },
+      {
+        "kind": 6,
+        "kind_label": "two_agent_highest_metric_simulate",
+        "scores": {
+          "fluency": 9,
+          "accuracy": 9,
+          "realism": 8,
+          "coverage": 8,
+          "helpfulness": 8,
+          "overall": 8.4
+        },
+        "comment": "گفتگو روان و دقیق است و به نیازهای کاربر پاسخ می‌دهد، اما اطلاعات مقایسه‌ای و جزئیات بیشتری می‌توانست ارائه شود."
+      }
+    ],
+    "ranking": [
+      4,
+      5,
+      3,
+      1,
+      6,
+      2
+    ]
+  }
+}

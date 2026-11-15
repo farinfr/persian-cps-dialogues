@@ -1,0 +1,278 @@
+{
+  "product_id": 4727,
+  "product_title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-20GB DDR5 4800MHz-512GB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+  "brand": "ایسوس",
+  "category": "لپ تاپ و الترابوک",
+  "price": 1689990000.0,
+  "cluster_id": "50",
+  "type": 4,
+  "dialogue_rounds": 18,
+  "selected_features": [
+    {
+      "feature_name": "رم و حافظه ذخیره‌سازی_ظرفیت حافظه رم (RAM)",
+      "feature_value": "20 گیگابایت",
+      "custom_metric": 0.003165
+    },
+    {
+      "feature_name": "امکانات_توضیحات وبکم",
+      "feature_value": "دوربین با وضوح ۱۰۸۰P FHD",
+      "custom_metric": 0.002748
+    },
+    {
+      "feature_name": "درگاه‌ها و فناوری‌های ارتباطی_سایر توضیحات درگاه‌های ارتباطی",
+      "feature_value": "دو عدد USB-C (یک عدد USB۴ با سرعت ۴۰ گیگابیت بر ثانیه و پشتیبانی از DisplayPort، یک عدد USB ۳.۲ Gen۲ با سرعت ۱۰ گیگابیت بر ثانیه و پشتیبانی از G-Sync و DisplayPort و شارژ) / دو عدد USB-A (Gen۲ با سرعت ۱۰ گیگابیت بر ثانیه)",
+      "custom_metric": 0.001484
+    },
+    {
+      "feature_name": "پردازنده مرکزی (CPU)_مدل پردازنده مرکزی لپ‌تاپ",
+      "feature_value": "Ryzen 7-260",
+      "custom_metric": 0.001366
+    },
+    {
+      "feature_name": "درگاه‌ها و فناوری‌های ارتباطی_توضیحات شبکه بی سیم Wi-Fi",
+      "feature_value": "Wi-Fi 6E(802.11ax) (Triple band) 2*2",
+      "custom_metric": 0.000897
+    }
+  ],
+  "features_discussed": [
+    "ظرفیت حافظه رم (RAM)",
+    "توضیحات وبکم",
+    "سایر توضیحات درگاه‌های ارتباطی",
+    "مدل پردازنده مرکزی لپ‌تاپ",
+    "توضیحات شبکه بی سیم Wi-Fi"
+  ],
+  "dialogue_summary": "کاربر به دنبال لپ تاپی با قیمت مناسب و مشخصات فنی قوی بود. دستیار مدل TUF Gaming A16 ایسوس را با ویژگی‌های برجسته از جمله رم 20 گیگابایت، وبکم FHD، درگاه‌های ارتباطی USB-C، پردازنده Ryzen 7-260 و شبکه Wi-Fi 6E معرفی کرد و به ارزش اقتصادی و عملکرد خوب آن اشاره کرد.",
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "سلام، به دنبال یک لپ تاپ گیمینگ با قیمت مناسب هستم. می‌توانید کمکم کنید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "سلام! البته، خوشحال می‌شوم که کمک کنم. شما به دنبال چه نوع مشخصاتی در لپ تاپ هستید؟"
+    },
+    {
+      "role": "user",
+      "text": "می‌خواهم حافظه رم مناسبی داشته باشد و وبکم هم با کیفیت باشد چون برای استریم گیم هم استفاده می‌کنم."
+    },
+    {
+      "role": "assistant",
+      "text": "لپ تاپ ایسوس مدل TUF Gaming A16 با ظرفیت حافظه رم 20 گیگابایت DDR5 می‌تواند انتخاب خوبی باشد. این مقدار رم برای اجرای بازی‌های سنگین و همچنین برنامه‌های استریم کاملاً مناسب است."
+    },
+    {
+      "role": "user",
+      "text": "عالیه! و وبکم چطور؟"
+    },
+    {
+      "role": "assistant",
+      "text": "این مدل دارای وبکم با وضوح ۱۰۸۰P FHD است که برای استریم ویدیوهای با کیفیت بسیار مناسب است."
+    },
+    {
+      "role": "user",
+      "text": "فوق‌العاده است. درباره درگاه‌های ارتباطی هم توضیح می‌دهید؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این لپ تاپ دارای دو درگاه USB-C است. یکی از آن‌ها از USB4 با سرعت ۴۰ گیگابیت بر ثانیه پشتیبانی می‌کند و از DisplayPort نیز پشتیبانی دارد. درگاه دیگر USB ۳.۲ Gen۲ با سرعت ۱۰ گیگابیت بر ثانیه است و از G-Sync پشتیبانی می‌کند."
+    },
+    {
+      "role": "user",
+      "text": "پردازنده‌اش چطور است؟"
+    },
+    {
+      "role": "assistant",
+      "text": "پردازنده این لپ تاپ مدل Ryzen 7-260 است که برای گیمینگ و کارهای گرافیکی عملکرد بسیار خوبی دارد."
+    },
+    {
+      "role": "user",
+      "text": "آیا از Wi-Fi 6 هم پشتیبانی می‌کند؟"
+    },
+    {
+      "role": "assistant",
+      "text": "بله، این لپ تاپ از شبکه بی‌سیم Wi-Fi 6E (802.11ax) پشتیبانی می‌کند که از سه باند و تکنولوژی 2*2 بهره می‌برد و اتصال بی‌سیم بسیار سریعی فراهم می‌کند."
+    },
+    {
+      "role": "user",
+      "text": "تا اینجا خیلی خوب به نظر می‌رسد. قیمتش چطور است؟"
+    },
+    {
+      "role": "assistant",
+      "text": "قیمت این مدل 1,689,990,000 ریال است که با توجه به مشخصات و عملکردی که ارائه می‌دهد، یک انتخاب اقتصادی در بین محصولات مشابه محسوب می‌شود."
+    },
+    {
+      "role": "user",
+      "text": "آیا گزینه بهتری با همین قیمت دارید یا این بهترین گزینه است؟"
+    },
+    {
+      "role": "assistant",
+      "text": "در مقایسه با سایر مدل‌های مانند TUF Gaming F15 که گران‌تر است یا مدل‌های هم‌رده با حافظه بیشتر، این مدل به دلیل قیمت اقتصادی و مشخصات خوبی که دارد، ارزش خرید بالایی دارد."
+    },
+    {
+      "role": "user",
+      "text": "ممنون از راهنمایی‌تان، به نظر می‌آید که انتخاب مناسبی باشد."
+    },
+    {
+      "role": "assistant",
+      "text": "خواهش می‌کنم! اگر سوال دیگری داشتید یا نیاز به کمک بیشتری بود، حتماً اطلاع دهید. امیدوارم از خریدتان راضی باشید!"
+    }
+  ],
+  "llm_response_raw": "```json\n{\n  \"dialogue\": [\n    {\"role\": \"user\", \"text\": \"سلام، به دنبال یک لپ تاپ گیمینگ با قیمت مناسب هستم. می‌توانید کمکم کنید؟\"},\n    {\"role\": \"assistant\", \"text\": \"سلام! البته، خوشحال می‌شوم که کمک کنم. شما به دنبال چه نوع مشخصاتی در لپ تاپ هستید؟\"},\n    {\"role\": \"user\", \"text\": \"می‌خواهم حافظه رم مناسبی داشته باشد و وبکم هم با کیفیت باشد چون برای استریم گیم هم استفاده می‌کنم.\"},\n    {\"role\": \"assistant\", \"text\": \"لپ تاپ ایسوس مدل TUF Gaming A16 با ظرفیت حافظه رم 20 گیگابایت DDR5 می‌تواند انتخاب خوبی باشد. این مقدار رم برای اجرای بازی‌های سنگین و همچنین برنامه‌های استریم کاملاً مناسب است.\"},\n    {\"role\": \"user\", \"text\": \"عالیه! و وبکم چطور؟\"},\n    {\"role\": \"assistant\", \"text\": \"این مدل دارای وبکم با وضوح ۱۰۸۰P FHD است که برای استریم ویدیوهای با کیفیت بسیار مناسب است.\"},\n    {\"role\": \"user\", \"text\": \"فوق‌العاده است. درباره درگاه‌های ارتباطی هم توضیح می‌دهید؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این لپ تاپ دارای دو درگاه USB-C است. یکی از آن‌ها از USB4 با سرعت ۴۰ گیگابیت بر ثانیه پشتیبانی می‌کند و از DisplayPort نیز پشتیبانی دارد. درگاه دیگر USB ۳.۲ Gen۲ با سرعت ۱۰ گیگابیت بر ثانیه است و از G-Sync پشتیبانی می‌کند.\"},\n    {\"role\": \"user\", \"text\": \"پردازنده‌اش چطور است؟\"},\n    {\"role\": \"assistant\", \"text\": \"پردازنده این لپ تاپ مدل Ryzen 7-260 است که برای گیمینگ و کارهای گرافیکی عملکرد بسیار خوبی دارد.\"},\n    {\"role\": \"user\", \"text\": \"آیا از Wi-Fi 6 هم پشتیبانی می‌کند؟\"},\n    {\"role\": \"assistant\", \"text\": \"بله، این لپ تاپ از شبکه بی‌سیم Wi-Fi 6E (802.11ax) پشتیبانی می‌کند که از سه باند و تکنولوژی 2*2 بهره می‌برد و اتصال بی‌سیم بسیار سریعی فراهم می‌کند.\"},\n    {\"role\": \"user\", \"text\": \"تا اینجا خیلی خوب به نظر می‌رسد. قیمتش چطور است؟\"},\n    {\"role\": \"assistant\", \"text\": \"قیمت این مدل 1,689,990,000 ریال است که با توجه به مشخصات و عملکردی که ارائه می‌دهد، یک انتخاب اقتصادی در بین محصولات مشابه محسوب می‌شود.\"},\n    {\"role\": \"user\", \"text\": \"آیا گزینه بهتری با همین قیمت دارید یا این بهترین گزینه است؟\"},\n    {\"role\": \"assistant\", \"text\": \"در مقایسه با سایر مدل‌های مانند TUF Gaming F15 که گران‌تر است یا مدل‌های هم‌رده با حافظه بیشتر، این مدل به دلیل قیمت اقتصادی و مشخصات خوبی که دارد، ارزش خرید بالایی دارد.\"},\n    {\"role\": \"user\", \"text\": \"ممنون از راهنمایی‌تان، به نظر می‌آید که انتخاب مناسبی باشد.\"},\n    {\"role\": \"assistant\", \"text\": \"خواهش می‌کنم! اگر سوال دیگری داشتید یا نیاز به کمک بیشتری بود، حتماً اطلاع دهید. امیدوارم از خریدتان راضی باشید!\"}\n  ],\n  \"features_discussed\": [\n    \"ظرفیت حافظه رم (RAM)\",\n    \"توضیحات وبکم\",\n    \"سایر توضیحات درگاه‌های ارتباطی\",\n    \"مدل پردازنده مرکزی لپ‌تاپ\",\n    \"توضیحات شبکه بی سیم Wi-Fi\"\n  ],\n  \"dialogue_summary\": \"کاربر به دنبال لپ تاپی با قیمت مناسب و مشخصات فنی قوی بود. دستیار مدل TUF Gaming A16 ایسوس را با ویژگی‌های برجسته از جمله رم 20 گیگابایت، وبکم FHD، درگاه‌های ارتباطی USB-C، پردازنده Ryzen 7-260 و شبکه Wi-Fi 6E معرفی کرد و به ارزش اقتصادی و عملکرد خوب آن اشاره کرد.\"\n}\n```",
+  "similar_products": [
+    {
+      "rank": 1,
+      "product_id": 4687,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-512GB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1899000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 12.37,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 2,
+      "product_id": 4735,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-24GB DDR5 4800MHz-512GB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1779990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 5.33,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 3,
+      "product_id": 4736,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-32GB DDR5 4800MHz-1TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1759990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 4.14,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 4,
+      "product_id": 4737,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-40GB DDR5 4800MHz-1TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1819990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 7.69,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 5,
+      "product_id": 3751,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming F16 FX607JV-RL273-i7 13650HX-32GB DDR5 4800MHz-1TB SSD-RTX4060 8GB-FHD 165Hz-W - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1648000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -2.48,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    },
+    {
+      "rank": 6,
+      "product_id": 3753,
+      "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-64GB DDR5 5600MHz-2TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1999000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 18.28,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 7,
+      "product_id": 3796,
+      "title": "لپ تاپ 15.6 اینچ ایسوس مدل TUF Gaming A15 (2024) FA507UI-LP034W-R9 8945HS-32GB DDR5 5600MHz-2TB SSD-RTX4070 8GB-FHD 144Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1879000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 11.18,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 8,
+      "product_id": 3804,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-64GB DDR5 4800MHz-1TB SSD-RTX4070 8GB-FHD 144Hz-W - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1933000000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 14.38,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 9,
+      "product_id": 3822,
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل TUF Gaming F15 FX507VI-F15.I74070-i7 13620H-48GB DDR5 4800MHz-1TB SSD-RTX4070 8GB-FHD 144Hz-W - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1851500000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": 9.56,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "higher"
+    },
+    {
+      "rank": 10,
+      "product_id": 4715,
+      "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming F16 FX608JHR-RV035-i7 14650HX-32GB DDR5 5600MHz-1TB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+      "brand": "ایسوس",
+      "category_id": 3,
+      "price": 1679990000.0,
+      "rating_average": 0.0,
+      "rating_count": 0.0,
+      "similarity_score": 1.0,
+      "price_diff_percent": -0.59,
+      "rating_average_diff": 0.0,
+      "rating_count_diff": 0.0,
+      "price_relation": "similar"
+    }
+  ],
+  "product_details": {
+    "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming A16 FA608UH-RV049-R7 260-20GB DDR5 4800MHz-512GB SSD-RTX5050 8GB-FHD 165Hz - کاستوم شده",
+    "brand": "ایسوس",
+    "category": "لپ تاپ و الترابوک",
+    "price": 1689990000.0
+  }
+}
