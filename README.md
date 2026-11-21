@@ -100,7 +100,7 @@ With full coverage, no "don't know" answers and α = 0 it equals the entropy (in
 ```bibtex
 @article{naderi2026persiancps,
   title  = {Automatic Construction of Persian E-Commerce Dialogue Datasets for Conversational Product Search},
-  author = {Naderi, Hassan and Nafar, Fariba},
+  author = {Nafar, Fariba and Naderi, Hassan},
   year   = {2026},
   note   = {Under review}
 }
