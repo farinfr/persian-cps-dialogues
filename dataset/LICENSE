@@ -1,0 +1,11 @@
+The dialogue dataset in this directory (dialogues.jsonl) is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Copyright (c) 2026 Hassan Naderi, Fariba Nafar
+
+Product information (titles, specifications, prices, descriptions) comes from public
+product pages of Digikala (https://www.digikala.com) and remains subject to the terms of
+that platform. It is shared for research purposes only.
+
+The code of this repository is licensed separately under the MIT License (../LICENSE).
