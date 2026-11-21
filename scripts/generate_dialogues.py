@@ -30,7 +30,7 @@ from cpsdata.catalog import ROOT, by_cluster, load_catalog  # noqa: E402
 from cpsdata.features import PRICE, build_cluster_table  # noqa: E402
 from cpsdata.scoring import ClusterScorer  # noqa: E402
 
-PROMPT_VERSION = "sps-fa-rpb-v3"
+PROMPT_VERSION = "sps-fa-rpb-v4"
 ALPHA = 0.1                  # selected on the tuning clusters (Section 4.3, assumption 1)
 MAX_QUESTIONS = 5
 MIN_QUESTIONS = 3
@@ -134,11 +134,14 @@ def product_block(p: Dict[str, Any], aug: Dict[str, Any], plan_features: List[st
     return "\n".join(lines)
 
 
+NO_PREF = "[بدون ترجیح]"
+
+
 def build_prompt(target, aug, plan, alternatives) -> str:
     q_lines = []
     for i, q in enumerate(plan["plan"], 1):
         name = "قیمت (بازه)" if q["feature"] == PRICE else short_name(q["feature"])
-        ans = q["value"] if q["value"] is not None else "کاربر نمی‌داند یا برایش مهم نیست"
+        ans = q["value"] if q["value"] is not None else NO_PREF
         q_lines.append(f"{i}. ویژگی: «{name}» ← پاسخ کاربر: {ans}")
     alt_blocks = []
     for a, a_aug in alternatives:
@@ -149,7 +152,7 @@ def build_prompt(target, aug, plan, alternatives) -> str:
 قواعد:
 1. کاربر گفتگو را با بیان نیاز کلی خود شروع می‌کند: نوع کلی محصول («{product_type(target)}» در دسته‌ی «{target['category']}») را می‌گوید، اما برند، مدل یا عنوان دقیق محصول را نمی‌داند و نمی‌گوید (مگر برند در برنامه‌ی پرسش آمده باشد).
 2. دستیار دقیقاً به ترتیب «برنامه‌ی پرسش» زیر، در هر نوبت فقط درباره‌ی یک ویژگی سؤال می‌پرسد و در صورت نیاز ویژگی‌های فنی را کوتاه توضیح می‌دهد.
-3. پاسخ‌های کاربر باید دقیقاً با برنامه‌ی پرسش سازگار باشد؛ اگر نوشته شده «نمی‌داند یا برایش مهم نیست»، کاربر همین را به زبان طبیعی می‌گوید. کاربر اطلاعات دیگری از خودش اضافه نمی‌کند.
+3. پاسخ‌های کاربر باید دقیقاً با برنامه‌ی پرسش سازگار باشد؛ اگر پاسخ {NO_PREF} است، کاربر با کلمات خودش و به صورت اول شخص می‌گوید که اطلاعی ندارد یا برایش فرقی نمی‌کند (مثلاً «فرقی نمی‌کنه» یا «راستش اطلاعی ندارم»)؛ هرگز متن داخل کروشه را عیناً تکرار نکند. کاربر اطلاعات دیگری از خودش اضافه نمی‌کند.
 4. پس از پرسش‌ها، دستیار ۲ تا ۳ محصول (محصول هدف و گزینه‌های جایگزین زیر) را با قیمت دقیق پیشنهاد و با استفاده از برچسب‌های مقایسه‌ای مقایسه می‌کند.
 5. کاربر یک سؤال مقایسه‌ای یا درباره‌ی قیمت/کیفیت می‌پرسد و دستیار فقط بر اساس داده‌های داده‌شده پاسخ می‌دهد.
 6. در پایان کاربر «محصول هدف» را انتخاب می‌کند.
@@ -200,8 +203,14 @@ def coerce(obj):
     return {"dialogue": clean, "summary": obj.get("summary", "")}
 
 
+# phrases that only appear when the model copies the plan's label instead of writing the user's answer
+LEAKED = ("بدون ترجیح", "نمی‌داند", "برایش مهم نیست", "برایش فرقی")
+
+
 def validate(obj) -> bool:
-    return bool(obj) and len(obj["dialogue"]) >= 6 and obj["dialogue"][0]["role"] == "user"
+    if not obj or len(obj["dialogue"]) < 6 or obj["dialogue"][0]["role"] != "user":
+        return False
+    return not any(m["role"] == "user" and any(x in m["text"] for x in LEAKED) for m in obj["dialogue"])
 
 
 def select_targets(clusters: Dict[int, List[Dict[str, Any]]], tables, n_total: int, seed: int) -> List[tuple]:
@@ -234,6 +243,8 @@ def main() -> None:
     ap.add_argument("--plans-only", action="store_true", help="write question plans without calling the LLM")
     ap.add_argument("--recover-failed", action="store_true",
                     help="reuse valid raw outputs saved in results/failed before calling the API")
+    ap.add_argument("--redo", nargs="*", type=int, default=None,
+                    help="regenerate these product ids and replace their records in place")
     args = ap.parse_args()
 
     products = load_catalog()
@@ -268,6 +279,12 @@ def main() -> None:
     if out.exists():
         for line in out.open(encoding="utf-8"):
             done.add(json.loads(line)["product_id"])
+    final_out = out
+    if args.redo:
+        done -= set(args.redo)
+        targets = [(c, r) for c, r in targets if tables[c].products[r]["id"] in set(args.redo)]
+        out = out.with_suffix(".redo.jsonl")
+        out.unlink(missing_ok=True)
     print(f"{len(done)} already done; resuming")
 
     client = None
@@ -336,6 +353,12 @@ def main() -> None:
             if written % 10 == 0 or client is None and written % 200 == 0:
                 print(f"[{time.strftime('%H:%M:%S')}] {len(done) + written} / {len(targets)}")
     print(f"wrote {written} records to {out}")
+    if args.redo and out.exists():
+        new = {json.loads(l)["product_id"]: l for l in out.open(encoding="utf-8")}
+        lines = [new.get(json.loads(l)["product_id"], l) for l in final_out.open(encoding="utf-8")]
+        final_out.write_text("".join(lines), encoding="utf-8")
+        out.unlink()
+        print(f"replaced {len(new)} of {len(args.redo)} records in {final_out}")
 
 
 if __name__ == "__main__":

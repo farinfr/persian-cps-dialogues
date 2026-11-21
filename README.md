@@ -61,7 +61,7 @@ python scripts/compare_generation_methods.py          # resumable; failed items 
 python scripts/make_comparison_tables.py              # -> results/method_comparison/tables.tex
 ```
 
-The generator tries `gemini-3.5-flash` first and moves down a list of free models (`gemini-3-flash-preview`, `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`, …) when the free daily quota of a model is exhausted; each record stores the model that produced it. The released 1,000 dialogues were produced over two days by `gemini-3.1-flash-lite` (491), `gemini-3.5-flash-lite` (455), `gemini-3-flash-preview` (34) and `gemini-3.5-flash` (20). Use `--models` to choose others and `--interval` to change the pause between requests. Outputs that fail validation are saved in `results/failed/`; `--recover-failed` reuses the valid ones instead of calling the API again.
+The generator tries `gemini-3.5-flash` first and moves down a list of free models (`gemini-3-flash-preview`, `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`, …) when the free daily quota of a model is exhausted; each record stores the model that produced it. The released 1,000 dialogues were produced over two days by `gemini-3.1-flash-lite` (491), `gemini-3.5-flash-lite` (450), `gemini-3-flash-preview` (37) and `gemini-3.5-flash` (22). Five dialogues in which the user repeated the plan's "don't know" label verbatim were regenerated with prompt `sps-fa-rpb-v4`, which rejects such outputs (`--redo <product ids>` replaces records in place). Use `--models` to choose others and `--interval` to change the pause between requests. Outputs that fail validation are saved in `results/failed/`; `--recover-failed` reuses the valid ones instead of calling the API again.
 
 ## Dataset format
 
