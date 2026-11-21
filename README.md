@@ -19,13 +19,15 @@ scripts/
   simulate_question_selection.py RPB vs. random and entropy selection with a simulated user
   generate_dialogues.py          builds the dataset (resumable, respects the free-tier quota)
   judge_dialogues.py             LLM-as-judge scores (Table 7 criteria)
+  compare_generation_methods.py  SPS / RTS / DPS x RPB+FA / Random comparison (Tables 4-5)
+  make_comparison_tables.py      LaTeX tables and paired bootstrap differences of the comparison
   dataset_stats.py               statistics and automatic consistency checks
 data/
   catalog.jsonl.gz       12,926 products with flattened specifications and cluster ids
   embeddings.npz         MiniLM embeddings (float16) used for clustering and augmentation
 dataset/
   dialogues.jsonl        the released dialogues (one JSON object per line)
-results/                 outputs of the scripts (simulation, judge, statistics)
+results/                 outputs of the scripts (simulation, judge, statistics, method_comparison/)
 legacy/                  code and results of the first version (crawler, clustering, method comparison
                          with Qwen-Turbo / Llama 3 / GPT-4o, the 26 dialogues of the first dataset)
 tests/test_rpb.py        properties of the RPB score; vectorised vs. reference implementation
@@ -53,6 +55,10 @@ python scripts/generate_dialogues.py --dry-run        # print one prompt, no API
 python scripts/generate_dialogues.py --n 1000         # resumable; run again after the daily quota resets
 python scripts/judge_dialogues.py --sample 100 --legacy legacy/v1_results/final_dataset_v1/llm_generated_dialogues_highest_metric.json
 python scripts/dataset_stats.py
+
+# generation-method comparison: 10 held-out products x 5 settings x 3 free models, then the judge
+python scripts/compare_generation_methods.py          # resumable; failed items are retried on the next run
+python scripts/make_comparison_tables.py              # -> results/method_comparison/tables.tex
 ```
 
 The generator tries `gemini-3.5-flash` first and moves down a list of free models (`gemini-3-flash-preview`, `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`, …) when the free daily quota of a model is exhausted; each record stores the model that produced it. The released 1,000 dialogues were produced over two days by `gemini-3.1-flash-lite` (491), `gemini-3.5-flash-lite` (455), `gemini-3-flash-preview` (34) and `gemini-3.5-flash` (20). Use `--models` to choose others and `--interval` to change the pause between requests. Outputs that fail validation are saved in `results/failed/`; `--recover-failed` reuses the valid ones instead of calling the API again.

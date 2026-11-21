@@ -1,0 +1,28 @@
+% by model
+\begin{tabular}{lccc}
+\toprule
+Criterion & \texttt{gemini-3.1-flash-lite} & \texttt{gemini-3.5-flash-lite} & \texttt{gemma-4-26b-a4b-it} \\
+\midrule
+Fluency & \textbf{9.80} & 9.42 & 9.75 \\
+Accuracy & \textbf{8.82} & 8.42 & 8.73 \\
+Realism & \textbf{8.08} & 6.98 & 7.79 \\
+Coverage & \textbf{8.58} & 8.24 & 8.50 \\
+Helpfulness & \textbf{8.84} & 8.24 & 8.75 \\
+Overall & \textbf{8.70} & 8.16 & 8.56 \\
+\bottomrule
+\end{tabular}
+
+% by setting
+\begin{tabular}{lccccccccc}
+\toprule
+Setting & \multicolumn{3}{c}{Overall} & \multicolumn{3}{c}{Accuracy} & \multicolumn{3}{c}{Coverage} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+ & 3.1-flash-lite & 3.5-flash-lite & gemma-4-26b-a4b & 3.1-flash-lite & 3.5-flash-lite & gemma-4-26b-a4b & 3.1-flash-lite & 3.5-flash-lite & gemma-4-26b-a4b \\
+\midrule
+SPS + RPB + FA & 8.50 & 8.20 & 8.40 & 8.50 & 8.50 & 8.20 & 8.30 & 8.00 & 8.20 \\
+SPS + Random & \textbf{8.90} & \textbf{8.50} & 8.50 & \textbf{9.00} & \textbf{8.70} & 8.75 & \textbf{9.10} & \textbf{8.70} & \textbf{9.00} \\
+RTS + RPB + FA & 8.60 & 8.30 & 8.60 & \textbf{9.00} & 8.50 & 8.90 & 8.40 & 8.20 & 8.30 \\
+RTS + Random & 8.60 & 7.90 & \textbf{8.70} & 8.80 & 8.20 & \textbf{9.10} & 8.80 & 8.50 & 8.90 \\
+DPS + RPB + FA & \textbf{8.90} & 7.90 & 8.60 & 8.80 & 8.20 & 8.70 & 8.30 & 7.80 & 8.20 \\
+\bottomrule
+\end{tabular}

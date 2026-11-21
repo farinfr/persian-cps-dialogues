@@ -19,6 +19,7 @@ from openai import OpenAI
 from .catalog import ROOT
 
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+THOUGHT = re.compile(r"^\s*<thought>.*?(</thought>|$)\s*", re.S)
 DEFAULT_MODELS = ["gemini-3.5-flash", "gemini-3-flash-preview", "gemini-3.5-flash-lite",
                   "gemini-3.1-flash-lite", "gemini-3.1-flash-lite-preview"]
 
@@ -72,10 +73,11 @@ class GeminiClient:
                               messages=[{"role": "system", "content": system}, {"role": "user", "content": user}])
                 if json_mode:
                     kwargs["response_format"] = {"type": "json_object"}
-                if self.reasoning_effort:
+                if self.reasoning_effort and not self.model.startswith("gemma"):
                     kwargs["reasoning_effort"] = self.reasoning_effort
                 resp = self.client.chat.completions.create(**kwargs)
                 text = resp.choices[0].message.content or ""
+                text = THOUGHT.sub("", text)  # Gemma models prepend their reasoning
                 if text.strip():
                     return text
                 raise RuntimeError("empty response")
@@ -84,6 +86,9 @@ class GeminiClient:
             except Exception as e:  # noqa: BLE001
                 msg = str(e)
                 low = msg.lower()
+                if "thinking level is not supported" in low and self.reasoning_effort:
+                    self.reasoning_effort = None
+                    continue
                 if "429" in msg or "resource_exhausted" in low or "quota" in low:
                     if "perday" in low.replace(" ", "").replace("_", "") or "per day" in low or "daily" in low:
                         print(f"  daily quota of {self.model} exhausted; switching model")

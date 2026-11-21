@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.1-flash-lite-preview",
+  "n_products": 10,
+  "by_model": {
+    "gemma-4-26b-a4b-it": {
+      "n": 48,
+      "fluency": 9.75,
+      "accuracy": 8.73,
+      "realism": 7.79,
+      "coverage": 8.5,
+      "helpfulness": 8.75,
+      "overall": 8.56
+    }
+  },
+  "by_setting": {
+    "SPS + RPB + FA": {
+      "gemma-4-26b-a4b-it": {
+        "n": 10,
+        "fluency": 9.7,
+        "accuracy": 8.2,
+        "realism": 7.8,
+        "coverage": 8.2,
+        "helpfulness": 8.4,
+        "overall": 8.4
+      }
+    },
+    "SPS + Random": {
+      "gemma-4-26b-a4b-it": {
+        "n": 8,
+        "fluency": 9.75,
+        "accuracy": 8.75,
+        "realism": 7.62,
+        "coverage": 9.0,
+        "helpfulness": 8.88,
+        "overall": 8.5
+      }
+    },
+    "RTS + RPB + FA": {
+      "gemma-4-26b-a4b-it": {
+        "n": 10,
+        "fluency": 9.7,
+        "accuracy": 8.9,
+        "realism": 7.7,
+        "coverage": 8.3,
+        "helpfulness": 9.0,
+        "overall": 8.6
+      }
+    },
+    "RTS + Random": {
+      "gemma-4-26b-a4b-it": {
+        "n": 10,
+        "fluency": 9.8,
+        "accuracy": 9.1,
+        "realism": 7.4,
+        "coverage": 8.9,
+        "helpfulness": 8.9,
+        "overall": 8.7
+      }
+    },
+    "DPS + RPB + FA": {
+      "gemma-4-26b-a4b-it": {
+        "n": 10,
+        "fluency": 9.8,
+        "accuracy": 8.7,
+        "realism": 8.4,
+        "coverage": 8.2,
+        "helpfulness": 8.6,
+        "overall": 8.6
+      }
+    }
+  }
+}
